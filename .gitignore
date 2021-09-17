@@ -114,7 +114,6 @@ venv.bak/
 .pytype/
 
 # Rasa stuff
-models/
 *.db*
 *.dot
 terms/
