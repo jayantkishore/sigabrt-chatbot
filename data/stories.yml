@@ -34,4 +34,10 @@ stories:
   - action: utter_help
   - intent: affirm
   - action: utter_ok
+- story: qa_happy
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: faq
+  - action: action_get_answer
 

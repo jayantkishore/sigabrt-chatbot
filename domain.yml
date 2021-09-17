@@ -13,6 +13,7 @@ intents:
   - help
   - out_of_scope
   - nlu_fallback
+  - faq
 
 responses:
   utter_greet:
@@ -63,3 +64,6 @@ responses:
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
+actions:
+- actions.ActionGetFAQAnswer
+- action_get_answer
