@@ -38,6 +38,42 @@ stories:
   steps:
   - intent: greet
   - action: utter_greet
-  - intent: faq
+  - intent: credit_card_faq
+  - action: action_get_answer
+- story: qa_happy
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: debit_card_faq
+  - action: action_get_answer
+- story: qa_happy
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: flipkart_faq
+  - action: action_get_answer
+- story: qa_happy
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: insurance_faq
+  - action: action_get_answer
+- story: qa_happy
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: loan_faq
+  - action: action_get_answer
+- story: qa_happy
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mobile_wallet_faq
+  - action: action_get_answer
+- story: qa_happy
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: upi_faq
   - action: action_get_answer
 
