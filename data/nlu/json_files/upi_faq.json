@@ -1,0 +1,82 @@
+[    
+    {
+        "q": "What happens if a wrong UPI PIN is entered?",
+        "a": "The transaction you have initiated will fail if you enter a wrong UPI PIN.",
+        "index": 77
+    },
+    {
+        "q": "In UPI I  cannot find my bank account once I select the bank name. What should I do?",
+        "a": "You must ensure that your mobile number is linked to the bank account you are talking about. Also, you must make sure that the same mobile number is registered with the UPI app. If they are not the same, you cannot access the bank account details on the app or transact with it.",
+        "index": 78
+    },
+    {
+        "q": "How do I pay for an online merchant through UPI?",
+        "a": "When you make an online purchase, one of the payment options will be UPI payment. Choose the option and enter your payment address in the format xyz@upi. You will be redirected to your BHIM app. Now, enter your UPI PIN to complete the payment.",
+        "index": 79
+    },
+    {
+        "q": "Are UPI transactions possible only during the bank business hours?",
+        "a": "UPI transactions can be done at any time of the day; it need not necessarily be within the bank business hours",
+        "index": 80
+    },
+    {
+        "q": "Money has been debited from my account but I have not received any confirmation message. What should I do?",
+        "a": "Upon completing a transaction, you must see a success status on your BHIM app. Also, an SMS will be sent to your registered mobile number from your bank. It may take longer to receive the confirmation message due to operator issues. However, it is recommended to contact the customer support of your bank if you do not receive a confirmation within an hour from the time of completing the transaction.",
+        "index": 81
+    },
+    {
+        "q": "Should I add beneficiary before making a fund transfer via UPI?",
+        "a": "No. Like the NEFT transactions, you do not have to add beneficiary in advance to make a fund transfer. With UPI, you need to have the virtual ID, account number + IFSC, or Aadhaar number of the recipient to initiate the fund transfer.",
+        "index": 82
+    },
+    {
+        "q": "Is there a way to view my transaction history in UPI?",
+        "a": "Yes. UPI apps provide a way to view transaction history. In the Home screen of your UPI app, choose the Transaction History option to view all your past and pending transactions.",
+        "index": 83
+    },
+    {
+        "q": "Must the recipient have a bank account to make a UPI transfer? Does it work with a wallet app?",
+        "a": "It is mandatory for the recipient to have a bank account to get funds transferred via UPI. You cannot link a wallet to UPI.",
+        "index": 84
+    },
+    {
+        "q": "If my mobile is lost, can others access my bank account and make transactions by UPI?",
+        "a": "If you lose your mobile, go ahead and block your mobile number so that no transactions can be made from your mobile number. Also, UPI PIN is required to make any transaction via UPI. Since this remains confidential, nobody can make transactions through your lost mobile.",
+        "index": 85
+    },
+    {
+        "q": "Is it possible to put a stop payment request for a transfer made through UPI?",
+        "a": "No. Once you initiate a payment via UPI, you cannot stop the payment.",
+        "index": 86
+    },
+    {
+        "q": "Is there an upper limit on the UPI transfer amount?",
+        "a": "Yes. You can transfer an amount up to Rs.1 lakh via UPI transaction.",
+        "index": 87
+    },
+    {
+        "q": "What is UPI?",
+        "a": "Unified Payments Interface (UPI) is an instant payment system developed by the National Payments Corporation of India (NPCI), an RBI regulated entity. UPI is built over the IMPS infrastructure and allows you to instantly transfer money between any two parties' bank accounts.",
+        "index": 88
+    },
+    {
+        "q": "What is an UPI-PIN?",
+        "a": "UPI-PIN (UPI Personal Identification Number) is a 4-6 digit pass code you create/set during first time registration with this App. You have to enter this UPI-PIN to authorize all bank transactions. If you have already set up an UPI-PIN with other UPI Apps you can use the same on BHIM. (Note: Banks issued MPIN is different from the UPI UPI-PIN, please generate a new UPI-PIN in the BHIM app) Note: Please do not share your UPI-PIN with anyone. BHIM does not store or read your UPI-PIN details and your bank's customer support will never ask for it.",
+        "index": 89
+    },
+    {
+        "q": "How is UPI different from IMPS?",
+        "a": "UPI is providing additional benefits to IMPS in the following ways: 1.Provides for a P2P Pull functionality 2.Simplifies Merchant Payments 3.Single APP for money transfern 4.Single click two factor authentication",
+        "index": 90
+    },
+    {
+        "q": "What are the different channels for transferring funds using UPI?",
+        "a": "The different channels for transferring funds using UPI are: a.Send/Collect through Virtual ID b.Account Number + IFSC c.Aadhaar Number",
+        "index": 91
+    },
+    {
+        "q": "How do I set my UPI-PIN with the bank directly?",
+        "a": "You can set your UPI pin on any PSP app using your debit card details.",
+        "index": 92
+    }
+]

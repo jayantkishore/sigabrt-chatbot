@@ -1,0 +1,187 @@
+[
+	{
+        "q": "What is a Credit Card",
+        "a": "Credit card is a convenient alternative to cash or check-based transactions issued by banks and financial institutions, enabling the holder to make a purchase (or draw advance cash) on credit. The due amount at the end of the billing cycle may be paid as a lump sum within the due date in smaller instalments before the final due date. The purchases that are made using a credit card are in fact short term unsecured microloans and if paid off within a specified time (interest-free period) do not have any interest payouts.",
+        "index": 0
+    },
+    {
+        "q": "How does a credit card differ from a debit card",
+        "a": "The money that you draw out via debit card is your own money which is debited from the bank account linked to your card. On the other hand, the money that you spend (purchases) or withdraw (cash advance) via a credit card is more like a short term loan granted by card issuing entity. Instead of paying off this short term loan on a per use basis, all your expenses get converted into a consolidated bill at the end of the billing cycle.",
+        "index": 1
+    },
+    {
+        "q": "What is the difference between VISA card and MasterCard",
+        "a": "Visa and MasterCard are global payment technology companies based out of the US that connects consumers, businesses, banks and governments across more than 200 countries and territories, enabling them to use digital currency instead of cash, checks, drafts, etc.  Apart from VISA and MasterCard, other leading global payment technology companies are American Express, Diners Club and Discover.",
+        "index": 2
+    },
+    {
+        "q": "What is a Co-Branded Credit Card",
+        "a": "Any credit card that features a merchant's logo/name as a co-promoter of the specific credit card along with the card issuer is termed as a co-branded credit card. Leading merchants in India who sponsor co-branded credit cards include airlines, online shopping websites and others.",
+        "index": 3
+    },
+    {
+        "q": "How do the new EMV chip and PIN system for credit cards work",
+        "a": "EMV which is short for Europay, MasterCard and Visa is a global standard for cards equipped with the chip and PIN technology. The chip card and PIN code need to be used together to authenticate chip-card transactions. Unlike magnetic-stripe cards, every time an EMV card is used for payment, the card chip creates a unique transaction code that cannot be used for another transaction. EMV technology provides an additional level of security in point of sales (POS) transactions to prevent credit card frauds.",
+        "index": 4
+    },
+    {
+        "q": "What is the CVV number",
+        "a": "The CVV Number (Card Verification Value) it is a 3 digit number mentioned on the back side of your credit card on the right side of the signature panel. Also known as the CVV2, this 3 digit number is an essential part of the verification process especially in case of online transactions. The CVV number should not be disclosed to anyone.",
+        "index": 5
+    },
+    {
+        "q": "How long does it take to apply for and receive a Credit Card",
+        "a": "You can apply for a credit card online in less than 2 minutes through Paisabazaar.com. After you have completed and submitted the online application, the prospective card issuer will get in touch with you and ask you to submit the supporting documents. Once the bank has received your application form, complete in all respects along with all the required documents, your application will be processed within two weeks. Provided all your documents are in order, you will receive your new credit card within 7 working days, once your application is approved and all the checks have been completed by the bank. The bank will send you timely alerts on the credit card application status via SMS on the mobile number stated on your application form as well as through emails sent to the registered email address.",
+        "index": 6
+    },
+    {
+        "q": "What are the benefits of having a Credit Card",
+        "a": "Credit cards allow you to benefit from the option of revolving credit i.e. you might pay off your credit card dues in one go or make multiple small payments to pay off your debt. You can use credit cards not just within India but also worldwide.The discounts, offers, and deals that a credit card offers are unmatched by any other financial products. Credit cards offer additional protection in the form of insurance for card purchases that might be lost, damaged or stolen.",
+        "index": 7
+    },
+    {
+        "q": "What is a supplementary/add-on card",
+        "a": "A supplementary/add-on card refers to one or more credit cards that may be issued to family members of the primary cardholder. Add on cards share the total credit limit of the primary card account and have the same features as the primary card. Any reward points earned through the add-on card(s) are credited to the primary card account.",
+        "index": 8
+    },
+    {
+        "q": "How many supplementary cards can I have and what are the charges involved",
+        "a": "Though this tends to vary from one credit card issuer to another, in most cases, you can apply for up to 3 supplementary cards for family members like your spouse, children, parents and siblings.",
+        "index": 9
+    },
+    {
+        "q": "What should I do if I lose my card or if my card is stolen",
+        "a": "In case you have lost your card or it has been stolen, the priority is to block the card and prevent unauthorised transactions.  Please call the card issuer's customer care number and inform them of the card loss/theft so that the card is blocked and the replacement card issue procedure is started.",
+        "index": 10
+    },
+    {
+        "q": "What are reward points and how can I use them",
+        "a": "Whenever you make a purchase using your credit card, you can earn reward points. The rate of reward point accumulation varies from one expense category to another as well as from one bank to another. The accumulated reward points can be exchanged in lieu of a range of freebies and discount vouchers.",
+        "index": 11
+    },
+    {
+        "q": "What type of dining benefits can my credit card provide",
+        "a": "In case of many credit cards, you may be eligible to receive a range of dining benefits ranging from cash-back offers, discounts on dining bills, accelerated reward points accumulation at partner restaurants and much more. Though such benefits were earlier reserved for premium credit cards, many standard cards currently provide these benefits.",
+        "index": 12
+    },
+    {
+        "q": "What type of travel privileges can my credit card provide",
+        "a": "Some credit cards feature a range of travel benefits as a complementary feature of the card. Such benefits may include discount on flight/bus tickets and/or hotels booked through a specific website, airline or hotel chain. In case of some premium credit cards designed for frequent flyers, you may be eligible for complimentary travel insurance including payout options for missed flights, trip cancellations, medical emergency costs during your travel, air accident death insurance etc. Additionally, in case of most travel cards, you get the option of converting reward points accrued for all your other purchases into frequent flyer miles. Some credit cards also offer Lounge Access.",
+        "index": 13
+    },
+    {
+        "q": "How does a credit card generate fuel cost savings",
+        "a": "Fuel cards provide you with the option of generating savings in terms of surcharge waiver when you fill your vehicle up at the petrol pump. Apart from the fuel surcharge waiver, some credit cards may also provide you with cash back benefits whenever you use your car for transactions at a petrol pump.",
+        "index": 14
+    },
+    {
+        "q": "What is an Annual Fee",
+        "a": "An annual (yearly) fee is charged by a credit card company each year for use of a credit card. This fee varies from one card to another and may be waived off by the bank in case your card agreement contains a waiver clause on achieving a specific annual expense threshold.  There are also a number of credit cards available that have zero annual fees.",
+        "index": 15
+    },
+    {
+        "q": "How does the card issuer decide my credit limit",
+        "a": "The prospective card issuer, at its sole discretion, will determine the Card members' limit and cash withdrawal limit. These limits are communicated to the customer at the time of card delivery and printed in the credit card agreement letter as well as in the Monthly statement. Some key factors that may influence the decision of the card issuer include customer profile, the repayment capacity and CIBIL credit report along with other internal underwriting norms.",
+        "index": 16
+    },
+    {
+        "q": "What happens if my card expenditure exceeds my assigned credit limit",
+        "a": "If your credit card purchases/cash advances exceeds your assigned credit limit (inclusive of retail purchases, cash advances, fess, and other charges), an over limit fee plus applicable taxes will be charged to your credit card account.",
+        "index": 17
+    },
+    {
+        "q": "Can I increase my credit limit later on",
+        "a": "Yes, it is possible. In this case card member seeking to have their credit limit increased can do place a request with the card issuer. Additional documents such as those declaring income may need to be submitted with the card issuer to complete process. The Bank at its sole discretion and based on such documents provided, may increase choose to increase the credit limit. Previous repayment history of loans and credit card dues of the card holder would also play a major role in the card holder's decision.",
+        "index": 18
+    },
+    {
+        "q": "How do I find the credit card due amount",
+        "a": "The amount due for payment is reflected in your Credit Card Statement as Total Payment Due. By paying this amount, on or before the due date, you can take advantage of the interest-free period on your credit card.  The due amount in your bill will include all unpaid balances from the previous statement, interest charges (if any), the billed expenses for the current period, annual fees (only once a year), joining fee (only at the time of taking a new card) and a range of other applicable charges and taxes.",
+        "index": 19
+    },
+    {
+        "q": "What is a Finance Charge and how is it computed",
+        "a": "A Finance Charge is the interest billed to the account if the cardholder pays an amount less than the statement balance on the corresponding due date. The finance charge is applied only to the unpaid amount remaining after the partial payment has been made and not on the original outstanding amount. The Finance Charge is calculated on an average daily basis and will continue to be added to the outstanding balance of the card account until full payment is made.",
+        "index": 20
+    },
+    {
+        "q": "What do the terms billing date/cycle mean and are they subject to change",
+        "a": "Billing date/Cycle means the date on which your new monthly bill will be generated by the bank. No, billing dates are generally not subject to change. However, card members may place a request to change the billing cycle but the change request may be accepted or denied at the sole discretion of the bank.",
+        "index": 21
+    },
+    {
+        "q": "What is Minimum Payment Due",
+        "a": "The minimum amount you need to pay on or before the due date is generally computed as 5% of the total amount due as per your most recent credit card statement. By paying this minimum due amount, you are not charged any late fees by the card issuer. However, making just the minimum payments on your due amount is one of the rookie mistakes.",
+        "index": 22
+    },
+    {
+        "q": "What happens if I make minimum due payments for my card",
+        "a": "If you make a bill payment equal to the minimum due amount only, finance charges will be applied to the amount remaining after deducting the minimum payment from the total amount due. Minimum payment amounts prioritize the interest payouts on the outstanding balance, hence the repayment of the credit card due is extended over a long period of time.",
+        "index": 23
+    },
+    {
+        "q": "What is foreign currency transaction markup",
+        "a": "When you use your card abroad, your card provider charges you a transaction fee of up to 3.5% of the transaction amount every time you make purchases or withdraw cash. The exact markup value varies from one card issuer to another as well as from one card to another.",
+        "index": 24
+    },
+    {
+        "q": "What is a credit card balance transfer",
+        "a": "A balance transfer is when you transfer the balance of one credit card account to another credit card account. When the credit card balance transfer process is completed, the card holder no longer owes money to the original card issuer and instead owes the debt to the issuer of the second card.",
+        "index": 25
+    },
+    {
+        "q": "Is there a limit on the total balance I can transfer via credit card balance transfer",
+        "a": "Yes. The amount for which you can transfer make a balance depends on various factors including but not limited to the credit limit of the card you are transferring the balance to and the terms and conditions specified in the balance transfer offer.",
+        "index": 26
+    },
+    {
+        "q": "How does the cash-on-EMI facility work",
+        "a": "Different banks have different terminologies; however, Cash on EMI, INSTA Loan, Cash On Call, Loan On Phone all are same. It is a pre-approved loan within a specified credit limit based on your Credit Card. This facility is provided at the sole discretion of the card issuer is communicated directly whenever a card member is eligible for this.",
+        "index": 27
+    },
+    {
+        "q": "What is EMI conversion of credit card debt",
+        "a": "The Bank at its sole discretion will decide the interest and tenure of same. This offer is not provided by all banks, but some banks allow you to convert big-ticket purchases valued over a certain limit into credit card EMI payments by logging into your credit card account online. For details regarding this, card member has to contact respective Bank's customer Care.",
+        "index": 28
+    },
+    {
+        "q": "What happens if I want to prepay my EMIs",
+        "a": "It's good to reduce your debt burden as soon as possible; however, the bank at its sole discretion may impose prepayment charges. For this, card member has to contact the card issuer's customer care department.",
+        "index": 29
+    },
+    {
+        "q": "What does zero lost card liability mean",
+        "a": "It means card member not liable for any fraudulent transaction made post intimation of lost/stolen card to the issuer. Any transactions that get completed or charged to the card holder's account once the issue is made known to the card issuer will be written off by the issuer. This is only one of the many credit card protection plans that you can avail.",
+        "index": 30
+    },
+    {
+        "q": "How can I avail a loan on my credit card",
+        "a": "Availing a Loan on the basis of Credit card is at sole discretion of the bank. Generally banks always communicate the same to card member periodically as an available offer on the card. Additionally, the card member can also place a request for same to the card issuing bank, however, the approval of the loan is at the discretion of the card issuing authority.",
+        "index": 31
+    },
+    {
+        "q": "What is cash advance",
+        "a": "A card holder can use his/her credit card to withdraw cash at ATMs in India and even overseas. This facility is termed as cash advance. Cash advance transactions do not feature an interest fee period unlike purchases and thus finance charges are applicable from the date of withdrawal onwards. Cash advances are not eligible for reward points either.",
+        "index": 32
+    },
+    {
+        "q": "How much of my credit limit can I use for Cash Advance transactions",
+        "a": "You can get cash advances on your credit card of up to 30%-40% of your total credit limit. Though this is the industry norm, you may be authorised for a higher or lower cash advance limit and this will be mentioned in your credit card agreement.",
+        "index": 33
+    },
+    {
+        "q": "What is Revolving Credit",
+        "a": "Revolving credit is a type of credit that does not have a fixed number of payments, in contrast to installment credit (EMI). Credit cards are an example of revolving credit. He/she can make as many payments as required to pay off the due balance. If a customer pays off the credit card due partially then the balance amount will be carried forward to the next billing cycle.",
+        "index": 34
+    },
+    {
+        "q": "What is Charge Back",
+        "a": "A chargeback or reversal is the return of funds to the cardholder's account after a dispute has been filed by the card holder for one or more charges appearing on the credit card statement.  This occurs only after the money has been charged to the card holder's account and credited back only after the customer lodges a chargeback request with the card issuer.",
+        "index": 35
+    },
+    {
+        "q": "Should I get a second credit card",
+        "a": "There is almost no reason to get a second credit card - this is a very good arrangement for your creditor but not for you. Credit cards have high rates of interest which you have to pay unless you pay the credit off every month. Therefore, increasing your total credit capacity should not be your concern.  Since internet technology lets you pay off your balance in minutes online, there is no reason to have multiple cards in order to avoid running out of a balance. If, on the other hand, you do not pay your existing card off every month, than getting another card can be even more dangerous, since you're increasing the amount of debt you take on. I'd say at most it would make sense for you to grab a basic VISA, since most places do not accept AMEX. I would also considering cancelling the AMEX if you get the VISA, for reasons above.",
+        "index": 36
+    }
+]

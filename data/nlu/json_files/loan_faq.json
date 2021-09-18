@@ -1,0 +1,202 @@
+[
+    {
+        "q": " What is the minimum credit score to get a personal loan",
+        "a": "It depends on the eligibility criteria set by the lender. Most lenders do not specify a minimum credit score for a personal loan. Some lenders might lend to applicants with low credit score (less than 750) but the interest rate applicable is usually higher in such cases.",
+        "index": 37
+    },
+    {
+        "q": " What is the minimum salary required to get a personal loan",
+        "a": "The minimum monthly salary required to avail a personal loan varies from lender to lender. However, for large lenders like Banks, the minimum income eligibility is Rs. 25,000 per month and above. Certain fintech lenders may provide loans to customers with lower incomes",
+        "index": 38
+    },
+    {
+        "q": " What is the best credit score or CIBIL score to get a personal loan",
+        "a": "Generally, a credit score of 750 and above is considered good. You can improve your credit score by paying credit card bills on time, decreasing your outstanding debt and maintaining old credit card accounts in good standing.",
+        "index": 39
+    },
+    {
+        "q": " What role do credit history and score play in getting a personal loan",
+        "a": "Your credit history and credit score reflect your handling of credit in the past. Hence, they not only affect the chances of being approved for a personal loan but often impact the rate of interest too. The higher the credit score, the greater are the chances of approval and receiving a lower preferential interest rate.",
+        "index": 40
+    },
+    {
+        "q": " Can I get a personal loan being a pensioner, if I have a pension account with one of the leading banks in India",
+        "a": "Yes, you can get a personal loan even as a pensioner, if you have a pension account with one of the leading banks. However, you should ensure that the bank where you receive pension funds offers personal loans to pensioners and you meet the eligibility criteria as specified by your prospective lender.",
+        "index": 41
+    },
+    {
+        "q": " Can a student apply for a personal loan",
+        "a": "Generally, students are not eligible for a personal loan as a stable source of income and a good credit score are necessary prerequisites. However, if you have a stable monthly income and fulfil the lender's other eligibility criteria, you may easily avail of a personal loan.",
+        "index": 42
+    },
+    {
+        "q": " Can I get a personal loan if I have a home loan",
+        "a": "Yes, you can apply for a personal loan even if you already have a home loan. However, the chances of getting the loan approved will depend on your repayment capacity, which in turn depends on your monthly income and credit score.",
+        "index": 43
+    },
+    {
+        "q": " Can self-employed individuals apply for a personal loan in India",
+        "a": "Yes, self-employed individuals like businessmen, doctors, chartered accountants, etc. can apply for a personal loan in India provided they meet the eligibility criteria. Moreover, some banks and NBFCs provide special personal loan offers for doctors, chartered accountants and businessmen.",
+        "index": 44
+    },
+    {
+        "q": " Should I always choose the lowest possible EMI before accepting a personal loan offer",
+        "a": "Low EMI offers are a result of either low interest rate or long repayment tenure and sometimes both. Thus before selecting a personal loan offer, you should consider both interest rate and loan tenure. It is possible that the lender offering the lowest EMI is also offering the longest tenure, which in turn may increase your total interest payout. On the other hand, a personal loan offer with a relatively higher EMI but a shorter tenure may actually prove more economical in terms of total interest paid. Thus, you should always calculate your total interest payout and also take into account your repayment capacity before selecting a specific loan offer.",
+        "index": 45
+    },
+    {
+        "q": " Can I get a personal loan without a salary slip",
+        "a": "Yes, you can get a personal loan without providing salary slips. You can submit your bank account statement/ a copy of Form 16/ employee certificate from the employer, etc. as proof of income to fulfil the eligibility criteria. However, it is always recommended to confirm the list of required documents with the lender as it may vary from one bank to another.",
+        "index": 46
+    },
+    {
+        "q": " Can I use a personal loan for marriage purposes",
+        "a": "Yes, you can avail a personal loan to meet marriage related expenditure as personal loans come with flexible end-use. Some lenders even provide personal loans specifically named as wedding/ marriage loans.",
+        "index": 47
+    },
+    {
+        "q": " Can I take a personal loan from two different banks at the same time",
+        "a": "Yes, you may avail a personal loan from two different lenders at the same time. However, it is not advised to do so as it will not only affect your credit score but also increase your EMI payout. It will be better to take one personal loan of a larger amount than two personal loans of smaller amounts. This way you can pay lower EMIs for a longer tenure and also improve your credit score. Moreover, you will save upon processing fees and other loan-related charges.",
+        "index": 48
+    },
+    {
+        "q": " Which is better, a personal loan or a credit card",
+        "a": "Both personal loans and credit cards are means of borrowing money. Which one is better depends on the purpose behind borrowing money. If you need to borrow a fixed amount for a finite period of time, go for a personal loan. On the other hand, if you want revolving credit for a lifetime, go for a credit card.",
+        "index": 49
+    },
+    {
+        "q": " Is it good to pay off credit card debt with a personal loan",
+        "a": "Yes, it is often a good idea to pay credit card dues with the help of a personal loan as:It allows you to consolidate the debt associated with multiple credit cards, which in turn, will make the repayment process easier.The rate of interest applicable on a personal loan is lower than that applicable to the outstanding balance on a credit card. Thus, taking a personal loan also helps you save on the overall interest cost.",
+        "index": 50
+    },
+    {
+        "q": " What is the difference between reducing balance rate and flat interest rate",
+        "a": "In case of the reducing balance method, interest is applicable on the outstanding loan balance i.e. on the balance that remains outstanding after getting reduced by the principal amount repaid. As a result, the interest cost keeps decreasing over the loan tenure. On the other hand, a flat interest rate is charged on the entire loan balance throughout the loan term. Thus, the interest payable does not decrease over the loan tenure.",
+        "index": 51
+    },
+    {
+        "q": " What are personal loans for women",
+        "a": "Personal loan for women is a special category of personal loans offered to women by several banks and NBFCs. A preferential rate of interest is applicable in such cases to promote and support female entrepreneurs and working women.",
+        "index": 52
+    },
+    {
+        "q": " What are personal loans for pensioners",
+        "a": "It is offered to retired senior citizens availing pension so that they can meet their needs, medical expenses, or plan a trip without any financial constraints after retirement.",
+        "index": 53
+    },
+    {
+        "q": " What are pre-approved personal loans",
+        "a": "This is a special category of personal loans, also known as instant personal loans. These are usually offered to existing customers (account holders/credit card holders) of the bank or NBFC. Instant personal loans are characterized by minimal to no documentation and quick disbursal of the loan amount (generally within a few hours). However, the loan amount sanctioned in such quick personal loan offers depend on the applicant's profile and cannot be changed.",
+        "index": 54
+    },
+    {
+        "q": " What is a top-up loan",
+        "a": "This is a personal loan issued to a borrower who already has an unpaid personal loan from the current lender. Top-up personal loans are usually available to select PL customers of the lender and they often feature an interest rate similar to that of a standard personal loan.",
+        "index": 55
+    },
+    {
+        "q": " What is a personal loan balance transfer",
+        "a": "Personal loan balance transfer is the process by which the principal outstanding of an existing loan is transferred to a new lender offering a lower interest rate. This decreases the overall interest payout over the loan tenure.",
+        "index": 56
+    },
+    {
+        "q": " Which documents are required to apply for a personal loan",
+        "a": "The documents required to avail a personal loan vary from lender to lender. However, most of the banks and NBFCs require proof of identity, proof of address and proof of income.",
+        "index": 57
+    },
+    {
+        "q": " How should I choose the best personal loan offer",
+        "a": "With a plethora of personal loan offers available, choosing the best one can be challenging for some people. But you can follow the below tips to choose the best personal loan offer:Compare interest rates: Do not go for the first offer that comes your way. Always compare personal loan interest rates offered by different lenders before choosing a deal.Compare other loan fees and charges: Do check the associated loan charges and fees before settling for an offer as they might affect your budget despite a low rate of interest.Check for repayment flexibility: Check for prepayment and part-payment options and the associated charges to better plan your repayment schedule.Calculate EMI payout beforehand: Before you apply for a personal loan, you need to be sure that you will be able to repay the loan on time without any penalties.",
+        "index": 58
+    },
+    {
+        "q": " How can I avoid personal loan rejection",
+        "a": "While getting a personal loan application approved completely lies in the hands of the lender, the below steps can be followed to avoid rejection:Carefully check the eligibility criteria set by the bank/NBFC and ensure you meet them.Check for inaccuracies in your credit report as they might affect your credit score and hence your chances of getting a personal loan. Apply for the loan from a lender where you have the highest chances of approval.Reduce your outstanding debt by paying any existing loan installments and credit card dues.Keep your credit utilization ratio below 40%.Avoid multiple loan applications at once.",
+        "index": 59
+    },
+    {
+        "q": " How can I bargain for a better rate of interest on my personal loan",
+        "a": "You can get a lower rate of interest on your personal loan by following the below tips:Maintain a good credit score as it is suggestive of financial stability and repayment capability. The higher the credit score, the greater are the chances of availing a personal loan at a lower rate of interest.Apply for the loan at a bank with which you already have a savings account or fixed deposit. A good pre-existing relationship with the lender has a positive impact on your repayment ability, which may help you to get a loan at a lower rate of interest.Banks and NBFCs often release special personal loan offers during the festive season. These offers generally have an attractive rate of interest. Thus, applying for a personal loan during the festive season may help you get a loan at a lower rate of interest.",
+        "index": 60
+    },
+    {
+        "q": " What will happen if I don't pay a personal loan EMI",
+        "a": "Missing a single EMI might not have a major impact on your credit score, however, missing multiple EMIs will. Repeated failure will not only affect your credit score but also increase your outstanding debt. In rare cases, preliminary notices can be sent by the lender mentioning the outstanding loan amount and penalty charges. The bank may also go for legal proceedings or approach the guarantor (if any).",
+        "index": 61
+    },
+    {
+        "q": " Are personal loans tax exempted",
+        "a": "As per the Income Tax Act, there is no specific deduction allowed for personal loans.",
+        "index": 62
+    },
+    {
+        "q": " What does prepayment mean and are there any charges for it",
+        "a": "When a borrower pays off the loan amount before the designated due date, it is called prepayment. Yes, many banks and NBFCs charge a prepayment fee ranging from 1% to 5% on the outstanding principal amount of the loan.",
+        "index": 63
+    },
+    {
+        "q": " Can I cancel a personal loan after the loan amount is disbursed",
+        "a": "In some cases, you may cancel a personal loan after disbursal subject to the terms and conditions of the lender. Loan cancellation will lead to cancellation charges and processing fees. Please note that all banks do not allow loan cancellation once the amount is disbursed. However, you can always prepay the loan amount as per the terms and conditions of the bank and save on the interest component.",
+        "index": 64
+    },
+    {
+        "q": " Is a personal loan taxable",
+        "a": "No. You do not have to pay additional tax if you get a personal loan. In fact, the interest payable on a personal loan may be eligible for tax deduction u/s 24b if you use the loan proceeds for the purpose of home remodelling/renovation.",
+        "index": 65
+    },
+    {
+        "q": " Can I transfer a personal loan to another person",
+        "a": "Under current regulations, it is not possible to transfer your personal loan to another person. However, some lenders do have the option of having a co-borrower/guarantor for a personal loan and in such cases, the co-borrower/guarantor will be required to repay the loan in case the primary borrower defaults.",
+        "index": 66
+    },
+    {
+        "q": " How to Reduce Your Monthly EMI",
+        "a": "If you are finding it difficult to keep up with your monthly loan repayments, you might be able to negotiate a lower EMI by extending your repayment tenure. You should however bear in mind that, in this situation, due to the longer tenure, you will end up paying more interest over the loan tenure.The alternative is to opt for a personal loan balance transfer. In this case, the principal outstanding of your current loan is transferred to a new lender at a lower rate of interest. As a result of the lower interest rate, your individual EMI payments will decrease.",
+        "index": 67
+    },
+    {
+        "q": " Is it possible to get an education loan without offering a collateral",
+        "a": "Almost all education loans from banks and other lenders require a collateral which can be fixed deposits, property, shares, bonds, etc. However, you can still avail an education loan without having to give any collateral. This can be achieved through the Credit Guarantee Fund for Education Loan (CGFEL) Schemes which covers a collateral-free loan of p to Rs.7.5 lakh. This is only for education loans dispersed under the Model Education Loan Scheme of Indian Banks' Association (IBA). To avail this, you have to apply for an education loan under this scheme through a scheduled commercial bank. You don't need to provide security or collateral for amounts of up to Rs.7.5 lakh but anything above that will require a collateral.",
+        "index": 68
+    },
+    {
+        "q": " Can I take an education loan against mine or my parents' fixed deposit",
+        "a": "You can always avail a loan against a fixed deposit, as per the terms and conditions of the lender. However, there are certain banks, such as ICICI, which provide specifically education loan against fixed deposit.",
+        "index": 69
+    },
+    {
+        "q": " Will the moratorium on education loan get extended if I choose to take a sabbatical from my course",
+        "a": "The moratorium period on education loans differ from lender to lender. However, it is usually until the borrower gets employed or for up to 1 year of the course being completed, whichever is earlier. If you choose to take a sabbatical and want an extension of your moratorium, it would depend on the bank whether to grant it or not, so it is best to have a discussion about this with the lender.",
+        "index": 70
+    },
+    {
+        "q": " Are NRIs eligible for education loans from banks in India",
+        "a": "One of the eligibility criteria for education loans that are offered by banks and other financial institutions in India is that the individual should be an Indian national. This means that any student who is a citizen of India can apply for and avail an education loan from a lender in the country. Collateral or documents which can be taken as security should be those that are enforceable in India.",
+        "index": 71
+    },
+    {
+        "q": " What happens if I discontinue the course and get an employment within the grace period",
+        "a": "In case you choose to discontinue the course mid-way, you must start repaying the loan immediately after getting a job.",
+        "index": 72
+    },
+    {
+        "q": " Can I port my education loan to another bank with lower interest rates",
+        "a": "Yes, you can move your education loan from one bank to another. However, your current bank might charge a refinance fees. Therefore, it is important to consider all factors of the existing bank and the new bank before moving the loan.",
+        "index": 73
+    },
+    {
+        "q": " Do all education loans cover 100% of the education expenses",
+        "a": "Yes, education loans cover 100% of the education expenses. However, full coverage may only be provided for expenses under a certain limit. Lenders have a margin if the expenses go above the limit.",
+        "index": 74
+    },
+    {
+        "q": " What are the other expenses covered by education loans",
+        "a": "Some of the additional expenses covered by education loans are: Hostel fees, Exam fees, laboratory and library fees, Cost of books, uniforms, projects, etc. Travel expenses for overseas education ,Deposits required by the educational institute.",
+        "index": 75
+    },
+    {
+        "q": " Should I get a personal loan",
+        "a": "If you need a quick influx of cash to pay for necessary expenses, a personal loan may be a good option. Interest rates for personal loans are usually lower than those of credit cards, especially if you have an excellent credit score. Of course, you should always weigh the benefits with the drawbacks. After all, taking on a personal loan means taking on debt, and you'll need to be prepared to make payments on that debt for a few years. If you don't have the monthly budget for principal payments plus interest, reconsider the amount you need to borrow or the way in which you borrow.",
+        "index": 76
+    }
+]
