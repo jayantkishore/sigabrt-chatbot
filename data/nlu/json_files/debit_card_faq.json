@@ -1,0 +1,122 @@
+[
+    {
+        "q": "What is a debit card?",
+        "a": "It is the most convenient and secure way to say no to cash. Through debit cards you can get access to cash in your bank account round the clock. You can use it to make payments online and use it at point-of-sales (POS). You can also use your debit card for making balance enquiry and generating mini-statements from an ATM.",
+        "index": 137
+    },
+    {
+        "q": "How is a debit card different from a credit card?",
+        "a": "In the case of debit card, you use the money from your own bank account; while in the case of a credit card, you are receiving credit from your bank which you will have to repay at a later date with interest.",
+        "index": 138
+    },
+    {
+        "q": "How can I get a debit card?",
+        "a": "It generally comes as a part of the account opening kit of the bank. In case you didn't receive a debit card while opening a bank account or if you have an old account which was opened when debit cards were not there, you can call on the bank's customer care number or visit their branch to request for a debit card.",
+        "index": 139
+    },
+    {
+        "q": "What is a Personal Identification Number (PIN)?",
+        "a": "It's a four-digit unique number that gives access to your cash and allows you to make any transaction (withdrawal, balance enquiry, mini-statement) through your ATM. It is very important that you keep your PIN safe and confidential and not share it with anybody. Never write the PIN on the back of the debit card.",
+        "index": 140
+    },
+    {
+        "q": "What to do if you forgot your PIN or if it is not working?",
+        "a": "You can get a new debit card PIN online through net banking or by visiting a bank's ATM. You will have to give your debit card number and CVV number printed on the back of your card and a new PIN number will be sent on your registered mobile number.",
+        "index": 141
+    },
+    {
+        "q": "Is there any transaction limit on the amount that can be withdrawn using a debit card?",
+        "a": "Yes, there are limits on daily cash withdrawals depending on the type of debit card you hold. You can withdraw from Rs 15,000 to Rs 2 lakh or even higher, depending on the type of card you are using. In case of premium cards, cash withdrawal and point-of-sales (POS) limits are higher.",
+        "index": 142
+    },
+    {
+        "q": "Is there any limit on the number of transactions I can make on my debit card?",
+        "a": "Yes, some banks have transaction limits such as four transactions a day.",
+        "index": 143
+    },
+    {
+        "q": "Are any charges levied for using a debit card for cash withdrawal?",
+        "a": "Usually cash withdrawals from the same bank's ATMs are absolutely free. However, some banks charge a nominal fee in case there are more than five transactions from your bank's ATM.",
+        "index": 144
+    },
+    {
+        "q": "Are any charges levied on using a debit card for transaction at another bank's ATM?",
+        "a": "The transaction charges on using another bank's ATMs depend from card to card. Generally, the first five transactions made per month by using a debit card at another bank's ATM are free. However, after this limit, a fee of Rs 20 is levied on every transaction done on other bank's ATM.",
+        "index": 145
+    },
+    {
+        "q": "Are there any charges on using the debit card on POS or online shopping?",
+        "a": "No charges are levied for using debit card at POS or for doing online shopping.",
+        "index": 146
+    },
+    {
+        "q": "Is there any renewal fees for debit card?",
+        "a": "Debit cards are generally renewed free of cost, however few banks charge a nominal fees.",
+        "index": 147
+    },
+    {
+        "q": "What to do in case of loss of debit card?",
+        "a": "In case of loss of card, you should immediately report the loss on the bank's customer care number. The card will be blocked after you answer some questions from the customer care. Also, you will have to report the loss to the nearest police station. Submit the copy of information duly acknowledged by the police to the bank.",
+        "index": 148
+    },
+    {
+        "q": "If the lost debit card is found later can it be used?",
+        "a": "No, a card once lost and blocked can't be re-used. You will have to get a new card issued from your bank. If you find your lost card you can destroy it.",
+        "index": 149
+    },
+    {
+        "q": "What is RuPay?",
+        "a": "RuPay is an Indian domestic card scheme launched by National Payments Corporation of India (NPCI) to consolidate and integrate various payments. The aim of RuPay is to fulfil the desire of having an open loop, domestic and multilateral payments in India. Launched on 26 March 2012, RuPay cards have seen a colossal growth and have emerged as a strong competition to VISA and MasterCard. RuPay is an amalgamation of two words- Rupee and Payment and its logo is an allusion to the tricolour national flag. NPCI has partnered with Discover Financial Services (DFS) to enable RuPay card scheme gain acceptance internationally on Discover's global payment network.",
+        "index": 150
+    },
+    {
+        "q": "Should I get a debit card?",
+        "a": "Definitely you should if you are eligible. Debit Card makes your payments much more convenient and secure through an electronic payment facility directly from your bank account. Debit cards can be used for purchases online or at shops by directly debiting your Bank account. Debit cards can also be used to withdraw cash from an ATM.",
+        "index": 151
+    },
+    {
+        "q": "Can debit cards be used as credit cards?",
+        "a": "The fundamental difference between a debit card and a credit card is that upon using your debit card, the amount will be debited from your checking account. However, when you use a credit card, the amount will be withdrawn from your pre-approved credit limit, and not from your bank account.",
+        "index": 152
+    },
+    {
+        "q": "What is the difference between a credit card and a debit card?",
+        "a": "Credit cards, provide you with additional credit, while debit cards, as the name suggests, debit the amount you spend from your bank account. Thus, while credit cards allow you to borrow money from the card issuer up to a certain limit, debit cards allow the cardholders to make cashless transactions by drawing on the funds that are already deposited in their bank accounts.",
+        "index": 153
+    },
+    {
+        "q": "What is an ATM card?",
+        "a": "An ATM card, as the name suggests, is primarily used to withdraw cash from the ATM. ATM cards are generally issued by financial institutions and can be used to withdraw money from the account holder's savings account or checking account. These are PIN-based cards, and hence, they are only used to withdraw money from ATM machines.",
+        "index": 154
+    },
+    {
+        "q": "ATM card or credit card?",
+        "a": "A pure ATM card can only be used at ATMs and kiosks. Credit cards, on the other hand, are multi-functional and can be used to make online and offline payments, withdraw cash from ATMs, or pay bills. Thus, credit cards offer greater flexibility and convenience as opposed to the mono-functional nature of ATM cards.",
+        "index": 155
+    },
+    {
+        "q": "Can multiple accounts be linked to a debit card?",
+        "a": "Yes, some banks give customers the option of linking several bank accounts to a single debit card.",
+        "index": 156
+    },
+    {
+        "q": "Do banks block debit cards if customers enter the wrong PIN during cash withdrawals?",
+        "a": "Yes, any bank would block a customer's debit card after three unsuccessful attempts at an ATM as a protective measure.",
+        "index": 157
+    },
+    {
+        "q": "Is the overdraft facility available with debit cards?",
+        "a": "Overdraft facility is available with the savings account linked to a debit card but is not applicable on a particular debit card.",
+        "index": 158
+    },
+    {
+        "q": "What are the different costs associated with a debit card?",
+        "a": "Some banks might charge issuance fees, ATM withdrawal charges, and annual fees for the use of debit cards.",
+        "index": 159
+    },
+    {
+        "q": "In India, what are the two types of debit cards generally issued to users?",
+        "a": "Indian Banks provide personalized and non-personalized variants to debit card users. Personalized debit cards additionally contain the user's name and photograph. Non-Personalized cards will just have the bank logo, card details and the payment platform logo without any user related information.",
+        "index": 160
+    }
+]

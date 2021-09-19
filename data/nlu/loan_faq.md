@@ -1,0 +1,41 @@
+## intent:loan_faq
+- What is the minimum credit score to get a personal loan
+- What is the minimum salary required to get a personal loan
+- What is the best credit score or CIBIL score to get a personal loan
+- What role do credit history and score play in getting a personal loan
+- Can I get a personal loan being a pensioner, if I have a pension account with one of the leading banks in India
+- Can a student apply for a personal loan
+- Can I get a personal loan if I have a home loan
+- Can self-employed individuals apply for a personal loan in India
+- Should I always choose the lowest possible EMI before accepting a personal loan offer
+- Can I get a personal loan without a salary slip
+- Can I use a personal loan for marriage purposes
+- Can I take a personal loan from two different banks at the same time
+- Which is better, a personal loan or a credit card
+- Is it good to pay off credit card debt with a personal loan
+- What is the difference between reducing balance rate and flat interest rate
+- What are personal loans for women
+- What are personal loans for pensioners
+- What are pre-approved personal loans
+- What is a top-up loan
+- What is a personal loan balance transfer
+- Which documents are required to apply for a personal loan
+- How should I choose the best personal loan offer
+- How can I avoid personal loan rejection
+- How can I bargain for a better rate of interest on my personal loan
+- What will happen if I don’t pay a personal loan EMI
+- Are personal loans tax exempted
+- What does prepayment mean and are there any charges for it
+- Can I cancel a personal loan after the loan amount is disbursed
+- Is a personal loan taxable
+- Can I transfer a personal loan to another person
+- How to Reduce Your Monthly EMI
+- Is it possible to get an education loan without offering a collateral
+- Can I take an education loan against mine or my parents’ fixed deposit
+- Will the moratorium on education loan get extended if I choose to take a sabbatical from my course
+- Are NRIs eligible for education loans from banks in India
+- What happens if I discontinue the course and get an employment within the grace period
+- Can I port my education loan to another bank with lower interest rates
+- Do all education loans cover 100% of the education expenses
+- What are the other expenses covered by education loans
+- Should I get a personal loan

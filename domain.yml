@@ -13,7 +13,15 @@ intents:
   - help
   - out_of_scope
   - nlu_fallback
-  - faq
+  - credit_card_faq
+  - debit_card_faq
+  - flipkart_faq
+  - insurance_faq
+  - loan_faq
+  - mobile_wallet_faq
+  - upi_faq
+
+
 
 responses:
   utter_greet:

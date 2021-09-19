@@ -13,9 +13,9 @@ from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 import numpy as np
 from sentence_transformers import SentenceTransformer
+import os
 
-# sentence embedding selection
-sentence_transformer_select=True
+
 pretrained_model= 'bert-base-nli-mean-tokens' # Refer: https://github.com/UKPLab/sentence-transformers/blob/master/docs/pretrained-models/nli-models.md
 score_threshold = 0.80  # This confidence scores can be adjusted based on your need!!
 
@@ -24,23 +24,21 @@ class ActionGetFAQAnswer(Action):
 
     def __init__(self):
         super(ActionGetFAQAnswer, self).__init__()
-        self.faq_data = json.load(open("./data/nlu/faq.json", "rt", encoding="utf-8"))
-        self.sentence_embedding_choose(sentence_transformer_select, pretrained_model)
-        self.standard_questions_encoder = np.load("./data/standard_questions.npy")
-        self.standard_questions_encoder_len = np.load("./data/standard_questions_len.npy")
-        print(self.standard_questions_encoder.shape)
+        #self.faq_data = json.load(open("./data/nlu/faq.json", "rt", encoding="utf-8"))
+        self.sentence_embedding_choose(pretrained_model)
+        #self.standard_questions_encoder = np.load("./data/standard_questions.npy")
+        #self.standard_questions_encoder_len = np.load("./data/standard_questions_len.npy")
+        #print(self.standard_questions_encoder.shape)
 
-    def sentence_embedding_choose(self, sentence_transformer_select=True, pretrained_model='bert-base-nli-mean-tokens'):
-        self.sentence_transformer_select = sentence_transformer_select
-        if sentence_transformer_select:
-            self.bc = SentenceTransformer(pretrained_model)
+    def sentence_embedding_choose(self, pretrained_model='bert-base-nli-mean-tokens'):
+        
+        self.bc = SentenceTransformer(pretrained_model)
         
 
     def get_most_similar_standard_question_id(self, query_question):
-        if self.sentence_transformer_select:
-            query_vector = torch.tensor(self.bc.encode([query_question])[0]).numpy()
-        else:
-            query_vector = self.bc.encode([query_question])[0]
+        
+        query_vector = torch.tensor(self.bc.encode([query_question])[0]).numpy()
+        
         print("Question received at action engineer")
         score = np.sum((self.standard_questions_encoder * query_vector), axis=1) / (
                 self.standard_questions_encoder_len * (np.sum(query_vector * query_vector) ** 0.5))
@@ -54,7 +52,16 @@ class ActionGetFAQAnswer(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         query = tracker.latest_message['text']
-        print(query)
+        intent = str(tracker.latest_message['intent']['name'])
+        faq_path = "./data/nlu/json_files/{}.json".format(intent)
+        self.faq_data = json.load(open(faq_path , "rt" ,  encoding="utf-8"))
+        #print(query)
+        ques_path = "./data/bert_encoding/stan_ques_{}.npy".format(intent)
+        ques_len_path = "./data/bert_encoding/stan_ques_len_{}.npy".format(intent)
+
+        self.standard_questions_encoder = np.load(ques_path)
+        self.standard_questions_encoder_len = np.load(ques_len_path)
+
         most_similar_id, score = self.get_most_similar_standard_question_id(query)
         print("The question is matched with id:{} with score: {}".format(most_similar_id,score))
         if float(score) > score_threshold: # This confidence scores can be adjusted based on your need!!
@@ -68,27 +75,26 @@ class ActionGetFAQAnswer(Action):
         return []
 
 
-def encode_standard_question(sentence_transformer_select=True, pretrained_model='bert-base-nli-mean-tokens'):
+def encode_standard_question(pretrained_model='bert-base-nli-mean-tokens'):
     """
     This will encode all the questions available in question database into sentence embedding. The result will be stored into numpy array for comparision purpose.
     """
-    if sentence_transformer_select:
-        bc = SentenceTransformer(pretrained_model)
-    else:
-        bc = BertClient(check_version=False)
-    data = json.load(open("./data/nlu/faq.json", "rt", encoding="utf-8"))
-    standard_questions = [each['q'] for each in data]
-    print("Standard question size", len(standard_questions))
-    print("Start to calculate encoder....")
-    if sentence_transformer_select:
-        standard_questions_encoder = torch.tensor(bc.encode(standard_questions)).numpy()
-    else:
-        standard_questions_encoder = bc.encode(standard_questions)
-    np.save("./data/standard_questions", standard_questions_encoder)
-    standard_questions_encoder_len = np.sqrt(np.sum(standard_questions_encoder * standard_questions_encoder, axis=1))
-    np.save("./data/standard_questions_len", standard_questions_encoder_len)
-
-
-encode_standard_question(sentence_transformer_select,pretrained_model)
+    
+    path = "./data/nlu/json_files"
+    lt = os.listdir(path)
+    bc = SentenceTransformer(pretrained_model)
+    for a in lt:
+        name = a.split(".")[0]
+        my_path = path + "/" + a 
+        data = json.load(open(my_path , "rt" ,  encoding="utf-8"))
+        questions = [each['q'] for each in data]
+        sqe = torch.tensor(bc.encode(questions)).numpy()
+        my_path_q = "./data/bert_encoding/stan_ques_" + name 
+        np.save(my_path_q, sqe)
+        sqe_len = np.sqrt(np.sum(sqe * sqe, axis=1))
+        my_path_q_len = "./data/bert_encoding/stan_ques_len_" + name 
+        np.save(my_path_q_len, sqe_len)
+    
+encode_standard_question(pretrained_model)
 # if __name__ == '__main__':
 #     encode_standard_question(True)

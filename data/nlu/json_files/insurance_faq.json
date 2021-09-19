@@ -1,0 +1,22 @@
+[
+{
+        "q": "What is Insurance?",
+        "a": "Insurance is a legal agreement between two parties i.e. the insurance company (insurer) and the individual (insured). In this, the insurance company promises to make good the losses of the insured on happening of the insured contingency. The contingency is the event which causes a loss. It can be the death of the policyholder or damage/destruction of the property. It's called a contingency because there's an uncertainty regarding happening of the event. The insured pays a premium in return for the promise made by the insurer.",
+        "index": 161
+    },
+    {
+        "q": "How does insurance work?",
+        "a": "Insurance is a way of protecting yourself and your family from a financial loss. Generally, the premium for a big insurance cover is much lesser in terms of money paid. The insurance company takes this risk of providing a high cover for a small premium because very few insured people actually end up claiming the insurance. This is why you get insurance for a big amount at a low price.",
+        "index": 162
+    },
+    {
+        "q": "What are the types of insurance?",
+        "a": "Some types of insurance are : Life Insurance, Health Insurance, Vehicle Insurance, Education Insurance, Home Insurance",
+        "index": 163
+    },
+    {
+        "q": "What are the tax benefits on insurance?",
+        "a": "Apart from the safety and security benefits of buying insurance, there are also the income tax benefits that you can avail.Life insurance premium of up to Rs 1.5 lakh can be claimed as a tax-saving deduction under Section 80C Medical insurance premium of up to Rs 25,000 for yourself and your family and Rs 25,000 for your parents can be claimed as a tax-saving deduction under Section 80D",
+        "index": 164
+    }
+]
