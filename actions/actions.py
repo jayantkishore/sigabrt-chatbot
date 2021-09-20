@@ -147,7 +147,7 @@ class ActionJK(Action):
                 dispatcher.utter_message(
                     text="Today is Sunday at NYSE! Showing results for yesterday"
                 )
-            elif today.strftime("%A") == "Monday" and today.time() <= time(10, 00):
+            elif today.strftime("%A") == "Monday":
                 today = today - timedelta(days=2)
                 dispatcher.utter_message(
                     text="NYSE is not open yet! Showing results for day before yesterday"
