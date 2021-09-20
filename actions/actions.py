@@ -155,8 +155,6 @@ class ActionJK(Action):
             yesterday = today - timedelta(days=1)
             tod = today.strftime("%Y-%m-%d")
             yest = yesterday.strftime("%Y-%m-%d")
-            print(yest)
-            print(tod)
             prefix = "https://api.polygon.io/v2/aggs/ticker/{}/range/1/day/{}/{}?apiKey=Gsgns_Tv2e5X9WmjIEzqzK1dvgX1FTpU".format(
                 tick, yest, tod
             )
@@ -164,7 +162,6 @@ class ActionJK(Action):
             u = urllib.request.urlopen(url)
             content = u.read()
             obj = json.loads(content)
-            print(obj)
             rsp = obj["results"][0]
             ans = ""
             ans += "Open : {}  ||  Close : {}  ||  Low : {}  || High : {} ".format(
@@ -212,6 +209,100 @@ class ActionJK2(Action):
         return []
 
 
+class GetCC(Action):
+    def name(self):
+        return "action_getcc"
+    
+    def run(
+        self,
+        dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        url = "http://13.92.117.36:8000/dummy_api/v1/?q=cc"
+        u = urllib.request.urlopen(url)
+        content = u.read()
+        obj = json.loads(content)
+        n = len(obj)
+        txt = 'cards'
+        if n==1:
+            txt = 'card'
+        dispatcher.utter_message(text = "You have {} {}".format(n, txt))
+        dispatcher.utter_message(text = "Following are the details")
+        for i in range(n):
+            crd = obj[i]
+            crd_name = crd['cardName']
+            bal = crd['balance']
+            due_date = crd['billDue']
+            output = "Credit Card {} has balance {} and its bill is due on {}".format(crd_name, bal, due_date)
+            dispatcher.utter_message(text = output)
+            if i!=n-1:
+                dispatcher.utter_message(text = "And then..")
+        return []
+
+class GetSupercoins(Action):
+    def name(self):
+        return "action_getcoins"
+    def run(
+        self,
+        dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        url = "http://13.92.117.36:8000/dummy_api/v1/?q=supercoin_bal"
+        u = urllib.request.urlopen(url)
+        content = u.read()
+        obj = json.loads(content)
+        bal = obj['balance']
+        cns = 'coins'
+        if bal == 1:
+            cns = 'coin'
+        output = "You have {} Super{}".format(bal, cns)   
+        dispatcher.utter_message(text = output)
+        output1 = "Do you know that you can earn more supercoins by watching Flipkart Videos and playing Flipkart Games?"
+        dispatcher.utter_message(text = output1) 
+
+        return []
+
+
+class GetOrders(Action):
+    def name(self):
+        return "action_getorders"
+    def run(
+        self,
+        dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        url = "http://13.92.117.36:8000/dummy_api/v1/?q=orders"
+        u = urllib.request.urlopen(url)
+        content = u.read()
+        obj = json.loads(content)
+        n = len(obj)
+        dispatcher.utter_message(text = "Seems like you have a lot of orders!")
+        for i in range(n):
+            ttl = obj[i]['title']
+            Date = obj[i]['orderDate']
+            stat = obj[i]['statusDetails']
+
+            output = "{} was ordered on {} and it is {}".format(ttl, Date, stat)
+            dispatcher.utter_message(text = output)
+
+            if i != n-1:
+                dispatcher.utter_message(text = "And")
+
+        return []
+
+    
+"""
+{title} ordered on {orderDate} and its current status is {statusDetails}
+    {
+        "orderId": "EFHNCIDJ2143534TF",
+        "productId": "TDHDMH5GRSPZ3DNM",
+        "title": "Newhide Designer",
+        "orderDate": "25/09/2021",
+        "statusDetails": "In Transit at gurgaon"
+    }
+"""
 encode_standard_question(pretrained_model)
-# if __name__ == '__main__':
-#     encode_standard_question(True)
+ 

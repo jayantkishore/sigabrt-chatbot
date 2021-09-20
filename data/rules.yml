@@ -46,4 +46,15 @@ rules:
   - intent: askjk
   - action: action_jk
   - action: action_jk2
-  - action: utter_goodbye
+- rule: Get CC
+  steps:
+  - intent: show_credit_cards
+  - action: action_getcc
+- rule: Get Supercoin
+  steps:
+  - intent: show_supercoins
+  - action: action_getcoins
+- rule: Get Orders
+  steps: 
+  - intent: show_orders
+  - action: action_getorders

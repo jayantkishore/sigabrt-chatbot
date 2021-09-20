@@ -21,12 +21,15 @@ intents:
   - mobile_wallet_faq
   - upi_faq
   - askjk
+  - show_credit_cards
+  - show_supercoins
+  - show_orders
 
 
 
 responses:
   utter_greet:
-  - text: "Hey! I am SIGA bot?"
+  - text: "Hey! I am SARA . Your personal finance assistant"
 
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
@@ -78,6 +81,9 @@ actions:
 - action_get_answer
 - action_jk
 - action_jk2
+- action_getcc
+- action_getcoins
+- action_getorders
 entities:
 - company_name
 slots:

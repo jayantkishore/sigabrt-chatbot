@@ -83,4 +83,23 @@ stories:
   - intent: askjk
   - action: action_jk
   - action: action_jk2
-  - action: utter_goodbye
+- story: Get CC path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: show_credit_cards
+  - action: action_getcc
+- story: Get Supercoin path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: show_supercoins
+  - action: action_getcoins
+- story: Get orders
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: show_orders
+  - action: action_getorders
+ 
+  

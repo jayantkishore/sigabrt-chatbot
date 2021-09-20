@@ -1,0 +1,32 @@
+version: "2.0"
+
+nlu:
+- intent: show_supercoins
+  examples: |
+    - please show my Flipkart supercoin balance
+    - please list my Flipkart supercoin balance
+    - show me my Flipkart supercoin balance details
+    - what is my Flipkart supercoin balance outstanding
+    - Display My Flipkart supercoin balance
+    - List my Flipkart supercoin balance
+    - i need to see my Flipkart supercoin balance
+    - Can I have access to a Flipkart supercoin balance
+    - My Flipkart supercoin balance
+    - I want to see my Flipkart supercoin balance details
+    - I’d like my Flipkart supercoin balance displayed
+    - Can I see all my Flipkart supercoin balance
+    - Show my Flipkart supercoin balance
+    - Display Flipkart supercoin balance
+    - Show Flipkart supercoin balance
+    - Could you show me my Flipkart supercoin balance
+    - I would like to see my Flipkart supercoin balance
+    - Flipkart supercoin balance information
+    - Display my Flipkart supercoin balance
+    - Show all my Flipkart supercoin balance
+    - show my Flipkart supercoin balance
+    - Tell me Flipkart supercoin balance information
+    - what all Flipkart supercoin balance do I have?
+    - List out all my Flipkart supercoin balance
+    - I want to see list of all my Flipkart supercoin balance
+    - I would like to see information of all my Flipkart supercoin balance
+    
