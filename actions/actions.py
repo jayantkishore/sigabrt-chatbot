@@ -15,7 +15,7 @@ from rasa_sdk.executor import CollectingDispatcher
 import numpy as np
 from sentence_transformers import SentenceTransformer
 from rasa_sdk.events import SlotSet
-from datetime import date, timedelta , datetime
+from datetime import date, timedelta, time, datetime
 import urllib.request
 from pytz import timezone
 pretrained_model= 'bert-base-nli-mean-tokens' # Refer: https://github.com/UKPLab/sentence-transformers/blob/master/docs/pretrained-models/nli-models.md
@@ -127,9 +127,9 @@ class ActionJK(Action):
                 if today.strftime("%A") == 'Sunday':
                     today = today - timedelta(days=1)
                     dispatcher.utter_message(text="Today is Sunday at NYSE! Showing results for yesterday")
-                elif today.strftime("%A") == 'Monday':
+                elif today.strftime("%A") == 'Monday' and today.time() <= time(10, 00):
                     today = today - timedelta(days=2)
-                    dispatcher.utter_message(text="Today is Monday at NYSE! Showing results for day before yesterday")
+                    dispatcher.utter_message(text="NYSE is not open yet! Showing results for day before yesterday")
                 yesterday = today - timedelta(days=1)  
                 tod = today.strftime("%Y-%m-%d")
                 yest = yesterday.strftime("%Y-%m-%d")
