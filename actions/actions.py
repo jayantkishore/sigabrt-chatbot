@@ -141,17 +141,20 @@ class ActionJK(Action):
         aux = Aux()
         tick = aux.getinfo(tracker.latest_message["entities"])
         if tick != -1:
+            response_answer = ''
             today = datetime.now(timezone("US/Eastern"))
             if today.strftime("%A") == "Sunday":
                 today = today - timedelta(days=1)
-                dispatcher.utter_message(
-                    text="Today is Sunday at NYSE! Showing results for yesterday"
-                )
+                response_answer = "Today is Sunday at NYSE! Showing results for yesterday"
+                # dispatcher.utter_message(
+                #     text="Today is Sunday at NYSE! Showing results for yesterday"
+                # )
             elif today.strftime("%A") == "Monday":
                 today = today - timedelta(days=2)
-                dispatcher.utter_message(
-                    text="NYSE is not open yet! Showing results for day before yesterday"
-                )
+                response_answer = "NYSE is not open yet! Showing results for day before yesterday"
+                # dispatcher.utter_message(
+                #     text="NYSE is not open yet! Showing results for day before yesterday"
+                # )
             yesterday = today - timedelta(days=1)
             tod = today.strftime("%Y-%m-%d")
             yest = yesterday.strftime("%Y-%m-%d")
@@ -168,9 +171,8 @@ class ActionJK(Action):
                 rsp["o"], rsp["c"], rsp["l"], rsp["h"]
             )
             dispatcher.utter_message(
-                text="Yes sure! By the Grace of Jayant , I know about {} stocks!".format(
-                    tick
-                )
+                text= "SARA at your service! I know about {} stocks price!".format(
+                    tick) + "\n"+ response_answer
             )
             dispatcher.utter_message(text=ans)
             return [SlotSet("status", True), SlotSet("counter", 0)]

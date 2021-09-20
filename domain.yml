@@ -30,11 +30,7 @@ intents:
 
 responses:
   utter_greet:
-  - text: "Hey! I am SARA . Your personal finance assistant"
-
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
+  - text: "Hey! I am SARA. Your personal financial assistant."
 
   utter_did_that_help:
   - text: "Did that help you?"
@@ -43,13 +39,13 @@ responses:
   - text: "Great, carry on!"
 
   utter_goodbye:
-  - text: "Bye"
+  - text: "See you soon.Take Care, till we meet again."
 
   utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+  - text: "I am a bot, designed by SIGABRT and powered by RASA"
 
   utter_out_of_scope:
-  - text: "Sorry, I'm not sure how to respond to that. Type help for assistance ."
+  - text: "Sorry, I'm not sure how to respond to that. Type help for assistance."
 
   utter_noworries:
   - text: "You're welcome :)"
@@ -70,13 +66,16 @@ responses:
   - text: What else can I help you with?
   
   utter_help:
-  - text: "I can help you with your financial accounts. \nYou can ask me things like:\
-      \ \n- What's my account balance? \n- Pay off my credit card \n- What did I spend\
-      \ at Target last month? \n- I need to transfer money"
+  - text: "I can help you in buying Credit Cards and managing you finances.\n\
+          \ I can fetch realtime stock price and buzz in finance industry.\n\
+          \ I can fetch your Flipkart supercoin balance, Order details, tracking your shipment and collect feedback\
+           \ about your order.\n\
+          I can also help you regrading any Flipkart or Financial queries."
 
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
+
 actions:
 - actions.ActionGetFAQAnswer
 - action_get_answer
@@ -86,8 +85,10 @@ actions:
 - action_getcoins
 - action_getorders
 - action_getnews
+
 entities:
 - company_name
+
 slots:
   status:
     type: bool
