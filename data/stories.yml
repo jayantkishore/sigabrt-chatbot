@@ -76,4 +76,11 @@ stories:
   - action: utter_greet
   - intent: upi_faq
   - action: action_get_answer
-
+- story: JK path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: askjk
+  - action: action_jk
+  - action: action_jk2
+  - action: utter_goodbye

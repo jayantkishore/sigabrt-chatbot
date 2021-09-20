@@ -41,3 +41,9 @@ rules:
   steps:
   - intent: thankyou
   - action: utter_noworries
+- rule: Ask NSE
+  steps:
+  - intent: askjk
+  - action: action_jk
+  - action: action_jk2
+  - action: utter_goodbye
