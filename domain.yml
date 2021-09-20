@@ -24,6 +24,7 @@ intents:
   - show_credit_cards
   - show_supercoins
   - show_orders
+  - ask_news
 
 
 
@@ -84,6 +85,7 @@ actions:
 - action_getcc
 - action_getcoins
 - action_getorders
+- action_getnews
 entities:
 - company_name
 slots:

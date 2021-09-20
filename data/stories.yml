@@ -101,5 +101,11 @@ stories:
   - action: utter_greet
   - intent: show_orders
   - action: action_getorders
+- story: Get News
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_news
+  - action: action_getnews
  
   

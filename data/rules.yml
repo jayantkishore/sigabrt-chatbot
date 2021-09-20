@@ -58,3 +58,7 @@ rules:
   steps: 
   - intent: show_orders
   - action: action_getorders
+- rule: Get News
+  steps: 
+  - intent: ask_news
+  - action: action_getnews

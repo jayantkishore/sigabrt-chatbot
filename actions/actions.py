@@ -238,6 +238,7 @@ class GetCC(Action):
             dispatcher.utter_message(text = output)
             if i!=n-1:
                 dispatcher.utter_message(text = "And then..")
+        dispatcher.utter_message(text = "Beware of little expenses,a small leak will sink a great ship")
         return []
 
 class GetSupercoins(Action):
@@ -293,16 +294,34 @@ class GetOrders(Action):
 
         return []
 
+class GetNews(Action):
+    def name(self):
+        return "action_getnews"
+
+    def run(
+        self,
+        dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        url = "https://cnbc.p.rapidapi.com/news/v2/list-trending?tag=Finance&count=5"
+        req = urllib.request.Request(url)
+        api_key = "062e8a2c1amsh27ff6c2af219aa3p169f7bjsnfac09f2af24a"
+        req.add_header('x-rapidapi-key', api_key)
+        req.add_header('x-rapidapi-host', "cnbc.p.rapidapi.com")
+
+        u = urllib.request.urlopen(req)
+        content = u.read()
+        obj = json.loads(content)
+        news = obj['data']['mostPopularEntries']['assets']
+        n = len(news)
+        dispatcher.utter_message(text = "Here are the top headlines of the hour!")
+        for i in range(n):
+            output = news[i]['headline']
+            dispatcher.utter_message(text = output)
+            if i == n-1:
+                dispatcher.utter_message(text = "Remember , an investment in knowledge pays the best interest!")
+        return []
     
-"""
-{title} ordered on {orderDate} and its current status is {statusDetails}
-    {
-        "orderId": "EFHNCIDJ2143534TF",
-        "productId": "TDHDMH5GRSPZ3DNM",
-        "title": "Newhide Designer",
-        "orderDate": "25/09/2021",
-        "statusDetails": "In Transit at gurgaon"
-    }
-"""
 encode_standard_question(pretrained_model)
  

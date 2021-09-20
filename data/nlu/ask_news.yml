@@ -1,0 +1,36 @@
+version: "2.0"
+
+nlu:
+- intent: ask_news
+  examples: |
+    - fetch me some financial news
+    - tell me some financial news
+    - have you got any financial news
+    - latest financial news 
+    - latest stock market news 
+    - please tell me latest news
+    - will you tell me latest financial news
+    - have you got any breaking news
+    - please tell me news headlines of the hour
+    - Tell me latest happenings of the world
+    - show me some financial news
+    - get me some financial news
+    - give me some trending news
+    - i would like to listen to financial news
+    - i would love to have some financial news
+    - trending topics in financial news
+    - list me the headlines of the hour
+    - what are the headlines of the hour
+    - please tell me some breaking news
+    - do you have any news of the hour
+    - please tell me the morning financial news
+    - what are the breaking news of this hour
+    - do you have any stock market news
+    - i would love to hear some news of finance domain
+    - list some news headlines
+    - give me quick financial news
+    - news headlines at a glance
+    - what is trending now
+    
+
+
