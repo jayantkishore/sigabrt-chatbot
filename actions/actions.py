@@ -6,6 +6,7 @@
 
 
 # This is a simple example for a custom action which utters "Hello World!"
+import os
 import json
 from typing import Any, Text, Dict, List
 import torch
@@ -14,8 +15,9 @@ from rasa_sdk.executor import CollectingDispatcher
 import numpy as np
 from sentence_transformers import SentenceTransformer
 from rasa_sdk.events import SlotSet
-from datetime import date, timedelta
+from datetime import date, timedelta , datetime
 import urllib.request
+from pytz import timezone
 pretrained_model= 'bert-base-nli-mean-tokens' # Refer: https://github.com/UKPLab/sentence-transformers/blob/master/docs/pretrained-models/nli-models.md
 score_threshold = 0.80  # This confidence scores can be adjusted based on your need!!
 
@@ -121,10 +123,13 @@ class ActionJK(Action):
             aux = Aux()
             tick = aux.getinfo(tracker.latest_message['entities'])
             if tick !=-1: 
-                today = date.today() 
+                today = datetime.now(timezone('US/Eastern')) 
                 if today.strftime("%A") == 'Sunday':
                     today = today - timedelta(days=1)
-                    dispatcher.utter_message(text="Today is Sunday! Showing results for yesterday")
+                    dispatcher.utter_message(text="Today is Sunday at NYSE! Showing results for yesterday")
+                elif today.strftime("%A") == 'Monday':
+                    today = today - timedelta(days=2)
+                    dispatcher.utter_message(text="Today is Monday at NYSE! Showing results for day before yesterday")
                 yesterday = today - timedelta(days=1)  
                 tod = today.strftime("%Y-%m-%d")
                 yest = yesterday.strftime("%Y-%m-%d")
