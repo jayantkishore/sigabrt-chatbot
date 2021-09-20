@@ -218,6 +218,8 @@ nlu:
     - help please
     - help pls
     - help?
+    - can you assit me
+    - please help me
 
 - intent: out_of_scope
   examples: |
@@ -266,6 +268,7 @@ nlu:
     - balance
     - full
     - full balance
+
 - intent: askjk
   examples: |
     - what is stock index today of [apple](company_name)?
