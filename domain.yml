@@ -20,6 +20,7 @@ intents:
   - loan_faq
   - mobile_wallet_faq
   - upi_faq
+  - askjk
 
 
 
@@ -75,3 +76,13 @@ session_config:
 actions:
 - actions.ActionGetFAQAnswer
 - action_get_answer
+- action_jk
+- action_jk2
+entities:
+- company_name
+slots:
+  status:
+    type: bool
+  counter:
+    type: float
+

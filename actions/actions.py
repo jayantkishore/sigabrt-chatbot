@@ -13,9 +13,9 @@ from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 import numpy as np
 from sentence_transformers import SentenceTransformer
-import os
-
-
+from rasa_sdk.events import SlotSet
+from datetime import date, timedelta
+import urllib.request
 pretrained_model= 'bert-base-nli-mean-tokens' # Refer: https://github.com/UKPLab/sentence-transformers/blob/master/docs/pretrained-models/nli-models.md
 score_threshold = 0.80  # This confidence scores can be adjusted based on your need!!
 
@@ -94,7 +94,82 @@ def encode_standard_question(pretrained_model='bert-base-nli-mean-tokens'):
         sqe_len = np.sqrt(np.sum(sqe * sqe, axis=1))
         my_path_q_len = "./data/bert_encoding/stan_ques_len_" + name 
         np.save(my_path_q_len, sqe_len)
+class Aux:
+    def __init__(self):
+        self.name = ''
+    def getinfo(self, ent):
+        if len(ent)==0:
+            return -1
+        url = "https://ticker-2e1ica8b9.now.sh/keyword/"
+        comp = ent[0]['value'].lower()
+        url+=comp 
+        u = urllib.request.urlopen(url)
+        content = u.read()
+        obj = json.loads(content)
+        if obj==[]:
+            return -1 
+        return obj[0]['symbol']
+
+class ActionJK(Action):
     
+    def name(self):
+        return "action_jk"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker : Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+            aux = Aux()
+            tick = aux.getinfo(tracker.latest_message['entities'])
+            if tick !=-1: 
+                today = date.today() 
+                if today.strftime("%A") == 'Sunday':
+                    today = today - timedelta(days=1)
+                    dispatcher.utter_message(text="Today is Sunday! Showing results for yesterday")
+                yesterday = today - timedelta(days=1)  
+                tod = today.strftime("%Y-%m-%d")
+                yest = yesterday.strftime("%Y-%m-%d")
+                print(yest)
+                print(tod)
+                prefix = "https://api.polygon.io/v2/aggs/ticker/{}/range/1/day/{}/{}?apiKey=Gsgns_Tv2e5X9WmjIEzqzK1dvgX1FTpU".format(tick, yest, tod)
+                url = prefix
+                u = urllib.request.urlopen(url)
+                content = u.read()
+                obj = json.loads(content)
+                print(obj)
+                rsp =  obj['results'][0]
+                ans = ''
+                ans+= 'Open : {}  ||  Close : {}  ||  Low : {}  || High : {} '.format(rsp['o'], rsp['c'], rsp['l'], rsp['h'])
+                dispatcher.utter_message(text="Yes sure! By the Grace of Jayant , I know about {} stocks!".format(tick))
+                dispatcher.utter_message(text=ans)
+                return [SlotSet("status", True), SlotSet("counter", 0)]
+            else:
+                try:
+                    cnt = tracker.get_slot("counter")
+                    cnt+=1 
+                    return [SlotSet("status", False), SlotSet("counter", cnt)]
+                except:
+                    return [SlotSet("status", False), SlotSet("counter", 1)]
+            
+
+class ActionJK2(Action):
+    
+    def name(self):
+        return "action_jk2"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker : Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+            if tracker.get_slot("status") == False:
+                if tracker.get_slot("counter") <= 2:
+                    dispatcher.utter_message(text="Be specific!")
+                else:
+                    dispatcher.utter_message(text="Sorry I can not fetch the details for this company!")
+                    dispatcher.utter_message(text="Could you be more specific please?")
+                    dispatcher.utter_message(text="Or maybe, you could try searching for another stock?")
+            else:
+                dispatcher.utter_message(text="Are you planning to buy this stock?")
+            return []
+            
 encode_standard_question(pretrained_model)
 # if __name__ == '__main__':
 #     encode_standard_question(True)
