@@ -1,0 +1,58 @@
+version: "2.0"
+
+stories:
+- story: inter 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_help
+  - intent: help
+  - action: utter_help
+  - intent: debit_card_faq
+  - action: action_get_answer
+  - intent: ask_news
+  - action: action_getnews
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: inter 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_help
+  - intent: debit_card_faq
+  - action: action_get_answer
+  - intent: ask_news
+  - action: action_getnews
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: Stock Price then news
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_help
+  - intent: askjk
+  - action: action_jk
+  - action: action_jk2
+  - intent: ask_news
+  - action: action_getnews
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: Stock Price then news
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_help
+  - intent: help
+  - action: utter_help
+  - intent: help
+  - action: utter_help
+  - intent: askjk
+  - action: action_jk
+  - action: action_jk2
+  - intent: ask_news
+  - action: action_getnews
+  - intent: goodbye
+  - action: utter_goodbye
