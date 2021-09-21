@@ -66,11 +66,19 @@ responses:
   - text: What else can I help you with?
   
   utter_help:
+<<<<<<< HEAD
   - text: "I can help you in buying Credit Cards and managing you finances.\n\
           I can fetch realtime stock price and buzz in finance industry.\n\
           I can fetch your Flipkart supercoin balance, Order details, tracking your shipment and collect feedback\
           about your order.\n\
           I can also help you regrading any Flipkart or Financial queries."
+=======
+  - text: "I can help you in buying Credit Cards and managing your finances.\n\
+          \ I can fetch realtime stock price and buzz in finance industry.\n\
+          \ I can fetch your Flipkart Supercoin balance, Order details, track your shipment and collect feedback\
+           \ about your order.\n\
+          I can come in handy for any Flipkart or Financial queries."
+>>>>>>> a39c767c873a00e88a2da06dfcaf48a07305e4e6
 
 session_config:
   session_expiration_time: 60
