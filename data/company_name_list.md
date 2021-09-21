@@ -1,0 +1,257 @@
+## lookup:company_name
+- Apple  
+- Microsoft  
+- Alphabet
+- Googl
+- Google 
+- Amazon 
+- Facebook 
+- Tesla 
+- Cintas
+- Microchip Technology 
+- Taiwan Semiconductor Manufacturing Company
+- Taiwan Semiconductor Manufacturing
+- Taiwan Semiconductor
+- NVIDIA
+- Visa
+- JP Morgan Chase & Co.
+- JP Morgan Chase and Co.
+- JP Morgan Chase
+- JP Morgan 
+- JPMC
+- IDEXX
+- IDEXX Lab
+- IDEXX Laboratories  
+- Alibaba
+- Johnson & Johnson
+- Johnson and Johnson
+- Walmart  
+- UnitedHealth Group
+- UnitedHealth
+- Analog Devices
+- Analog Device
+- ASML Holding N.V.
+- ASML Holding NV
+- ASML Holding
+- ASML
+- Home Depot   
+- Procter & Gamble
+- Procter and Gamble  
+- Bank of America  
+- KLA  
+- Mastercard
+- Walt Disney
+- Disney 
+- PayPal  
+- Adobe  
+- Comcast 
+- Netflix  
+- Salesforce 
+- Toyota Motor
+- Toyota  
+- Nike  
+- Pfizer
+- Cisco  
+- Cisco Systems
+- Oracle  
+- Coca-Cola
+- Coca Cola  
+- Thermo Fisher Scientific
+- Thermo Fisher
+- Exxon Mobil
+- Exxon  
+- Novo Nordisk A/S
+- Novo Nordisk AS
+- Novo Nordisk 
+- Danaher  
+- Abbott Laboratories
+- Abbott Laboratory
+- Abbott Labs
+- Abbott Lab
+- Abbott
+- Verizon Communications
+- Verizon 
+- NetEase 
+- Intel  
+- Eli Lilly and Company
+- Eli Lilly 
+- PepsiCo
+- Pepsi  
+- Accenture
+- Broadcom  
+- Costco Wholesale
+- Costco 
+- AT&T
+- AT and T 
+- Wells Fargo and Company
+- Wells Fargo
+- AbbVie  
+- Sea
+- Chevron  
+- Novartis AG
+- Novartis 
+- Morgan Stanley 
+- Shopify
+- Merck & Company 
+- Merck  
+- Texas Instruments
+- Texas 
+- McDonald's
+- McDonalds
+- McDonald 
+- Medtronic
+- Moderna  
+- AstraZeneca PLC
+- AstraZeneca 
+- SAP
+- United Parcel Service
+- United Parcel
+- United Parcels  
+- NextEra Energy
+- NextEra  
+- T-Mobile US
+- T Mobile  
+- Linde
+- Philip Morris
+- Charter Communications
+- Charter Communication
+- Intuit  
+- Honeywell  
+- QUALCOMM
+- Lowe's
+- Lowes
+- Lowe  
+- Royal Bank Of Canada 
+- Citigroup  
+- BHP Group
+- BHP  
+- Illumina  
+- Unilever PLC
+- Unilever
+- Sony   
+- HDFC Bank
+- HDFC
+- Bristol Myers Squibb
+- Bristol Myers 
+- Starbucks  
+- American Tower   
+- BlackRock  
+- Charles Schwab   
+- Goldman Sachs 
+- GS 
+- BHP
+- Union Pacific  
+- American Express
+- Amex
+- Am Ex
+- ServiceNow  
+- Applied Materials  
+- Pinduoduo
+- Advanced Micro Devices
+- Advanced Micro Device  
+- Raytheon Technologies
+- Raytheon 
+- Boeing 
+- Amgen  
+- Intuitive Surgical  
+- Sanofi ADR
+- AAPL
+- MSFT
+- GOOG
+- GOOGL
+- AMZN
+- FB
+- TSLA
+- CTAS
+- MCHP
+- TSM
+- NVDA
+- V
+- JPM
+- IDXX
+- BABA
+- JNJ
+- WMT
+- UNH
+- ADI
+- ASML
+- HD
+- PG
+- BAC
+- KLAC
+- MA
+- DIS
+- PYPL
+- ADBE
+- CMCSA
+- NFLX
+- CRM
+- TM
+- NKE
+- PFE
+- CSCO
+- ORCL
+- KO
+- TMO
+- XOM
+- NVO
+- DHR
+- ABT
+- VZ
+- NTES
+- INTC
+- LLY
+- PEP
+- ACN
+- AVGO
+- COST
+- T
+- WFC
+- ABBV
+- SE
+- CVX
+- NVS
+- MS
+- SHOP
+- MRK
+- TXN
+- MCD
+- MDT
+- MRNA
+- AZN
+- SAP
+- UPS
+- NEE
+- TMUS
+- LIN
+- PM
+- CHTR
+- INTU
+- HON
+- QCOM
+- LOW
+- RY
+- C
+- BHP
+- ILMN
+- UL
+- SONY
+- HDB
+- BMY
+- SBUX
+- AMT
+- BLK
+- SCHW
+- GS
+- BBL
+- UNP
+- AXP
+- NOW
+- AMAT
+- PDD
+- AMD
+- RTX
+- BA
+- AMGN
+- ISRG
+- SNY

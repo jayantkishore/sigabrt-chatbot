@@ -145,13 +145,13 @@ class ActionJK(Action):
             today = datetime.now(timezone("US/Eastern"))
             if today.strftime("%A") == "Sunday":
                 today = today - timedelta(days=1)
-                response_answer = "Today is Sunday at NYSE! Showing results for yesterday"
+                response_answer = "\nToday is Sunday at NYSE! Showing results for yesterday"
                 # dispatcher.utter_message(
                 #     text="Today is Sunday at NYSE! Showing results for yesterday"
                 # )
             elif today.strftime("%A") == "Monday":
                 today = today - timedelta(days=2)
-                response_answer = "NYSE is not open yet! Showing results for day before yesterday"
+                response_answer = "\nNYSE is not open yet! Showing results for day before yesterday"
                 # dispatcher.utter_message(
                 #     text="NYSE is not open yet! Showing results for day before yesterday"
                 # )
@@ -172,7 +172,7 @@ class ActionJK(Action):
             )
             dispatcher.utter_message(
                 text= "SARA at your service! I know about {} stocks price!".format(
-                    tick) + "\n"+ response_answer
+                    tick) + response_answer
             )
             dispatcher.utter_message(text=ans)
             return [SlotSet("status", True), SlotSet("counter", 0)]
