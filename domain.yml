@@ -26,7 +26,10 @@ intents:
   - show_orders
   - ask_news
   - give_feedback
-  - give_answer
+  - give_answer:
+      use_entities:
+        - rating
+        
 
 
 
@@ -73,11 +76,11 @@ responses:
           \ I can fetch your Flipkart Supercoin balance, Order details, track your shipment and collect feedback\
            \ about your order.\n\
           I can come in handy for any Flipkart or Financial queries."
-  utter_feedback1:
+  utter_ask_rating:
   - text: "On the scale of 1-5 how would you rate our overall product?"
-  utter_feedback2:
+  utter_ask_recommendation:
   - text: "On the scale of 1-5 how likely are you to recommend us to a collegue or friend?"
-  utter_feedback3:
+  utter_ask_comment:
   - text: "Any further suggestions that you would like to provide?"
 
 session_config:
@@ -93,10 +96,8 @@ actions:
 - action_getcoins
 - action_getorders
 - action_getnews
-- action_getrating
-- action_getrecommendation
 - action_pushfeedback
-- action_getcomment
+
 entities:
 - company_name
 - rating
@@ -106,10 +107,21 @@ slots:
     type: bool
   counter:
     type: float
-  overall_rating:
-    type: float 
+  rating:
+    type: text 
   recommendation:
-    type: float 
+    type: text 
   comment:
     type: text
+
+forms:
+  user_feedback_form:
+    rating:
+      - type: from_entity
+        entity: rating
+    recommendation:
+      - type: from_entity
+        entity: rating 
+    comment:
+      - type: from_text
 

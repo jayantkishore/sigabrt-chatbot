@@ -14,7 +14,7 @@ from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 import numpy as np
 from sentence_transformers import SentenceTransformer
-from rasa_sdk.events import SlotSet
+from rasa_sdk.events import SlotSet, EventType
 from datetime import date, timedelta, time, datetime
 import urllib.request
 from pytz import timezone
@@ -329,7 +329,7 @@ class GetNews(Action):
                 dispatcher.utter_message(text = "Remember , an investment in knowledge pays the best interest!")
         return []
 
-class ActionGetRating(Action):
+"""class ActionGetRating(Action):
     def name(self):
         return "action_getrating"
     def run(
@@ -363,7 +363,25 @@ class ActionGetComment(Action):
         domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         
         ans = str(tracker.latest_message['text'])
-        return [SlotSet("comment", ans)]
+        return [SlotSet("comment", ans)]"""
+
+
+class ValidateFeedbackForm(Action):
+    def name(self) -> Text:
+        return "user_feedback_form"
+
+    def run(
+        self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict
+    ) -> List[EventType]:
+        required_slots = ["rating", "recommendation", "comment"]
+
+        for slot_name in required_slots:
+            if tracker.slots.get(slot_name) is None:
+                # The slot is not filled yet. Request the user to fill this slot next.
+                return [SlotSet("requested_slot", slot_name)]
+
+        # All slots are filled.
+        return [SlotSet("requested_slot", None)]
 
 class ActionPushFeedback(Action):
     def name(self):
@@ -380,7 +398,7 @@ class ActionPushFeedback(Action):
                  "https://www.googleapis.com/auth/drive"]
 
         dt = {
-                "overall_rating" : [tracker.get_slot("overall_rating")] ,
+                "overall_rating" : [tracker.get_slot("rating")] ,
                 "recommendation" : [tracker.get_slot("recommendation")],
                  "comment"        : [tracker.get_slot("comment")]
               }
