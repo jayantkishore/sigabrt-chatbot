@@ -68,3 +68,34 @@ rules:
   steps: 
   - intent: ask_news
   - action: action_getnews
+- rule: Get Feedback1
+  steps:
+  - intent: give_feedback
+  - action: utter_feedback1
+- rule: Get Feedback2
+  steps:
+  - intent: give_answer
+  - action: action_getrating
+  - action: utter_feedback2
+- rule: Get Feedback3
+  steps:
+  - action: utter_feedback2
+  - intent: give_answer
+  - action: action_getrecommendation
+  - action: utter_feedback3 
+  - action: action_listen
+  - action: action_getcomment
+  - action: action_pushfeedback
+- rule: yeh bhi dekh lete hain
+  steps:
+  - action: utter_feedback3 
+  - action: action_listen
+  - action: action_getcomment
+  - action: action_pushfeedback
+- rule: Get FAQ ans
+  steps:
+  - intent: credit_card_faq
+  - action: action_get_answer
+
+
+  

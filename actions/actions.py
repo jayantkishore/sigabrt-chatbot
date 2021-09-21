@@ -18,6 +18,10 @@ from rasa_sdk.events import SlotSet
 from datetime import date, timedelta, time, datetime
 import urllib.request
 from pytz import timezone
+import pandas as pd
+import gspread
+from oauth2client.service_account import ServiceAccountCredentials
+import gspread_dataframe as gd
 
 pretrained_model = "bert-base-nli-mean-tokens"  # Refer: https://github.com/UKPLab/sentence-transformers/blob/master/docs/pretrained-models/nli-models.md
 score_threshold = 0.80  # This confidence scores can be adjusted based on your need!!
@@ -324,6 +328,72 @@ class GetNews(Action):
             if i == n-1:
                 dispatcher.utter_message(text = "Remember , an investment in knowledge pays the best interest!")
         return []
-    
+
+class ActionGetRating(Action):
+    def name(self):
+        return "action_getrating"
+    def run(
+        self,
+        dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        
+        ans = int(tracker.latest_message['entities'][0]["value"])
+        return [SlotSet("overall_rating", ans)]
+
+class ActionGetRecom(Action):
+    def name(self):
+        return "action_getrecommendation"
+    def run(
+        self,
+        dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        
+        ans = int(tracker.latest_message['entities'][0]["value"])
+        return [SlotSet("recommendation", ans)]
+
+class ActionGetComment(Action):
+    def name(self):
+        return "action_getcomment"
+    def run(
+        self,
+        dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        
+        ans = str(tracker.latest_message['text'])
+        return [SlotSet("comment", ans)]
+
+class ActionPushFeedback(Action):
+    def name(self):
+        return "action_pushfeedback"
+    def run(
+        self,
+        dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        scope = ["https://spreadsheets.google.com/feeds",
+                 'https://www.googleapis.com/auth/spreadsheets',
+                 "https://www.googleapis.com/auth/drive.file",
+                 "https://www.googleapis.com/auth/drive"]
+
+        dt = {
+                "overall_rating" : [tracker.get_slot("overall_rating")] ,
+                "recommendation" : [tracker.get_slot("recommendation")],
+                 "comment"        : [tracker.get_slot("comment")]
+              }
+        df = pd.DataFrame(data = dt)
+
+        credentials = ServiceAccountCredentials.from_json_keyfile_name('./creds.json', scope)
+        gc = gspread.authorize(credentials)
+        ws = gc.open("SIGABRT_FEEDBACK").worksheet("Master")
+        existing = pd.DataFrame(ws.get_all_records())
+        updated = existing.append(df)
+        gd.set_with_dataframe(ws, updated)
+        dispatcher.utter_message("Bye for now. Go off screen, aankhein kharab ho jaayegi!")
+        return []
+        
 encode_standard_question(pretrained_model)
  

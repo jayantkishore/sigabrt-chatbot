@@ -1,0 +1,89 @@
+version: "2.0"
+
+nlu:
+- intent: give_feedback
+  examples: |
+    - i want to give feedback
+    - take my feedback
+    - record my feedback
+    - please have my feedback
+    - please record my feedback
+    - will you take my feedback
+    - i want to give my feedback about your feature
+    - i want to provide my feedback
+- intent: give_answer
+  examples: |
+    - ok i would rate it [1](rating)
+    - [1](rating)
+    - i think i will give [1]
+    - i would like to give [1](rating) star
+    - [1](rating) star
+    - [1](rating) is my rating
+    - [1](rating) is my score
+    - ok i would rate it [one](rating)
+    - [one](rating)
+    - i think i will give [one]
+    - i would like to give [one](rating) star
+    - [one](rating) star
+    - [one](rating) is my rating
+    - [one](rating) is my score
+    - ok i would rate it [2](rating)
+    - [2](rating)
+    - i think i will give [2]
+    - i would like to give [2](rating) stars
+    - [2](rating) stars
+    - ok i would rate it [two](rating)
+    - [two](rating)
+    - i think i will give [two]
+    - i would like to give [two](rating) stars
+    - [two](rating) stars
+    - [two](rating) is my rating
+    - [two](rating) is my score
+    - [2](rating) is my rating
+    - [2](rating) is my score
+    - ok i would rate it [3](rating)
+    - [3](rating)
+    - i think i will give [3]
+    - i would like to give [3](rating) stars
+    - [3](rating) stars
+    - [3](rating) is my rating
+    - [3](rating) is my score
+    - ok i would rate it [three](rating)
+    - [three](rating)
+    - i think i will give [three]
+    - i would like to give [three](rating) stars
+    - [three](rating) stars
+    - [three](rating) is my rating
+    - [three](rating) is my score
+    - ok i would rate it [4](rating)
+    - [4](rating)
+    - i think i will give [4]
+    - i would like to give [4](rating) stars
+    - [4](rating) stars
+    - [4](rating) is my rating
+    - [4](rating) is my score
+    - ok i would rate it [four](rating)
+    - [four](rating)
+    - i think i will give [four]
+    - i would like to give [four](rating) stars
+    - [four](rating) stars
+    - [four](rating) is my rating
+    - [four](rating) is my score
+    - ok i would rate it [5](rating)
+    - [5](rating)
+    - i think i will give [5]
+    - i would like to give [5](rating) stars
+    - [5](rating) stars
+    - [5](rating) is my rating
+    - [5](rating) is my score
+    - ok i would rate it [five](rating)
+    - [five](rating)
+    - i think i will give [five]
+    - i would like to give [five](rating) stars
+    - [five](rating) stars
+    - [five](rating) is my rating
+    - [five](rating) is my score
+
+    
+
+    
