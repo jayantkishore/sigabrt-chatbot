@@ -1,0 +1,13 @@
+## intent:flipkart_refurbished
+ - What is a refurbished product and how do I identify it on Flipkart?
+ - What types of products will be available under Flipkart 'Refurbished Zone'?
+ - How are prices of refurbished products decided?
+ - How can I understand the grade of a refurbished product?
+ - How will I claim warranty for refurbished products?
+ - Can refurbished products be searched by their product name?
+ - Can I filter my search for refurbished products in terms of product grades?
+ - Why is the refurbished category not visible for me on my Flipkart app?
+ - What are the charges applicable for warranty claim in case of a refurbished product?
+ - How do I claim warranty services for refurbished products?
+ - What date does the warranty service apply for my refurbished product purchased on Flipkart?
+ - How are refurbished products categorised on Flipkart?

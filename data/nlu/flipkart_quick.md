@@ -1,0 +1,18 @@
+## intent:flipkart_quick
+ - What is Flipkart Quick?
+ - How can I shop on Flipkart Quick?
+ - How can I track my Flipkart Quick order?
+ - Can I choose to not accept a few items from my Flipkart Quick order at the time of delivery?
+ - Can I reject the Flipkart Quick order at the time of delivery?
+ - Can I add more items after I have placed a Flipkart Quick order?
+ - Is the delivery for Flipkart Quick free or chargeable?
+ - In case I do not need a few items from the Flipkart Quick order, how do I cancel it?
+ - What is express delivery?
+ - Is there a gift wrap option available for Flipkart Quick orders?
+ - Is there a minimum purchase amount for Flipkart Quick orders?
+ - What are the different payment options available for Flipkart Quick?
+ - Can I cancel a part of my Flipkart Quick order after I have placed it?
+ - Can I choose a preferred time slot for the delivery of Flipkart Quick orders?
+ - Can I modify my chosen time slot for the delivery of Flipkart Quick orders?
+ - Can I change the mode of payment, once I have placed a Flipkart Quick order?
+ - Can I change the delivery address after I have placed a Flipkart Quick order?

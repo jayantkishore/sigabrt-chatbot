@@ -1,0 +1,16 @@
+## intent:flipkart_login_my_account
+ - Can I reactivate my inactive Flipkart account?
+ - Do I need to verify my mobile number or email address every time I log in?
+ - What should I do if I don't get the OTP or verification code?
+ - What is an OTP or verification code?
+ - Why do I need to verify my mobile number or email address to log into my Flipkart account?
+ - How can I add a new delivery address to my Flipkart account?
+ - How can I change the password for my Flipkart account?
+ - How can I use a new email address to log in to my Flipkart account?
+ - How can I deactivate my account?
+ - How can I change the email ID linked with my Flipkart account?
+ - Can I use an international number to sign up?
+ - How can I use my mobile number to login on the Flipkart mobile app?
+ - Can I use a corporate email ID to sign up?
+ - I'm getting an error message that says, 'You've exceeded the maximum number of attempts to enter correct verification code'. How can I log in to my Flipkart account now?
+ - I always login using my phone number, but I recently lost my phone. I have also forgotten the password to my Flipkart account. How do I access it?

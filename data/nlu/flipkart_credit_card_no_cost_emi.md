@@ -1,0 +1,19 @@
+## intent:flipkart_credit_card_no_cost_emi
+ - What are the benefits of the 'Credit Card No Cost EMI' payment mode?
+ - Is 'Credit Card No Cost EMI' payment mode available on Flipkart's website and mobile app?
+ - I did not get an OTP while paying through the 'Credit Card No Cost EMI' payment mode. What should I do?
+ - How can I foreclose my EMI for an item I bought using the 'Credit Card No Cost EMI'?
+ - Can I cancel an order placed using the 'Credit Card No Cost EMI' payment option?
+ - Can I foreclose my EMIs for products purchased using the 'Credit Card No Cost EMI' payment mode?
+ - Can I get the refund for the item through any other mode if I have paid using the 'Credit Card No Cost EMI' payment option?
+ - Do I need to make a down payment to buy an item using the 'Credit Card No Cost EMI' payment mode?
+ - How can I pay for my order using the 'Credit Card No Cost EMI' payment mode?
+ - How is 'Credit Card No Cost EMI' different from 'Credit Card EMI' payment mode?
+ - I chose the wrong EMI plan while making the payment using 'Credit Card No Cost EMI' option. Can I change it now?
+ - My payment using the 'Credit Card No Cost EMI' payment mode did not go through, but the amount has been blocked on my card. What should I do?
+ - What are the EMI plans available if I pay using the 'Credit Card No Cost EMI' payment mode?
+ - What is 'Credit Card No Cost EMI'?
+ - What is No Cost EMI and how can I avail it?
+ - What is the credit limit on the 'Credit Card No Cost EMI' card for shopping on Flipkart?
+ - Is 'Credit Card No Cost EMI' payment mode available on Flipkart's Windows and iOS apps?
+ - Will I get a complete refund if the item is cancelled or returned if I have paid for the order using the 'Credit Card No Cost EMI' payment option?
