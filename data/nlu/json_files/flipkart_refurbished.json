@@ -1,0 +1,62 @@
+[
+    {
+        "q": "What is a refurbished product and how do I identify it on Flipkart?",
+        "a": "A refurbished product is a pre-owned product that has been tested for optimal performance and functionality while being covered by a specific warranty provided by the seller. These products are classified under various grades as per their condition and you can know more details by visiting the 'Refurbished Zone' on Flipkart. You can distinguish refurbished products from new products by looking for a 'Refurbished' tag that is present for all refurbished products near the product name.",
+        "index": "flipkart_refurbished_1"
+    },
+    {
+        "q": "What types of products will be available under Flipkart 'Refurbished Zone'?",
+        "a": "Sellers are selling the below refurbished products on Flipkart:\nLaptops\nTablets\nWatches\nSmartwatches\nStreaming devices\nPowerbanks\nHeadphones\nSpeakers\nHair straightners\nRouters\nHair dryers\nKeyboard & mouse",
+        "index": "flipkart_refurbished_2"
+    },
+    {
+        "q": "How are prices of refurbished products decided?",
+        "a": "Sellers decide the price of the refurbished product as per the grade which is arrived at based on the time period of product's usage and the appearance as a result of wear and tear.",
+        "index": "flipkart_refurbished_3"
+    },
+    {
+        "q": "How can I understand the grade of a refurbished product?",
+        "a": "Each refurbished product is assigned a grade and you can find the details about the grade under the 'Grade' tag. For more information on various grades, please visit the 'Refurbished Zone' on Flipkart.",
+        "index": "flipkart_refurbished_4"
+    },
+    {
+        "q": "How will I claim warranty for refurbished products?",
+        "a": "All refurbished products on Flipkart are covered under a warranty and details are mentioned on the product page. To claim services covered under the seller's warranty, you can get in touch with the warranty service provider Aforeserve Technologies Private Limited using the contact details mentioned on the product page. The contact details will also be mentioned on the invoice that you will get when you buy the product.",
+        "index": "flipkart_refurbished_5"
+    },
+    {
+        "q": "Can refurbished products be searched by their product name?",
+        "a": "No, refurbished products cannot be searched by their product names. However you can view the list of refurbished products by typing 'refurbished' in the search bar or by visiting the 'Refurbished Zone'.",
+        "index": "flipkart_refurbished_6"
+    },
+    {
+        "q": "Can I filter my search for refurbished products in terms of product grades?",
+        "a": "Yes, you can filter the refurbished products based on their grades in the 'Refurbished Zone' on Flipkart.",
+        "index": "flipkart_refurbished_7"
+    },
+    {
+        "q": "Why is the refurbished category not visible for me on my Flipkart app?",
+        "a": "Looks like you have an old version of the Flipkart app installed on your phone. Please update your app to the new version to access and shop for refurbished products on Flipkart.",
+        "index": "flipkart_refurbished_8"
+    },
+    {
+        "q": "What are the charges applicable for warranty claim in case of a refurbished product?",
+        "a": "Services covered under the warranty will be provided without any charge. You can find more details about the services in the product page or the warranty card provided.",
+        "index": "flipkart_refurbished_9"
+    },
+    {
+        "q": "How do I claim warranty services for refurbished products?",
+        "a": "You can get in touch with the warranty service provider to claim services covered under the seller's warranty. Please check the warranty card you would have received with the product or the product page for contact details of the warranty service provider.",
+        "index": "flipkart_refurbished_10"
+    },
+    {
+        "q": "What date does the warranty service apply for my refurbished product purchased on Flipkart?",
+        "a": "The warranty for your refurbished product starts from the date mentioned on the seller's invoice.",
+        "index": "flipkart_refurbished_11"
+    },
+    {
+        "q": "How are refurbished products categorised on Flipkart?",
+        "a": "The refurbished products are classified as follows:\nUnboxed - Like New - Zero scratches\nRefurbished Superb - Negligible scratches\nRefurbished Good - Minimal scratches\nRefurbished Okay - Visible scratches\nFor more details about each type, please visit this link: https://www.flipkart.com/refurbished-grades-store",
+        "index": "flipkart_refurbished_12"
+    }
+]

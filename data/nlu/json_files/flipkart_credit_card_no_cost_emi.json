@@ -1,0 +1,92 @@
+[
+    {
+        "q": "What are the benefits of the 'Credit Card No Cost EMI' payment mode?",
+        "a": "Shopping with 'Credit Card No Cost EMI' has benefits like no cost of interest & zero down payment as you get an instant cash-back from the seller for the amount you are charged as interest by the bank.",
+        "index": "flipkart_credit_card_no_cost_emi_1"
+    },
+    {
+        "q": "Is 'Credit Card No Cost EMI' payment mode available on Flipkart's website and mobile app?",
+        "a": "Yes, 'Credit Card No Cost EMI' payment mode is available on our website, mobile app, and Flipkart Lite, our mobile site",
+        "index": "flipkart_credit_card_no_cost_emi_2"
+    },
+    {
+        "q": "I did not get an OTP while paying through the 'Credit Card No Cost EMI' payment mode. What should I do?",
+        "a": "Please contact your card issuing bank for OTP support.",
+        "index": "flipkart_credit_card_no_cost_emi_3"
+    },
+    {
+        "q": "How can I foreclose my EMI for an item I bought using the 'Credit Card No Cost EMI'?",
+        "a": "You will need to contact the card issuing bank to foreclose your EMI.",
+        "index": "flipkart_credit_card_no_cost_emi_4"
+    },
+    {
+        "q": "Can I cancel an order placed using the 'Credit Card No Cost EMI' payment option?",
+        "a": "Yes, you can cancel the order irrespective of the payment mode used for it. However, orders for certain items cannot be cancelled after 24 hours of order placement.\n \n Please check the seller's cancellation policy on the product page for details.",
+        "index": "flipkart_credit_card_no_cost_emi_5"
+    },
+    {
+        "q": "Can I foreclose my EMIs for products purchased using the 'Credit Card No Cost EMI' payment mode?",
+        "a": "Yes, you can foreclose your EMIs if you've paid for your order using 'Credit Card No Cost EMI' payment mode.\n \n Please contact the card-issuing bank for foreclosure of your EMI.",
+        "index": "flipkart_credit_card_no_cost_emi_6"
+    },
+    {
+        "q": "Can I get the refund for the item through any other mode if I have paid using the 'Credit Card No Cost EMI' payment option?",
+        "a": "No, the refund for an order placed using the 'Credit Card No Cost EMI' payment mode can only be done to the credit card from which the payment was made.",
+        "index": "flipkart_credit_card_no_cost_emi_7"
+    },
+    {
+        "q": "Do I need to make a down payment to buy an item using the 'Credit Card No Cost EMI' payment mode?",
+        "a": "No, you don't need to make a down payment to buy an item using the 'Credit Card No Cost EMI' payment mode.",
+        "index": "flipkart_credit_card_no_cost_emi_8"
+    },
+    {
+        "q": "How can I pay for my order using the 'Credit Card No Cost EMI' payment mode?",
+        "a": "You can pay for your order using the 'Credit Card No Cost EMI' payment mode by following these simple steps:\n \n Add item(s) to your cart.\n Go to 'Payments'.\n Choose EMI -> No Cost EMI.\n Select the bank & credit card of your choice and complete the payment.",
+        "index": "flipkart_credit_card_no_cost_emi_9"
+    },
+    {
+        "q": "How is 'Credit Card No Cost EMI' different from 'Credit Card EMI' payment mode?",
+        "a": "For 'Credit Card EMI', you are charged a non-refundable interest based on the tenure of your EMI plan whereas with 'Credit Card No Cost EMI', although interest is charged, you get an instant discount from the seller for the amount you pay as interest to the bank.",
+        "index": "flipkart_credit_card_no_cost_emi_10"
+    },
+    {
+        "q": "I chose the wrong EMI plan while making the payment using 'Credit Card No Cost EMI' option. Can I change it now?",
+        "a": "No. However, in case your order hasn't been delivered yet, you can cancel it* and place a new order by selecting your preferred EMI plan.\n \n *Orders for certain items cannot be cancelled after 24 hours of order placement. Please check the seller's cancellation policy on the product page for details.",
+        "index": "flipkart_credit_card_no_cost_emi_11"
+    },
+    {
+        "q": "My payment using the 'Credit Card No Cost EMI' payment mode did not go through, but the amount has been blocked on my card. What should I do?",
+        "a": "In case the amount was deducted from your card, but the payment was unsuccessful, the blocked card limit will be reinstated by the bank within 5-7 business days. Please get in touch with your card issuing bank if the amount is not credited within this time period.",
+        "index": "flipkart_credit_card_no_cost_emi_12"
+    },
+    {
+        "q": "What are the EMI plans available if I pay using the 'Credit Card No Cost EMI' payment mode?",
+        "a": "The EMI plans vary based on your card issuing bank. Visit Payments -> EMI -> No Cost EMI to see available plans.",
+        "index": "flipkart_credit_card_no_cost_emi_13"
+    },
+    {
+        "q": "What is 'Credit Card No Cost EMI'?",
+        "a": "Credit Card No Cost EMI' is a payment mode with which you can shop for items from select sellers on Flipkart with no interest & zero down payment. With this payment mode, you get an instant cash-back from the seller for the amount you are charged by the bank as interest",
+        "index": "flipkart_credit_card_no_cost_emi_14"
+    },
+    {
+        "q": "What is No Cost EMI and how can I avail it?",
+        "a": "No Cost EMI is a payment option available for Bajaj Finserv EMI Card holders and can be availed for purchases on Flipkart for select items with some of the sellers. To avail the option, proceed to pay for your order as usual and choose the option 'Bajaj Finserv (No Cost EMI)' for payment. Then, select the EMI plan of your choice out of the available options and complete your payment.",
+        "index": "flipkart_credit_card_no_cost_emi_15"
+    },
+    {
+        "q": "What is the credit limit on the 'Credit Card No Cost EMI' card for shopping on Flipkart?",
+        "a": "Credit Card No Cost EMI' payment mode is only available for certain items from select sellers. Please check the product page for availability.",
+        "index": "flipkart_credit_card_no_cost_emi_16"
+    },
+    {
+        "q": "Is 'Credit Card No Cost EMI' payment mode available on Flipkart's Windows and iOS apps?",
+        "a": "Yes, 'Credit Card No Cost EMI' payment mode is available on our Windows, iOS and Android apps.",
+        "index": "flipkart_credit_card_no_cost_emi_17"
+    },
+    {
+        "q": "Will I get a complete refund if the item is cancelled or returned if I have paid for the order using the 'Credit Card No Cost EMI' payment option?",
+        "a": "Yes, you will get a complete refund to the extent of the EMIs paid (if any) in case the order is cancelled* or returned*.\n \n However, banks may charge some cancellation/refund or pre-closure charges. Please check with your respective bank for their policy for cancellations, refunds, and pre-closures.\n \n *Orders for certain items cannot be cancelled after 24 hours of order placement, or returned once delivered. Please check the seller's cancellations & returns policy on the product page for details.",
+        "index": "flipkart_credit_card_no_cost_emi_18"
+    }
+]

@@ -1,0 +1,92 @@
+[
+    {
+        "q": "I didn't get the Gift Card I ordered for. What should I do?",
+        "a": "Please check your inbox and spam folder for the Gift Card.If you don't find the card in spite of this, you can get the card details from your Flipkart account. To do this,Visit your Orders then Go the order for the Gift Card and Click on resend Gift Card details",
+        "index": "flipkart_gift_card_1"
+    },
+    {
+        "q": "My Gift Card has expired. Can you extend its validity?",
+        "a": "Gift Cards have a validity period of 1 year from the date of purchase and once a Gift Card expires, it's validity cannot be extended.",
+        "index": "flipkart_gift_card_2"
+    },
+    {
+        "q": "What does 'Transfer' Gift Card in my Wallet do?",
+        "a": "You can use the 'Transfer' option to transfer your Gift Card to anyone through your Flipkart app by entering their email ID.Please note that the expiry date of the Gift Card does not change when you transfer it to someone and is valid for 1 year from the date of purchase.",
+        "index": "flipkart_gift_card_3"
+    },
+    {
+        "q": "Does a Gift Card expire?",
+        "a": "Yes, all Gift Cards have a validity of 1 year from the date of issue and will expire after that.",
+        "index": "flipkart_gift_card_4"
+    },
+    {
+        "q": "Is there a limit on how many Gift Cards I can use in a single order?",
+        "a": "You can use up to 15 Gift Cards to pay for a single order.",
+        "index": "flipkart_gift_card_5"
+    },
+    {
+        "q": "What happens to the unused balance in my Gift Card after it expires?",
+        "a": "The unused balance of the Gift Card expires along with the Gift Card.",
+        "index": "flipkart_gift_card_6"
+    },
+    {
+        "q": "Can I transfer partially used Gift Card to someone?",
+        "a": "Yes, you can transfer your partially used Flipkart Gift Card as long as it hasn't expired and has some balance left.The receiver will not be able to see any transactions made from your Flipkart wallet.Please note that the expiry date of the Gift Card does not change when you transfer it to someone.",
+        "index": "flipkart_gift_card_7"
+    },
+    {
+        "q": "I've lost my Gift Card PIN, what can I do?",
+        "a": "If you've bought the Gift Card from Flipkart directly, you can resend the Gift Card details to the recipient by following these simple steps: 1. Go to 'My Orders'. 2. Select the Gift Card order.3. Click on 'Resend Gift Card' and the recipient will get the Gift Card with a new PINIf you've got the Gift Card as a Gift, you may get in touch with the original buyer and they will be able to help you out.",
+        "index": "flipkart_gift_card_8"
+    },
+    {
+        "q": "How can I unlink a Gift Card which is added to my wallet?",
+        "a": "To unlink your Gift Card, transfer it to yourself by using the 'Transfer this Gift Card' option and enter your email ID. The Card ID and PIN will be sent to you while the Gift Card is unlinked from your Wallet. It can then be added to another person's Flipkart account.",
+        "index": "flipkart_gift_card_9"
+    },
+    {
+        "q": "How can I use a Gift Card?",
+        "a": "There are two ways in which you can use a Gift Card: 1. Add the Gift Card to your Flipkart Wallet and link it to your account. You will then be able to use it as a payment mode for your orders.2. While placing your order, choose Gift Card as the mode of payment and enter your Gift Card number along with its PIN to pay",
+        "index": "flipkart_gift_card_10"
+    },
+    {
+        "q": "What if the Gift Card is transferred to someone when I am expecting a refund for an order placed using the same Gift Card?",
+        "a": "Refund for a payment made from a Gift Card will be added back to it. Please check if there are any pending refunds expected to the Gift Card before you transfer it to someone.",
+        "index": "flipkart_gift_card_11"
+    },
+    {
+        "q": "Can I buy another Gift Card with the Gift Card I have?",
+        "a": "No, a Gift Card cannot be used to buy another Gift Card.",
+        "index": "flipkart_gift_card_12"
+    },
+    {
+        "q": "Can I get a new Gift Card for the remaining balance if my Gift Card has expired?",
+        "a": "No, the unused balance in a Gift Card automatically expires with the expiry of the Gift Card.",
+        "index": "flipkart_gift_card_13"
+    },
+    {
+        "q": "Can I use my Gift Card to buy items from different sellers in the same order?",
+        "a": "No, a Gift Card cannot be used in a single order with different sellers. To buy items from different sellers using your Gift Card, please order separately.",
+        "index": "flipkart_gift_card_14"
+    },
+    {
+        "q": "Do I have to pay anything extra to buy or use a Gift Card?",
+        "a": "No. You can buy and use your Gift Card without paying anything extra.",
+        "index": "flipkart_gift_card_15"
+    },
+    {
+        "q": "What are the limits to buy Gift Cards?",
+        "a": "You can buy a maximum of 100 Gift Cards in a month with a total limit of Rs. 1,00,000 (One Lakh). Purchases exceeding this limit will be automatically canceled.Please refer to the Gift Card Terms & Conditions page for more details.",
+        "index": "flipkart_gift_card_16"
+    },
+    {
+        "q": "Are there certain things on Flipkart which I cannot buy through Gift Cards?",
+        "a": "The following cannot be bought through Gift Cards: 1. Flipkart First subscription.2. Other Gift Card(s).3. Items from different sellers in a single order (you can use Gift Cards by ordering separately)",
+        "index": "flipkart_gift_card_17"
+    },
+    {
+        "q": "What if my order amount is lesser than the Gift Card value?",
+        "a": "If your order amount is lesser than the value of your Gift Card, the balance will stay your Card and you can use it to shop on Flipkart!",
+        "index": "flipkart_gift_card_18"
+    }
+]

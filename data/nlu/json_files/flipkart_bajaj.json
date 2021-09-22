@@ -1,0 +1,92 @@
+[
+    {
+        "q": "Can I cancel my EMI after I've placed the order using the Bajaj Finserv payment option?",
+        "a": "Since payment modes cannot be changed after an order is placed, to cancel your EMI, your order will need to be cancelled.Certain items cannot be cancelled after 24 hours of placing the order",
+        "index": "flipkart_bajaj_1"
+    },
+    {
+        "q": "Can I foreclose my EMI with Bajaj Finserv?",
+        "a": "Bajaj Finserv No Cost EMIs can be foreclosed after the first installment is paid.",
+        "index": "flipkart_bajaj_2"
+    },
+    {
+        "q": "Can I get the refund for the item to any other mode if I have paid using the Bajaj Finserv payment option?",
+        "a": "No, the refund for an order placed using the Bajaj Finserv payment mode can only be done to the bank account linked to the Bajaj Finserv EMI Card.",
+        "index": "flipkart_bajaj_3"
+    },
+    {
+        "q": "Do I need to make a down payment to buy an item using the Bajaj Finserv EMI payment mode?",
+        "a": "No, a down payment is not required for buying an item using the Bajaj Finserv EMI option.",
+        "index": "flipkart_bajaj_4"
+    },
+    {
+        "q": "How can I get a Bajaj Finserv EMI card?",
+        "a": "You can check the eligibility and process of getting a Bajaj Finserv No Cost EMI card on their website: www.bajajfinserv.in/finance.",
+        "index": "flipkart_bajaj_5"
+    },
+    {
+        "q": "I chose the wrong EMI plan while making the payment using Bajaj Finserv No Cost EMI option. Can I change it now?",
+        "a": "EMI plan chosen while paying through the Bajaj Finserv No Cost EMI payment option cannot be changed once the order has been placed. If your order hasn't been delivered yet, you can cancel it and place a new order with the preferred EMI plan.Certain items cannot be cancelled after 24 hours of placing the order.",
+        "index": "flipkart_bajaj_6"
+    },
+    {
+        "q": "What are the EMI plans available if I pay using the Bajaj Finserv payment mode?",
+        "a": "Available EMI plans can be checked by clicking 'No Cost EMI' on the Bajaj Finserv Card below the listed price of the item on the product page.",
+        "index": "flipkart_bajaj_7"
+    },
+    {
+        "q": "How can I pay for my order using the Bajaj Finserv payment mode?",
+        "a": "While paying for your order, choose 'Bajaj Finserv No Cost EMI' as the payment option & select the EMI plan of your choice from the available EMI plans. You can then complete the payment using your Bajaj Finserv EMI Card after OTP verification.Please note, the Bajaj Finserv EMI option will not be available if your cart contains more than 1 item.",
+        "index": "flipkart_bajaj_8"
+    },
+    {
+        "q": "How is Bajaj Finserv payment mode different from the credit card EMI payment mode?",
+        "a": "In credit card EMIs, banks charge an interest rate based on the EMI plan chosen whereas Bajaj Finserv EMI Card holders are not charged any interest on the EMI. Unlike other credit card based EMI options, you don't need to have a credit card to avail EMI plans. The EMI payments are deducted by Bajaj Finserv from your bank account linked to the Bajaj Finserv EMI Card.",
+        "index": "flipkart_bajaj_9"
+    },
+    {
+        "q": "What are the benefits of the Bajaj Finserv payment mode?",
+        "a": "With Bajaj Finserv, you get a hassle-free payment experience with the following benefits: \nNo interest on EMIs \nZero processing & cancellation charges \nComplete refund of the amount paid for your order if the item is returned \nQuick resolutions & end-to-end support from Bajaj Finserv for any related concerns subject to the T&Cs of Bajaj Finserv.",
+        "index": "flipkart_bajaj_10"
+    },
+    {
+        "q": "Why can't I see Bajaj Finserv as a payment mode for some items?",
+        "a": "Bajaj Finserv No Cost EMI payment mode is available for select items with certain sellers. Please check the product page of the item you'd like to shop for on our app to see if the option is available.",
+        "index": "flipkart_bajaj_11"
+    },
+    {
+        "q": "Is Bajaj Finserv payment mode available on both the website and app?",
+        "a": "Yes, the Bajaj Finserv payment mode is available both on the Flipkart app and website.",
+        "index": "flipkart_bajaj_12"
+    },
+    {
+        "q": "What is Bajaj Finserv payment mode?",
+        "a": "Bajaj Finserv No Cost EMI' is a payment option on Flipkart exclusively for Bajaj Finserv EMI Card  holders. This option enables you to pay for select items listed by specific sellers, with an EMI plan of your choice without any interest. The monthly installments are deducted by Bajaj Finserv from the bank account linked to your Bajaj Finserv EMI Card.",
+        "index": "flipkart_bajaj_13"
+    },
+    {
+        "q": "How can I foreclose my EMI with Bajaj Finserv?",
+        "a": "You can contact Bajaj Finserv at 0869801010 for help with the foreclosure of your EMI with them.",
+        "index": "flipkart_bajaj_14"
+    },
+    {
+        "q": "I did not get the OTP while I was paying through the 'Bajaj Finserv No Cost EMI' payment mode. What should I do?",
+        "a": "Please contact Bajaj Finserv at 08698010101 for support.",
+        "index": "flipkart_bajaj_15"
+    },
+    {
+        "q": "If I have paid for my order using the Bajaj Finserv No Cost EMI payment option, will I get a complete refund if the item is cancelled or returned?",
+        "a": "Yes, you will get a complete refund to the extent of the EMIs paid by you (if any) for the item in case it is canceled or returned. However, any amount charged as a penalty by Bajaj Finserv for the remaining EMIs cannot be refunded.",
+        "index": "flipkart_bajaj_16"
+    },
+    {
+        "q": "What is the credit limit on the Bajaj Finserv card for shopping on Flipkart?",
+        "a": "The credit limit varies based on the type of Bajaj Finserv EMI Card you hold.",
+        "index": "flipkart_bajaj_17"
+    },
+    {
+        "q": "My payment from the 'Bajaj Finserv No Cost EMI' payment mode did not go through, but the amount has been blocked on my card. What should I do?",
+        "a": "Please contact Bajaj Finserv at 08698010101 for support.",
+        "index": "flipkart_bajaj_18"
+    }
+]

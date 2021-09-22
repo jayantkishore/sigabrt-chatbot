@@ -1,0 +1,87 @@
+[
+    {
+        "q": "What is Flipkart Quick?",
+        "a": "Flipkart Quick is a new delivery service that guarantees express delivery within 90 minutes as well as slotted delivery of items for categories like grocery, fresh fruits and vegetables, lifestyle, and mobiles.",
+        "index": "flipkart_quick_1"
+    },
+    {
+        "q": "How can I shop on Flipkart Quick?",
+        "a": "You can shop for your day-to-day essentials on Flipkart Quick by following these steps:\n1. Visit the 'Flipkart Quick' section\n2. Add items to your cart and build a basket worth minimum Rs. 150 to continue with your order. If the order value is more than Rs. 500, it will be eligible for free delivery\n3. Choose your preferred time slot for delivery\n4. Proceed to choose your preferred payment mode and place your order\nFlipkart Quick is available on our app (Android, and iOS), mobile site as well as our website.",
+        "index": "flipkart_quick_2"
+    },
+    {
+        "q": "How can I track my Flipkart Quick order?",
+        "a": "You can track your order from the 'My Orders' section of your Flipkart account.",
+        "index": "flipkart_quick_3"
+    },
+    {
+        "q": "Can I choose to not accept a few items from my Flipkart Quick order at the time of delivery?",
+        "a": "Yes, you can. But if the new order value of the items you wish to keep is below Rs. 500, shipping charges will be applicable. In case, the order value falls below Rs. 150, your order will get cancelled.",
+        "index": "flipkart_quick_4"
+    },
+    {
+        "q": "Can I reject the Flipkart Quick order at the time of delivery?",
+        "a": "Yes, you can choose not to accept the order. If you have already paid for the order, it will be refunded to the original payment source.",
+        "index": "flipkart_quick_5"
+    },
+    {
+        "q": "Can I add more items after I have placed a Flipkart Quick order?",
+        "a": "No, items cannot be added to an order after it is placed.",
+        "index": "flipkart_quick_6"
+    },
+    {
+        "q": "Is the delivery for Flipkart Quick free or chargeable?",
+        "a": "For both express delivery and slotted delivery, if the order value is above Rs. 500, then the delivery will be free. In case the order value is less than Rs. 500, shipping charges will be applicable.",
+        "index": "flipkart_quick_7"
+    },
+    {
+        "q": "In case I do not need a few items from the Flipkart Quick order, how do I cancel it?",
+        "a": "You may choose not to accept those items at the time of delivery. In case you have paid any amount, it will be refunded to the original payment source.",
+        "index": "flipkart_quick_8"
+    },
+    {
+        "q": "What is express delivery?",
+        "a": "It is a new delivery model that ensures delivery of items like grocery, fresh fruits, vegetables, lifestyle, and mobile categories within 90 minutes of it being placed. If the order value is more than Rs. 500, delivery is free. In case the order value is less than Rs. 500, shipping charges will be applicable.",
+        "index": "flipkart_quick_9"
+    },
+    {
+        "q": "Is there a gift wrap option available for Flipkart Quick orders?",
+        "a": "No, gift wrap option is currently not available.",
+        "index": "flipkart_quick_10"
+    },
+    {
+        "q": "Is there a minimum purchase amount for Flipkart Quick orders?",
+        "a": "Yes, the minimum order value for an order to be fulfilled is Rs. 150.",
+        "index": "flipkart_quick_11"
+    },
+    {
+        "q": "What are the different payment options available for Flipkart Quick?",
+        "a": "You can choose to pay for your order through netbanking, credit card, debit card, UPI/wallets, or by cash.",
+        "index": "flipkart_quick_12"
+    },
+    {
+        "q": "Can I cancel a part of my Flipkart Quick order after I have placed it?",
+        "a": "Yes, until your order is packed you can choose to cancel a part of it. You can check the status of your order in the 'My Orders' page of your Flipkart account.",
+        "index": "flipkart_quick_13"
+    },
+    {
+        "q": "Can I choose a preferred time slot for the delivery of Flipkart Quick orders?",
+        "a": "Yes, you can choose your preferred time from available slots for the same day.",
+        "index": "flipkart_quick_14"
+    },
+    {
+        "q": "Can I modify my chosen time slot for the delivery of Flipkart Quick orders?",
+        "a": "No, once you have chosen your preferred delivery slot it cannot be modified.",
+        "index": "flipkart_quick_15"
+    },
+    {
+        "q": "Can I change the mode of payment, once I have placed a Flipkart Quick order?",
+        "a": "Once an order is placed, payment mode cannot be changed currently.",
+        "index": "flipkart_quick_16"
+    },
+    {
+        "q": "Can I change the delivery address after I have placed a Flipkart Quick order?",
+        "a": "No, once an order is placed the delivery address cannot be changed.",
+        "index": "flipkart_quick_17"
+    }
+]
