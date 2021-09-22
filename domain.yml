@@ -15,11 +15,29 @@ intents:
   - nlu_fallback
   - credit_card_faq
   - debit_card_faq
-  - flipkart_faq
   - insurance_faq
   - loan_faq
   - mobile_wallet_faq
   - upi_faq
+  - flipkart_axis_bank_credit_card
+  - flipkart_sbi
+  - flipkart_credit_card_no_cost_emi
+  - flipkart_first
+  - flipkart_login_my_account
+  - flipkart_gift_card
+  - flipkart_bajaj
+  - flipkart_refurbished
+  - flipkart_supercoins
+  - flipkart_warranty
+  - flipkart_shipping
+  - flipkart_privacy_security
+  - flipkart_travel
+  - flipkart_pickup_stores
+  - flipkart_return_cancellation
+  - flipkart_ac_installation
+  - flipkart_product_reviews
+  - flipkart_quick
+  - flipkart_selling_on_flipkart
   - askjk
   - show_credit_cards
   - show_supercoins
@@ -72,8 +90,8 @@ responses:
   
   utter_help:
   - text: "I can help you in buying Credit Cards and managing your finances.\n\
-          \ I can fetch realtime stock price and buzz in finance industry.\n\
-          \ I can fetch your Flipkart Supercoin balance, Order details, track your shipment and collect feedback\
+           I can fetch realtime stock price and buzz in finance industry.\n\
+           I can fetch your Flipkart Supercoin balance, Order details, track your shipment and collect feedback\
            \ about your order.\n\
           I can come in handy for any Flipkart or Financial queries."
   utter_ask_rating:
