@@ -97,7 +97,7 @@ responses:
   utter_ask_rating:
   - text: "On the scale of 1-5 how would you rate our overall product?"
   utter_ask_recommendation:
-  - text: "On the scale of 1-5 how likely are you to recommend us to a collegue or friend?"
+  - text: "On the scale of 1-5 how likely are you to recommend us to a colleague or friend?"
   utter_ask_comment:
   - text: "Any further suggestions that you would like to provide?"
 
