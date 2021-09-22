@@ -1,0 +1,77 @@
+[
+    {
+        "q": "Can I reactivate my inactive Flipkart account?",
+        "a": "Yes. To reactivate your Flipkart account, simply log in with your registered email ID or mobile number/password combination used before deactivation. Your account data will be fully restored, default subscription settings applied.",
+        "index": "flipkart_login_my_account_1"
+    },
+    {
+        "q": "Do I need to verify my mobile number or email address every time I log in?",
+        "a": "As the verification step is a one time process, you won't have to do it again once your account is verified.",
+        "index": "flipkart_login_my_account_2"
+    },
+    {
+        "q": "What should I do if I don't get the OTP or verification code?",
+        "a": "Sometimes, SMS messages may be delayed by a few minutes because of network issues. You can regenerate the code through the 'Resend Code' option.",
+        "index": "flipkart_login_my_account_3"
+    },
+    {
+        "q": "What is an OTP or verification code?",
+        "a": "Sometimes, SMS messages may be delayed by a few minutes because of network issues. You can regenerate the code through the 'Resend Code' option.",
+        "index": "flipkart_login_my_account_4"
+    },
+    {
+        "q": "Why do I need to verify my mobile number or email address to log into my Flipkart account?",
+        "a": "To make sure that your account details are always secure, verification by OTP (One Time Password) is important. This is a one-time process and you can log into your Flipkart account without any hassles once this is done.",
+        "index": "flipkart_login_my_account_5"
+    },
+    {
+        "q": "How can I add a new delivery address to my Flipkart account?",
+        "a": "To add a new delivery address, follow these simple steps:1. Log into your Flipkart account\n\n1. Log into your Flipkart account\n2. Go to My Account -> Settings -> Addresses\n3. Add details of your new address\n4. Choose 'Save Changes'",
+        "index": "flipkart_login_my_account_6"
+    },
+    {
+        "q": "How can I change the password for my Flipkart account?",
+        "a": "To change the password for your Flipkart account, follow these simple steps:\n\n1. Log in to your Flipkart account\n2. Go to My Account -> Settings -> Change password\n3. Enter your old password\n4. Enter your new password\n5. Choose 'Save Changes'",
+        "index": "flipkart_login_my_account_7"
+    },
+    {
+        "q": "How can I use a new email address to log in to my Flipkart account?",
+        "a": "To log in to your Flipkart account with a new email address, you can update your email ID with these simple steps:\n\n1. Log in to your Flipkart account\n2. Go to My Account -> Settings -> Update Email/Mobile\n3. Add the new email ID\n4. Enter the verification code sent to the new email ID\n5. Choose 'Save Changes'\n\nPlease note, once your email address is updated, you'll no longer be able to sign in using your old email id.",
+        "index": "flipkart_login_my_account_8"
+    },
+    {
+        "q": "How can I deactivate my account?",
+        "a": "To deactivate your Flipkart account, follow these simple steps:\n1. Log into your Flipkart account\n2. Go to My Account -> Settings -> Deactivate\n3. Enter the password for your account\n4. Choose 'Confirm Deactivation'",
+        "index": "flipkart_login_my_account_9"
+    },
+    {
+        "q": "How can I change the email ID linked with my Flipkart account?",
+        "a": "To change the email ID associated with your Flipkart account, follow these simple steps on our website:\n\n1. Log in to your Flipkart account\n2. Go to My Account -> Settings -> Update Email/Mobile\n3. Add the new email ID\n4. Enter the verification code sent to your old and new email IDs \n5. Choose 'Save Changes'",
+        "index": "flipkart_login_my_account_10"
+    },
+    {
+        "q": "Can I use an international number to sign up?",
+        "a": "Yes, you can use an international number to sign up. This number can only be used for logging in and subscribing to order-related updates and confirmation details.",
+        "index": "flipkart_login_my_account_11"
+    },
+    {
+        "q": "How can I use my mobile number to login on the Flipkart mobile app?",
+        "a": "To log into the Flipkart mobile app, update your mobile number from your Flipkart account on our website with these simples steps:\n\n1. Go to My Account -> Settings -> Update Email/Mobile\n2. Add your mobile number \n3. Enter the OTP received on your registered mobile number \n4. Select 'Save Changes'",
+        "index": "flipkart_login_my_account_12"
+    },
+    {
+        "q": "Can I use a corporate email ID to sign up?",
+        "a": "Yes, you can use a corporate email ID. However, please ensure that you have updated your current active email address to continue using your account in the unlikely event of your account getting deleted or deactivated.",
+        "index": "flipkart_login_my_account_13"
+    },
+    {
+        "q": "I'm getting an error message that says, 'You've exceeded the maximum number of attempts to enter correct verification code'. How can I log in to my Flipkart account now?",
+        "a": "If a wrong code is entered for verification more than a specific number of times, this error message will be seen and for security reasons, your account will be blocked for the next 24 hours. To log in, please try again after 24 hours by entering the correct OTP.",
+        "index": "flipkart_login_my_account_14"
+    },
+    {
+        "q": "I always login using my phone number, but I recently lost my phone. I have also forgotten the password to my Flipkart account. How do I access it?",
+        "a": "If you have forgotten the password for your account, you can reset it using the 'Forgot password' option available on the home page. Just enter your registered email ID to get an OTP, once you have the OTP simply follow the prompts. If you regain access to your phone number, you can always log in using OTP else, if an email ID is registered with your account, you can click on 'Forget Password' and attempt to log in. In the unlikely event of these not working, you can contact our customer support team for further assistance.",
+        "index": "flipkart_login_my_account_15"
+    }
+]

@@ -1,0 +1,19 @@
+## intent:flipkart_bajaj
+ - Can I cancel my EMI after I've placed the order using the Bajaj Finserv payment option?
+ - Can I foreclose my EMI with Bajaj Finserv?
+ - Can I get the refund for the item to any other mode if I have paid using the Bajaj Finserv payment option?
+ - Do I need to make a down payment to buy an item using the Bajaj Finserv EMI payment mode?
+ - How can I get a Bajaj Finserv EMI card?
+ - I chose the wrong EMI plan while making the payment using Bajaj Finserv No Cost EMI option. Can I change it now?
+ - What are the EMI plans available if I pay using the Bajaj Finserv payment mode?
+ - How can I pay for my order using the Bajaj Finserv payment mode?
+ - How is Bajaj Finserv payment mode different from the credit card EMI payment mode?
+ - What are the benefits of the Bajaj Finserv payment mode?
+ - Why can't I see Bajaj Finserv as a payment mode for some items?
+ - Is Bajaj Finserv payment mode available on both the website and app?
+ - What is Bajaj Finserv payment mode?
+ - How can I foreclose my EMI with Bajaj Finserv?
+ - I did not get the OTP while I was paying through the 'Bajaj Finserv No Cost EMI' payment mode. What should I do?
+ - If I have paid for my order using the Bajaj Finserv No Cost EMI payment option, will I get a complete refund if the item is cancelled or returned?
+ - What is the credit limit on the Bajaj Finserv card for shopping on Flipkart?
+ - My payment from the 'Bajaj Finserv No Cost EMI' payment mode did not go through, but the amount has been blocked on my card. What should I do?

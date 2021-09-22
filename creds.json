@@ -1,0 +1,13 @@
+{
+    "type": "service_account",
+    "project_id": "neon-chimera-187517",
+    "private_key_id": "570e98fc9416383bce0e4527252ff0f7285ab45b",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC+SaYDciwaC0XM\nBtnRYVnWVnBMG1BGI47i/j1uYNjrS/Sfa2bg55451CkNfrCu/WzmiVdxUm2G4kgG\n/vYIWz8ZUMvTqaXtoScFZOCMHwTsSDGE0HRxevu2zde0XsBZtaGpgKvv8WFPTqmF\nyQ6qB0iE9np3X0+xHCSEhr2nmMqfmFT4C+6tz9jE8sDOKNlH0zhutOn+NscIgjs8\nEr/YSrA5uTkd7Yvymx4alVbI9t0cEGP34eFibfmO8NPVO44vwWqLqFoJtpfR9oGi\nwWfx3BTaksgQDH4PksN0s2IBinpt8b16n6ZK7CSICgzuPgsHIlhuIpus8eiqTtWS\ncHXBMbJZAgMBAAECggEAXt+yhYpRwcR4DtMlm9bpZ0venpuJqQbGkZeIQnXIAXzz\n4N44Q49H3PZSZ5eQeRcCymiUr/wUfslodxB808rGyZT2ozg08idEoNRcfpBisHoI\nMnuKayARy2GTGCubxL6h9TShxTa4uUVzkTAe/xg1iJGpmsXrIldxP6A8hAjSkcIP\nyy4b3nAqu8+fsnb8ktiEdZjYDIJem7suuPnnzZYzuu4hJCwVs/vfNuXVZ2Zcm8/t\nT4CNjJgt68nrKP2AporhOEsnNAPezT711DvK6taWU8pE2y3Po1l4Tf+cfQ35LCK3\nQxUsESAzgYeU7ARN/5i5t96MWC2Vv1+nOM3KxWEDnwKBgQD/BzgsUdOwM1JDRKqo\nadekXMLD4ciM6RZytlQNxGFeyFO7JS1IXijL/A22pEjJczpmAuLcnM57Y+ORjDZh\nF2gxSG196rh6QdnY7MXy0DKHuPWIH6anbnxjMOQG1h1YkX7U65B+gnJHDHvzExjY\nXfiWxpR9TfLP7Ng+29LlsOHPIwKBgQC/A0ZJBjUZX7CwOfJWua0oyjCwA2FJiVvC\nCL0aXksPcW/NR3Ww8FaTrF0GwV3GnM860x/QXnV7x2OOwHYqd1vSnbR/B2HoCzQW\nfe205HpTrFZOYO/Ut2JFzcA1P7DaWIzQfBCPf9TU9O6jt5MKAft+l+dGX3ORDn5Y\nIHkIhAPuUwKBgFbEBQeHG2dyPoWmYg2EXRqNeLIeKhZO4xVKFRTOAHa330znnB1n\n86da7Ot7v0vSiUbVqot2SgXO+Ui2lHW5+ffydVYGupbVuqFEBSDUVqy4b8jNQ+zo\n+SbiJmJxDHDqp2UXdASmquyjQbR0hdpvNjlN/I0ZLQgyw2u3bGw7HshTAoGBAJG6\nndT4t2o0Z0kL7Kfd4Q5Ns/eVnJPOCANxR1Tmu718fh/PdSsZMfRYfGC7BiCRYkku\n6ga/CkL1TC+NBpo/lf6J8zs3FqtCYOsICGMKLYnI4c/KhS90+bTn1MzLWtI63LPy\n82+Hx4jxlV+ynqvz9zwOCJTYHgN9W0dA/xZQIe+hAoGAVfCDBnCIfnlUZAYhUOSK\nq3RXIPFL683dWfS+hbgN9Kl4dIMNpyv2FPvsgehU90Ki2YmsSQGAVf9q884qCBfi\n8KbOY+W7mq2NfZQh/nMVf4jw7HGArfe0zeID+pCSNT1rOhIIaFc4/25mi1GDdUxd\nOgbOSgXxE1c3o4nE99j4Cjw=\n-----END PRIVATE KEY-----\n",
+    "client_email": "sigabrt-sheet@neon-chimera-187517.iam.gserviceaccount.com",
+    "client_id": "106224350437381178049",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/sigabrt-sheet%40neon-chimera-187517.iam.gserviceaccount.com"
+  }
+

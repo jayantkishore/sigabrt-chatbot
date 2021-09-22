@@ -1,0 +1,36 @@
+version: "2.0"
+
+nlu:
+- intent: show_orders
+  examples: |
+    - please show my Flipkart orders
+    - please list my Flipkart orders
+    - show me my Flipkart orders details
+    - what is my Flipkart orders outstanding
+    - Display My Flipkart orders
+    - List my Flipkart orders
+    - i need to see my Flipkart orders
+    - Can I have access to a Flipkart orders
+    - My Flipkart orders
+    - I want to see my Flipkart orders details
+    - I’d like my Flipkart orders displayed
+    - Can I see all my Flipkart orders
+    - Show my Flipkart orders
+    - Display Flipkart orders
+    - Show Flipkart orders
+    - Could you show me my Flipkart orders
+    - I would like to see my Flipkart orders
+    - Flipkart orders information
+    - Display my Flipkart orders
+    - Show all my Flipkart orders
+    - show my Flipkart orders
+    - Tell me Flipkart orders information
+    - what all Flipkart orders do I have?
+    - List out all my Flipkart orders
+    - I want to see list of all my Flipkart orders
+    - I would like to see information of all my Flipkart orders
+    - Where is my Flipkart order
+    - Tell me current status of my flipkart order
+    - Track my flipkart order
+
+    

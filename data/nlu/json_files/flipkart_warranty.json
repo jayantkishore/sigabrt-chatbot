@@ -1,0 +1,72 @@
+[
+    {
+        "q": "I see that the warranty terms for my product have changed on Flipkart from when I bought the product. Will this affect my warranty?",
+        "a": "No. The warranty terms for your product will be the same as when you got the product & will not affect your warranty in any way.",
+        "index": "flipkart_warranty_1"
+    },
+    {
+        "q": "I lost my warranty card. How can I get warranty?",
+        "a": "No. The warranty terms for your product will be the same as when you got the product & will not affect your warranty in any way.",
+        "index": "flipkart_warranty_2"
+    },
+    {
+        "q": "How can I claim warranty for my product?",
+        "a": "You can claim the warranty for your product by using the invoice at any authorized service center of the brand.",
+        "index": "flipkart_warranty_3"
+    },
+    {
+        "q": "I want to check my warranty details for the product but I don't have the warranty card. What should I do?",
+        "a": "Please contact our Customer Support and we will help you with the details.",
+        "index": "flipkart_warranty_4"
+    },
+    {
+        "q": "There is a mismatch in warranty terms between Flipkart and the brand's website. What will happen to the warranty on my product now?",
+        "a": "The mismatch could be because of the change in warranty terms for the product over time. Rest assured, you will be entitled to the terms listed on the warranty card that was provided to you at the time of purchase.",
+        "index": "flipkart_warranty_5"
+    },
+    {
+        "q": "There is no seal on the warranty card I got. How will I claim warranty?",
+        "a": "The seal on the warranty card is not mandatory for the warranty to be valid. The invoice you received along with the product can be used to claim warranty for the product as it has the details of your purchase.",
+        "index": "flipkart_warranty_6"
+    },
+    {
+        "q": "How does warranty work on replacement products?",
+        "a": "The warranty on replacement products will be the same as the initial product delivered to you. The invoice you receive with the replacement can be used to claim warranty related services.",
+        "index": "flipkart_warranty_7"
+    },
+    {
+        "q": "What should I do if there is a difference in the warranty mentioned on Flipkart & the physical warranty card I got?",
+        "a": "The mismatch could be because of the change in warranty terms for the product over time. Rest assured, you will be entitled to the terms listed on the warranty card that was provided to you at the time of purchase.",
+        "index": "flipkart_warranty_8"
+    },
+    {
+        "q": "Should I register the product with the brand to avail the warranty benefits on it?",
+        "a": "No, it's not necessary to register the product with the brand. The warranty is automatically valid from the date on the seller's invoice sent to you.",
+        "index": "flipkart_warranty_9"
+    },
+    {
+        "q": "I didn't get a warranty card with my product. How can I get the warranty?",
+        "a": "You need not have a warranty card to claim warranty for your product. Please use the invoice which can be used to avail warranty at any authorised service centre of the brand.",
+        "index": "flipkart_warranty_10"
+    },
+    {
+        "q": "Will warranty be applicable for my product since I bought it online?",
+        "a": "At Flipkart, all our sellers offer products from authorised vendors or brands directly and are 100% genuine. Rest assured, products will have the applicable warranty from brands as confirmed on the product page.",
+        "index": "flipkart_warranty_11"
+    },
+    {
+        "q": "How do I sign up for an extended warranty for my product?",
+        "a": "You may get in touch with the brand to register for an extended warranty for your product.",
+        "index": "flipkart_warranty_12"
+    },
+    {
+        "q": "I don't remember the warranty details for my product. Where can I find it?",
+        "a": "You can check the brand website for the warranty details of your product. The product invoice can be used to claim the services from any Authorised Service Centre.",
+        "index": "flipkart_warranty_13"
+    },
+    {
+        "q": "From when is the warranty for my product applicable?",
+        "a": "The warranty for your product starts from the date mentioned on the seller's invoice. In case of iPhones, the SIM activation date will be considered as the date from which the warranty of your product starts.",
+        "index": "flipkart_warranty_14"
+    }
+]

@@ -1,0 +1,46 @@
+version: "2.0"
+
+nlu:
+- intent: give_feedback
+  examples: |
+    - i want to give feedback
+    - take my feedback
+    - record my feedback
+    - please have my feedback
+    - please record my feedback
+    - will you take my feedback
+    - i want to give my feedback about your feature
+    - i want to provide my feedback
+- intent: give_answer
+  examples: |
+    - ok i would rate it [1](rating)
+    - [1](rating)
+    - i think i will give [1](rating)
+    - i would like to give [1](rating) star
+    - [1](rating) star
+    - [1](rating) is my rating
+    - [1](rating) is my score
+    - ok i would rate it [one](rating)
+    - [one](rating)
+    - i think i will give [one](rating)
+    - i would like to give [one](rating) star
+    - [one](rating) star
+    - [one](rating) is my rating
+    - [one](rating) is my score
+    
+- lookup: rating
+  examples: |
+    - 1
+    - one
+    - 2
+    - two
+    - 3
+    - three
+    - 4 
+    - four
+    - 5 
+    - five
+
+    
+
+    

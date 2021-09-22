@@ -14,10 +14,14 @@ from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 import numpy as np
 from sentence_transformers import SentenceTransformer
-from rasa_sdk.events import SlotSet
+from rasa_sdk.events import SlotSet, EventType
 from datetime import date, timedelta, time, datetime
 import urllib.request
 from pytz import timezone
+import pandas as pd
+import gspread
+from oauth2client.service_account import ServiceAccountCredentials
+import gspread_dataframe as gd
 
 pretrained_model = "bert-base-nli-mean-tokens"  # Refer: https://github.com/UKPLab/sentence-transformers/blob/master/docs/pretrained-models/nli-models.md
 score_threshold = 0.80  # This confidence scores can be adjusted based on your need!!
@@ -141,22 +145,23 @@ class ActionJK(Action):
         aux = Aux()
         tick = aux.getinfo(tracker.latest_message["entities"])
         if tick != -1:
+            response_answer = ''
             today = datetime.now(timezone("US/Eastern"))
             if today.strftime("%A") == "Sunday":
                 today = today - timedelta(days=1)
-                dispatcher.utter_message(
-                    text="Today is Sunday at NYSE! Showing results for yesterday"
-                )
+                response_answer = "\nToday is Sunday at NYSE! Showing results for yesterday"
+                # dispatcher.utter_message(
+                #     text="Today is Sunday at NYSE! Showing results for yesterday"
+                # )
             elif today.strftime("%A") == "Monday":
                 today = today - timedelta(days=2)
-                dispatcher.utter_message(
-                    text="NYSE is not open yet! Showing results for day before yesterday"
-                )
+                response_answer = "\nNYSE is not open yet! Showing results for day before yesterday"
+                # dispatcher.utter_message(
+                #     text="NYSE is not open yet! Showing results for day before yesterday"
+                # )
             yesterday = today - timedelta(days=1)
             tod = today.strftime("%Y-%m-%d")
             yest = yesterday.strftime("%Y-%m-%d")
-            print(yest)
-            print(tod)
             prefix = "https://api.polygon.io/v2/aggs/ticker/{}/range/1/day/{}/{}?apiKey=Gsgns_Tv2e5X9WmjIEzqzK1dvgX1FTpU".format(
                 tick, yest, tod
             )
@@ -164,16 +169,14 @@ class ActionJK(Action):
             u = urllib.request.urlopen(url)
             content = u.read()
             obj = json.loads(content)
-            print(obj)
             rsp = obj["results"][0]
             ans = ""
             ans += "Open : {}  ||  Close : {}  ||  Low : {}  || High : {} ".format(
                 rsp["o"], rsp["c"], rsp["l"], rsp["h"]
             )
             dispatcher.utter_message(
-                text="Yes sure! By the Grace of Jayant , I know about {} stocks!".format(
-                    tick
-                )
+                text= "SARA at your service! I know about {} stocks price!".format(
+                    tick) + response_answer
             )
             dispatcher.utter_message(text=ans)
             return [SlotSet("status", True), SlotSet("counter", 0)]
@@ -212,6 +215,203 @@ class ActionJK2(Action):
         return []
 
 
+class GetCC(Action):
+    def name(self):
+        return "action_getcc"
+    
+    def run(
+        self,
+        dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        url = "http://13.92.117.36:8000/dummy_api/v1/?q=cc"
+        u = urllib.request.urlopen(url)
+        content = u.read()
+        obj = json.loads(content)
+        n = len(obj)
+        txt = 'cards'
+        if n==1:
+            txt = 'card'
+        dispatcher.utter_message(text = "You have {} {}".format(n, txt))
+        dispatcher.utter_message(text = "Following are the details")
+        for i in range(n):
+            crd = obj[i]
+            crd_name = crd['cardName']
+            bal = crd['balance']
+            due_date = crd['billDue']
+            output = "Credit Card {} has balance {} and its bill is due on {}".format(crd_name, bal, due_date)
+            dispatcher.utter_message(text = output)
+            if i!=n-1:
+                dispatcher.utter_message(text = "And then..")
+        dispatcher.utter_message(text = "Beware of little expenses,a small leak will sink a great ship")
+        return []
+
+class GetSupercoins(Action):
+    def name(self):
+        return "action_getcoins"
+    def run(
+        self,
+        dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        url = "http://13.92.117.36:8000/dummy_api/v1/?q=supercoin_bal"
+        u = urllib.request.urlopen(url)
+        content = u.read()
+        obj = json.loads(content)
+        bal = obj['balance']
+        cns = 'coins'
+        if bal == 1:
+            cns = 'coin'
+        output = "You have {} Super{}".format(bal, cns)   
+        dispatcher.utter_message(text = output)
+        output1 = "Do you know that you can earn more supercoins by watching Flipkart Videos and playing Flipkart Games?"
+        dispatcher.utter_message(text = output1) 
+
+        return []
+
+
+class GetOrders(Action):
+    def name(self):
+        return "action_getorders"
+    def run(
+        self,
+        dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        url = "http://13.92.117.36:8000/dummy_api/v1/?q=orders"
+        u = urllib.request.urlopen(url)
+        content = u.read()
+        obj = json.loads(content)
+        n = len(obj)
+        dispatcher.utter_message(text = "Seems like you have a lot of orders!")
+        for i in range(n):
+            ttl = obj[i]['title']
+            Date = obj[i]['orderDate']
+            stat = obj[i]['statusDetails']
+
+            output = "{} was ordered on {} and it is {}".format(ttl, Date, stat)
+            dispatcher.utter_message(text = output)
+
+            if i != n-1:
+                dispatcher.utter_message(text = "And")
+
+        return []
+
+class GetNews(Action):
+    def name(self):
+        return "action_getnews"
+
+    def run(
+        self,
+        dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        url = "https://cnbc.p.rapidapi.com/news/v2/list-trending?tag=Finance&count=5"
+        req = urllib.request.Request(url)
+        api_key = "062e8a2c1amsh27ff6c2af219aa3p169f7bjsnfac09f2af24a"
+        req.add_header('x-rapidapi-key', api_key)
+        req.add_header('x-rapidapi-host', "cnbc.p.rapidapi.com")
+
+        u = urllib.request.urlopen(req)
+        content = u.read()
+        obj = json.loads(content)
+        news = obj['data']['mostPopularEntries']['assets']
+        n = len(news)
+        dispatcher.utter_message(text = "Here are the top headlines of the hour!")
+        for i in range(n):
+            output = news[i]['headline']
+            dispatcher.utter_message(text = output)
+            if i == n-1:
+                dispatcher.utter_message(text = "Remember , an investment in knowledge pays the best interest!")
+        return []
+
+"""class ActionGetRating(Action):
+    def name(self):
+        return "action_getrating"
+    def run(
+        self,
+        dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        
+        ans = int(tracker.latest_message['entities'][0]["value"])
+        return [SlotSet("overall_rating", ans)]
+
+class ActionGetRecom(Action):
+    def name(self):
+        return "action_getrecommendation"
+    def run(
+        self,
+        dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        
+        ans = int(tracker.latest_message['entities'][0]["value"])
+        return [SlotSet("recommendation", ans)]
+
+class ActionGetComment(Action):
+    def name(self):
+        return "action_getcomment"
+    def run(
+        self,
+        dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        
+        ans = str(tracker.latest_message['text'])
+        return [SlotSet("comment", ans)]"""
+
+
+class ValidateFeedbackForm(Action):
+    def name(self) -> Text:
+        return "user_feedback_form"
+
+    def run(
+        self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict
+    ) -> List[EventType]:
+        required_slots = ["rating", "recommendation", "comment"]
+
+        for slot_name in required_slots:
+            if tracker.slots.get(slot_name) is None:
+                # The slot is not filled yet. Request the user to fill this slot next.
+                return [SlotSet("requested_slot", slot_name)]
+
+        # All slots are filled.
+        return [SlotSet("requested_slot", None)]
+
+class ActionPushFeedback(Action):
+    def name(self):
+        return "action_pushfeedback"
+    def run(
+        self,
+        dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        scope = ["https://spreadsheets.google.com/feeds",
+                 'https://www.googleapis.com/auth/spreadsheets',
+                 "https://www.googleapis.com/auth/drive.file",
+                 "https://www.googleapis.com/auth/drive"]
+
+        dt = {
+                "overall_rating" : [tracker.get_slot("rating")] ,
+                "recommendation" : [tracker.get_slot("recommendation")],
+                 "comment"        : [tracker.get_slot("comment")]
+              }
+        df = pd.DataFrame(data = dt)
+
+        credentials = ServiceAccountCredentials.from_json_keyfile_name('./creds.json', scope)
+        gc = gspread.authorize(credentials)
+        ws = gc.open("SIGABRT_FEEDBACK").worksheet("Master")
+        existing = pd.DataFrame(ws.get_all_records())
+        updated = existing.append(df)
+        gd.set_with_dataframe(ws, updated)
+        dispatcher.utter_message("Bye for now. Go off screen, aankhein kharab ho jaayegi!")
+        return []
+        
 encode_standard_question(pretrained_model)
-# if __name__ == '__main__':
-#     encode_standard_question(True)
+ 

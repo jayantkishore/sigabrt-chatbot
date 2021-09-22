@@ -1,0 +1,127 @@
+[
+    {
+        "q": "If I request for a replacement, when will I get it?",
+        "a": "Visit My Orders to check the status of your replacement.\nIn most locations, the replacement item is delivered to you at the time of pick-up. In all other areas, the replacement is initiated after the originally delivered item is picked up. Please check the SMS & email we send you for your replacement request for more details.",
+        "index": "flipkart_return_cancellation_1"
+    },
+    {
+        "q": "Can items be returned after the time period mentioned in the seller's Returns Policy?",
+        "a": "No, sellers will not be able to accept returns after the time period mentioned in the seller's Returns Policy.",
+        "index": "flipkart_return_cancellation_2"
+    },
+    {
+        "q": "Do I have to return the freebie when I return a product?",
+        "a": "Yes, the freebie has to be returned along with the product.",
+        "index": "flipkart_return_cancellation_3"
+    },
+    {
+        "q": "How do returns work?",
+        "a": "You can raise a request to return your items with these simple steps:\n1. Log into your Flipkart account\n2. Go to My Orders\n3. Click on 'Return' against the item you wish to return or exchange\n4. Fill in the details and raise a return request\nOnce you raise a request, you'll get an email and SMS confirming that your request is being processed. Based on the item, your request may be automatically approved or you may be contacted for more details. If the request is approved, the item will be picked up after which you will get a replacement or refund. You can also track the status of your return request instantly from the 'My Orders' section of your Flipkart account.",
+        "index": "flipkart_return_cancellation_4"
+    },
+    {
+        "q": "I see the 'Cancel' button but I can't click on it. Why?",
+        "a": "A greyed out and disabled 'Cancel' button can mean any one of the following:\n1. The item has been delivered already\nOR\n2. The item is non-refundable (e.g. Gift Card)",
+        "index": "flipkart_return_cancellation_5"
+    },
+    {
+        "q": "What is the Buyer Protection policy?",
+        "a": "The Buyer Protection policy mediates buyer-seller disputes. In case a seller declines your request for a return of an item and you are not convinced with the reason given, you can write to us at resolution@flipkart.com for Buyer Protection. You can dispute the resolution that the seller has shared for your issue until 45 days from the date of delivery and concern is looked into by us on a case-to-case basis.",
+        "index": "flipkart_return_cancellation_6"
+    },
+    {
+        "q": "What should I do if I have an issue with my product after the return period?",
+        "a": "You can get in touch with the brand or an authorised service centre of the brand to claim the warranty for your product (wherever applicable).",
+        "index": "flipkart_return_cancellation_7"
+    },
+    {
+        "q": "How can I return or exchange an item?",
+        "a": "To return/exchange your order, follow these simple steps:\n1. Go to My Orders\n2. Choose the item you wish to return or exchange\n3. Fill in the details\n4. Choose Request Return.",
+        "index": "flipkart_return_cancellation_8"
+    },
+    {
+        "q": "When is a return of an item not possible?",
+        "a": "Sellers cannot accept returns of item(s) in the following cases:\n1. When an item is damaged because of use or when it is not in the same condition as you received it\n2. When any consumable item has been used or installed\n3. When anything is missing from the package you've received including price tags, labels, original packing, freebies & accessories\n4. When non-returnable items are involved such as innerwear. lingerie etc.\n5. When items are tampered with or have missing serial numbers",
+        "index": "flipkart_return_cancellation_9"
+    },
+    {
+        "q": "How can I know the status of my refund?",
+        "a": "You can visit 'My Orders' to know the status of your refund.\nFor orders cancelled before shipping, refunds are processed immediately. If the order has been shipped. refund will be processed as soon as the courier service provider confirms the return of the item(s).",
+        "index": "flipkart_return_cancellation_10"
+    },
+    {
+        "q": "What are the modes of refund available after cancellation?",
+        "a": "The different refund modes available are:\n1. PhonePe Wallet - available for orders with select sellers. You will get this option for eligible orders during cancellation\n2. Back to source - available for orders with all sellers. The amount is refunded to the payment mode that was originally used to pay for the order\n3. NEFT transfer - available for all Cash-on-Delivery orders. As per policy, cash refunds are not possible",
+        "index": "flipkart_return_cancellation_11"
+    },
+    {
+        "q": "When are refunds given?",
+        "a": "Refunds are given when:\n- The seller cannot provide a replacement\n- A dispute has been ruled in your favour in-line with Buyer Protection\n- Sellers allow refunds on select categories under certain conditions\nPlease check the seller's Returns Policy on the product page for more details.",
+        "index": "flipkart_return_cancellation_12"
+    },
+    {
+        "q": "I ordered a wrong item. Can I return it?",
+        "a": "The sellers' return policies don't support the return of item(s) ordered wrongly. You can refer the respective seller's Returns policy on the product page.",
+        "index": "flipkart_return_cancellation_13"
+    },
+    {
+        "q": "What should I do if I find the package open or tampered on delivery?",
+        "a": "You can request for the item to be replaced by visiting 'My Orders'. Use the 'Return' option & fill out the details of the issue so that we can help you.",
+        "index": "flipkart_return_cancellation_14"
+    },
+    {
+        "q": "Can I change the address for the pick-up the of item(s) in my order?",
+        "a": "If the pincode of the new address is serviceable for pick-up, the address can be changed while creating the return. The address cannot be changed in case the new address is not serviceable.",
+        "index": "flipkart_return_cancellation_15"
+    },
+    {
+        "q": "Why have I been asked to ship the item?",
+        "a": "When pickup facility is not available for your location as per the courier service providers, you may be asked to ship the item back to the seller. Since the seller can arrange for a refund or a replacement only after the item reaches them, please make sure that the item is sent to the address mentioned in the return related email within 30 days of the email being sent to you.\nThe seller may not be able to proceed with the return request if the item does not reach the specified address within 30 days.",
+        "index": "flipkart_return_cancellation_16"
+    },
+    {
+        "q": "What is the pickup process?",
+        "a": "Once your return or replacement or exchange request is accepted, the pickup of the originally delivered product will be scheduled. An SMS with more details will be sent to you on the day of the pickup.\nIn cases where pickup service is not available from the courier service providers at your location, you may be asked to ship the item back to the seller within 30 days of the return related email being sent to you.",
+        "index": "flipkart_return_cancellation_17"
+    },
+    {
+        "q": "I have requested for a return for my item. When will it happen?",
+        "a": "You can now track the status of your return easily right from your Flipkart account or mobile app. Just visit the 'My Orders' page to see its status along with the date of pick-up and status of your refund if applicable.\nYou will also receive an email & SMS with the details of your return.",
+        "index": "flipkart_return_cancellation_18"
+    },
+    {
+        "q": "I have requested a replacement, when will I get it?",
+        "a": "You may visit 'My Orders' to check the status of your replacement. In most locations, the replacement item is delivered to you at the time of pick-up. In all other areas, the replacement is initiated after the originally delivered item is picked up. Please check the SMS & email that will be sent to you for your replacement request for more details.",
+        "index": "flipkart_return_cancellation_19"
+    },
+    {
+        "q": "I've still not received the refund in my bank account.",
+        "": "If you have received a mail from us confirming your refund request, it means that the refund has been initiated. You can also contact your bank with the ARN you would have received for an update on the status of your refund.\nIn the rare event of the amount not being credited by the date promised, you can contact us as we will work with the bank to get it done.",
+        "index": "flipkart_return_cancellation_20"
+    },
+    {
+        "q": "What are the refund timelines if I cancel or return a product?",
+        "a": "The refund timelines will depend on the payment modes as listed below:\nDebit card - 7-9 Business days\nCredit - 7-9 Business days\nNetbanking - 3-7 business days\nCOD - IMPS, 1 Business days\nEMI (Standard+No cost+Debit card) - 7- 9 Business days\nFlipkart Pay Later - 24 to 48 hours\nGift Card - 24 hours\nPhonePe:\nPhonePe wallet - 24 hours\nPhonePe UPI - 1 business day\nPhonePe Credit/Debit card - 7 business days\nNote: Refunds will be credited to the payment source used at the time of placing an order.\nThe mode of refund in case of payment through 'Cash on Delivery' will be IMPS",
+        "index": "flipkart_return_cancellation_21"
+    },
+    {
+        "q": "How will I get my refund for returning an item I paid for using 'Cash on Delivery' mode?",
+        "a": "For orders placed using 'Cash on Delivery' as the payment mode, refunds can be processed to your bank account via Immediate Payment Service (IMPS). You can update the details of the bank account where you would like to receive the refund while creating the return request for an item.\nYou will need to update following information for the seller to process a refund to your account:\nThe Bank Account Number\nIFSC Code\nAccount Holder's Name\nBank Branch\nBank Name\nIMPS refunds will typically be processed in one business day by sellers.",
+        "index": "flipkart_return_cancellation_22"
+    },
+    {
+        "q": "I have not received the reimbursement of my courier charges. What should I do?",
+        "a": "Please follow the below-mentioned steps on our website to upload a scanned copy of the receipt from the courier service provider so that we can request the seller for a reimbursement:\nGo to Flipkart Help Center and select the relevant order for which the refund has been requested\nFrom the issue types, choose 'Others' and select 'Email Us'\nNow click on the attachment icon and select the image/document you wish to upload\nPlease include the return ID in your email and click 'Send Email'\nAfter the verification, the amount will be refunded to you as a Gift Card in your Flipkart account.\nNote: This amount is not withdrawable to your bank account.",
+        "index": "flipkart_return_cancellation_23"
+    },
+    {
+        "q": "How will I get my refund for returning an item I paid for with Cash on Delivery?",
+        "a": "For your 'Cash on Delivery order, you will receive the refund in the form of NEFT. Please update your bank account details after you choose this option.",
+        "index": "flipkart_return_cancellation_24"
+    },
+    {
+        "q": "How long does it take to cancel an order?",
+        "a": "Cancellation of item(s) in an order happens immediately if the order hasn't been shipped yet by the seller. If your order has been shipped, it will be cancelled as soon as the courier service confirms that the shipment is being returned to the seller. Orders from certain categories cannot be cancelled after 24 hours, please check the product page for more details.",
+        "index": "flipkart_return_cancellation_25"
+    }
+]

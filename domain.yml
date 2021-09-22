@@ -15,22 +15,45 @@ intents:
   - nlu_fallback
   - credit_card_faq
   - debit_card_faq
-  - flipkart_faq
   - insurance_faq
   - loan_faq
   - mobile_wallet_faq
   - upi_faq
+  - flipkart_axis_bank_credit_card
+  - flipkart_sbi
+  - flipkart_credit_card_no_cost_emi
+  - flipkart_first
+  - flipkart_login_my_account
+  - flipkart_gift_card
+  - flipkart_bajaj
+  - flipkart_refurbished
+  - flipkart_supercoins
+  - flipkart_warranty
+  - flipkart_shipping
+  - flipkart_privacy_security
+  - flipkart_travel
+  - flipkart_pickup_stores
+  - flipkart_return_cancellation
+  - flipkart_ac_installation
+  - flipkart_product_reviews
+  - flipkart_quick
+  - flipkart_selling_on_flipkart
   - askjk
+  - show_credit_cards
+  - show_supercoins
+  - show_orders
+  - ask_news
+  - give_feedback
+  - give_answer:
+      use_entities:
+        - rating
+        
 
 
 
 responses:
   utter_greet:
-  - text: "Hey! I am SIGA bot?"
-
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
+  - text: "Hey! I am SARA. Your personal financial assistant."
 
   utter_did_that_help:
   - text: "Did that help you?"
@@ -39,13 +62,13 @@ responses:
   - text: "Great, carry on!"
 
   utter_goodbye:
-  - text: "Bye"
+  - text: "See you soon.Take Care, till we meet again."
 
   utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+  - text: "I am a bot, designed by SIGABRT and powered by RASA"
 
   utter_out_of_scope:
-  - text: "Sorry, I'm not sure how to respond to that. Type help for assistance ."
+  - text: "Sorry, I'm not sure how to respond to that. Type help for assistance."
 
   utter_noworries:
   - text: "You're welcome :)"
@@ -66,23 +89,57 @@ responses:
   - text: What else can I help you with?
   
   utter_help:
-  - text: "I can help you with your financial accounts. \nYou can ask me things like:\
-      \ \n- What's my account balance? \n- Pay off my credit card \n- What did I spend\
-      \ at Target last month? \n- I need to transfer money"
+  - text: "I can help you in buying Credit Cards and managing your finances.\n\
+           I can fetch realtime stock price and buzz in finance industry.\n\
+           I can fetch your Flipkart Supercoin balance, Order details, track your shipment and collect feedback\
+           \ about your order.\n\
+          I can come in handy for any Flipkart or Financial queries."
+  utter_ask_rating:
+  - text: "On the scale of 1-5 how would you rate our overall product?"
+  utter_ask_recommendation:
+  - text: "On the scale of 1-5 how likely are you to recommend us to a collegue or friend?"
+  utter_ask_comment:
+  - text: "Any further suggestions that you would like to provide?"
 
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
+
 actions:
 - actions.ActionGetFAQAnswer
 - action_get_answer
 - action_jk
 - action_jk2
+- action_getcc
+- action_getcoins
+- action_getorders
+- action_getnews
+- action_pushfeedback
+
 entities:
 - company_name
+- rating
+
 slots:
   status:
     type: bool
   counter:
     type: float
+  rating:
+    type: text 
+  recommendation:
+    type: text 
+  comment:
+    type: text
+
+forms:
+  user_feedback_form:
+    rating:
+      - type: from_entity
+        entity: rating
+    recommendation:
+      - type: from_entity
+        entity: rating 
+    comment:
+      - type: from_text
 

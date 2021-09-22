@@ -1,0 +1,19 @@
+## intent:flipkart_gift_card
+ - I didn't get the Gift Card I ordered for. What should I do?
+ - My Gift Card has expired. Can you extend its validity?
+ - What does 'Transfer' Gift Card in my Wallet do?
+ - Does a Gift Card expire?
+ - Is there a limit on how many Gift Cards I can use in a single order?
+ - What happens to the unused balance in my Gift Card after it expires?
+ - Can I transfer partially used Gift Card to someone?
+ - I've lost my Gift Card PIN, what can I do?
+ - How can I unlink a Gift Card which is added to my wallet?
+ - How can I use a Gift Card?
+ - What if the Gift Card is transferred to someone when I am expecting a refund for an order placed using the same Gift Card?
+ - Can I buy another Gift Card with the Gift Card I have?
+ - Can I get a new Gift Card for the remaining balance if my Gift Card has expired?
+ - Can I use my Gift Card to buy items from different sellers in the same order?
+ - Do I have to pay anything extra to buy or use a Gift Card?
+ - What are the limits to buy Gift Cards?
+ - Are there certain things on Flipkart which I cannot buy through Gift Cards?
+ - What if my order amount is lesser than the Gift Card value?

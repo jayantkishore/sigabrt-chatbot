@@ -1,0 +1,37 @@
+version: "2.0"
+
+nlu:
+- intent: show_credit_cards
+  examples: |
+    - please show my credit cards
+    - please list my credit cards
+    - show me my credit cards details
+    - what is my credit cards outstanding
+    - Display My Cards
+    - List my credit cards
+    - i need to see my credit cards
+    - Can I have access to a credit cards
+    - My credit cards
+    - I want to see my credit card details
+    - I’d like my credit cards displayed
+    - Can I see all my credit cards
+    - Show my cards
+    - Display Credit Cards
+    - Show Credit Cards
+    - Could you show me my credit cards
+    - I would like to see my credit cards
+    - Credit cards information
+    - Display my credit cards
+    - Credit Card Overview
+    - Show all my credit cards
+    - show my credit cards
+    - what all credit cards do I have?
+    - List out all my credit cards
+    - I want to see list of all my credit cards
+    - I would like to see information of all my credit cards
+    - show me my credit card balance
+    - show me my credit card due date
+    - when is my credit card bill due
+    - when do i have to pay my next credit card bill
+    - remind me of credit card bill due date
+    - Tell me my credit card information

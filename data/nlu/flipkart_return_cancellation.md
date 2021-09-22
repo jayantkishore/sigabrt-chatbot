@@ -1,0 +1,26 @@
+## intent:flipkart_return_cancellation
+ - If I request for a replacement, when will I get it?
+ - Can items be returned after the time period mentioned in the seller's Returns Policy?
+ - Do I have to return the freebie when I return a product?
+ - How do returns work?
+ - I see the 'Cancel' button but I can't click on it. Why?
+ - What is the Buyer Protection policy?
+ - What should I do if I have an issue with my product after the return period?
+ - How can I return or exchange an item?
+ - When is a return of an item not possible?
+ - How can I know the status of my refund?
+ - What are the modes of refund available after cancellation?
+ - When are refunds given?
+ - I ordered a wrong item. Can I return it?
+ - What should I do if I find the package open or tampered on delivery?
+ - Can I change the address for the pick-up the of item(s) in my order?
+ - Why have I been asked to ship the item?
+ - What is the pickup process?
+ - I have requested for a return for my item. When will it happen?
+ - I have requested a replacement, when will I get it?
+ - I've still not received the refund in my bank account.
+ - What are the refund timelines if I cancel or return a product?
+ - How will I get my refund for returning an item I paid for using 'Cash on Delivery' mode?
+ - I have not received the reimbursement of my courier charges. What should I do?
+ - How will I get my refund for returning an item I paid for with Cash on Delivery?
+ - How long does it take to cancel an order?

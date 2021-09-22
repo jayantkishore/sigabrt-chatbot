@@ -1,0 +1,18 @@
+## intent:flipkart_pickup_stores
+ - Will my shipment be safe at the pickup store?
+ - How will I know that my shipment has reached the pick-up store?
+ - How can I collect my shipment from the pick-up store?
+ - How does the pick-up store option on Flipkart work?
+ - How long do I have to pick up my shipment from the pick-up store?
+ - What should I do if my shipment is not at the pick-up store?
+ - What happens if I'm not able to pick up my shipment within 5 days from the pickup store for some reason?
+ - What is a pick-up store?
+ - Is a pick-up store option better than having the shipment sent directly to me?
+ - Can I drop off an item I want to return at the pick-up store?
+ - Can someone else collect an order on my behalf from a pick-up store?
+ - Is my shipment safe at the pick-up store?
+ - What are the benefits of choosing the pick-up store option for delivery?
+ - My shipment is damaged at the self pickup store, what do I do?
+ - How much time does it take for the shipment to reach a pickup store?
+ - How to know if my area has self pick-up service?
+ - Is there a charge for pickup of products from a 'Pickup Store'?

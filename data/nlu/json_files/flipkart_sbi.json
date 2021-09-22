@@ -1,0 +1,27 @@
+[
+    {
+        "q": "What are the EMI plans available if I choose the 'Pre-approved EMI' payment option?",
+        "a": "You can choose from the following EMI plans with zero processing fees:\n->6 months \n->9 months\n ->12 months \nNote: Interest rate is 14% irrespective of the EMI plan chosen and is subject to change based on SBI's T&Cs.",
+        "index": "flipkart_sbi_1"
+    },
+    {
+        "q": "What is the pre-approved EMI limit for shopping on Flipkart?",
+        "a": "Please contact SBI's Customer Care on 1800 425 3800 to know the credit limit you are eligible for shopping on Flipkart.",
+        "index": "flipkart_sbi_2"
+    },
+    {
+        "q": "Is SBI's 'Pre-approved EMI' payment option available both on Flipkart's website and app?",
+        "a": "This payment option is available on all our platforms - Website, App (Windows, iOS and Android) as well as through Flipkart lite.",
+        "index": "flipkart_sbi_3"
+    },
+    {
+        "q": "Can I get the refund for the item through any other mode if I have paid for my order using the 'Pre-approved EMI' payment option?",
+        "a": "No, the refund mode cannot be changed for an order that was paid for using SBI's 'Pre-approved EMI' payment option.",
+        "index": "flipkart_sbi_4"
+    },
+    {
+        "q": "Can I buy any item using the 'Pre-approved EMI' payment option?",
+        "a": "You can buy any item with a minimum value of Rs. 5,000 and a maximum value of Rs. 75,000 from sellers on Flipkart. Please note that the upper limit may vary as it depends on the credit amount you are eligible for.\nPlease note, the 'Pre-approved EMI option is only available on select products.",
+        "index": "flipkart_sbi_5"
+    }
+]

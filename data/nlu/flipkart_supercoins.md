@@ -1,0 +1,53 @@
+## intent:flipkart_supercoins
+ - My registered number on Flipkart is different than that registered with other Exchange Partner. Can I change the number on Exchange Partner's platform?
+ - Who all are eligible for the SuperCoins Exchange program?
+ - How can I check SuperCoins Exchange transactions?
+ - Can I convert multiple reward points into SuperCoins at one go as part of SuperCoins Exchange program?
+ - As part of SuperCoins Exchange program, what should I use the QR code for?
+ - What is SuperCoins Exchange program?
+ - How often do conversion rates for SuperCoins Exchange change?
+ - How can I access Exchange Partner reward programs as part of SuperCoins Exchange?
+ - How do I avail/participate in SuperCoins Exchange program?
+ - What are SuperCoin Milestones?
+ - When benefits are unlocked as part of SuperCoin Milestones, will there be deduction of SuperCoins?
+ - How long will the benefit be unlocked as part of my SuperCoin Milestones?
+ - How do I renew my benefits as part of SuperCoin Milestones?
+ - What is Cash and Coins for Rewards program?
+ - Who all can avail Cash and Coins for Rewards?
+ - Can I choose the number of SuperCoins that can be redeemed for a purchase as part of Cash and Coins for Rewards program?
+ - Can I buy rewards using only prepaid mode of payment and redemption of SuperCoins as part of Cash and Coins for Rewards program?
+ - Can I buy all the listed rewards using prepaid mode of payment and by redeeming SuperCoins as part Cash and Coins for Rewards?
+ - Can I purchase rewards using Cash and Coins option from desktop?
+ - Can I make the payment using prepaid mode of payment and Gift Card as part of the Cash and Coins for Rewards?
+ - Where can I find the code for the rewards claimed as part of the Cash and Coins for Rewards?
+ - Will I get SuperCoins for using Cash and Coins for Rewards?
+ - Can I cancel or return a reward as part of the Cash and Coins for Rewards for program?
+ - Which are the third-party partner stores where I can use SuperCoin Pay feature?
+ - Can SuperCoin Pay feature be used to shop online?
+ - Is it necessary to register on Twid (INNOTARGET FASHALOT RETAIL PRIVATE LIMITED) or at the third-party partner store to use SuperCoin Pay feature?
+ - Is it necessary for me to be registered with the same contact number at the third-party partner store for me to use SuperCoin Pay feature?
+ - How can I know if the store I am at has the option of using SuperCoin Pay feature?
+ - What does it mean if a store displays a SuperCoin Pay QR code?
+ - Why is my preferred store not showing up for SuperCoin Pay on the Flipkart app?
+ - How do I know if a third-party partner store accepts SuperCoin Pay if there is no QR code scanner available?
+ - What are in-app offers for SuperCoin Pay?
+ - What is the purpose of the scratch card in SuperCoin Pay?
+ - Where will I find a scratch card after using SuperCoin Pay feature for an order?
+ - What are the cities/states that have third-party partner stores to redeem the SuperCoin Pay feature?
+ - Can I scan any QR code in the store to initiate the payment for an order using SuperCoin Pay feature?
+ - For how long is a payment code as a part of SuperCoin Pay valid once it is generated?
+ - What all brands are part of the SuperCoin Pay program?
+ - How secure is the payment through SuperCoin Pay?
+ - Do I have to manually unlock a scratch card as part of SuperCoin Pay?
+ - What is SuperCoin Pay feature?
+ - How can I redeem SuperCoins through SuperCoin Pay feature during my purchase at a third-party partner store or on Flipkart platform?
+ - Can I redeem all of my available SuperCoins while using the SuperCoin Pay feature?
+ - Can I make the payment through cash or UPI payment mode to avail benefits as part of SuperCoin Pay at a third-party partner store?
+ - How do I apply an offer while making the payment using SuperCoin Pay feature?
+ - Can I cancel the order that I paced by redeeming SuperCoin through the SuperCoin Pay feature?
+ - Can I return a product and ask for a refund if I have purchased it by redeeming my SuperCoins to avail discount through SuperCoin Pay feature?
+ - How does Supercoin Pay feature work on Flipkart platform?
+ - Will I get the available bank offers on Flipkart platform if I choose to redeem SuperCoins through SuperCoin Pay?
+ - What is the difference between the Supercoins Price option available on the product page and SuperCoin Pay on Flipkart platform?
+ - While transacting on Flipkart platform, as part of SuperCoin Pay, can I redeem SuperCoins along with a prepaid payment mode provided by any bank?
+ - Can I redeem SuperCoins through Supercoin Pay feature for products from all the categories on the Flipkart platform?

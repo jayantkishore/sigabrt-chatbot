@@ -1,0 +1,15 @@
+## intent:flipkart_warranty
+ - I see that the warranty terms for my product have changed on Flipkart from when I bought the product. Will this affect my warranty?
+ - I lost my warranty card. How can I get warranty?
+ - How can I claim warranty for my product?
+ - I want to check my warranty details for the product but I don't have the warranty card. What should I do?
+ - There is a mismatch in warranty terms between Flipkart and the brand's website. What will happen to the warranty on my product now?
+ - There is no seal on the warranty card I got. How will I claim warranty?
+ - How does warranty work on replacement products?
+ - What should I do if there is a difference in the warranty mentioned on Flipkart & the physical warranty card I got?
+ - Should I register the product with the brand to avail the warranty benefits on it?
+ - I didn't get a warranty card with my product. How can I get the warranty?
+ - Will warranty be applicable for my product since I bought it online?
+ - How do I sign up for an extended warranty for my product?
+ - I don't remember the warranty details for my product. Where can I find it?
+ - From when is the warranty for my product applicable?
