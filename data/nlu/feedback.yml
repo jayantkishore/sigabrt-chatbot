@@ -13,22 +13,22 @@ nlu:
     - i want to provide my feedback
 - intent: give_answer
   examples: |
-    - ok i would rate it [1](rating)
-    - [1](rating)
-    - i think i will give [1](rating)
-    - i would like to give [1](rating) star
-    - [1](rating) star
-    - [1](rating) is my rating
-    - [1](rating) is my score
-    - ok i would rate it [one](rating)
-    - [one](rating)
-    - i think i will give [one](rating)
-    - i would like to give [one](rating) star
-    - [one](rating) star
-    - [one](rating) is my rating
-    - [one](rating) is my score
+    - ok i would rate it [1](number_one_to_five)
+    - [1](number_one_to_five)
+    - i think i will give [1](number_one_to_five)
+    - i would like to give [1](number_one_to_five) star
+    - [1](number_one_to_five) star
+    - [1](number_one_to_five) is my rating
+    - [1](number_one_to_five) is my score
+    - ok i would rate it [one](number_one_to_five)
+    - [one](number_one_to_five)
+    - i think i will give [one](number_one_to_five)
+    - i would like to give [one](number_one_to_five) star
+    - [one](number_one_to_five) star
+    - [one](number_one_to_five) is my rating
+    - [one](number_one_to_five) is my score
     
-- lookup: rating
+- lookup: number_one_to_five
   examples: |
     - 1
     - one
