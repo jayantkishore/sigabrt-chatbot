@@ -101,7 +101,6 @@ nlu:
   examples: |
     - not really
     - no
-    - I don't think so
     - never
     - no way
     - nope
@@ -125,7 +124,7 @@ nlu:
 - intent: mood_great
   examples: |
     - perfect
-    - great
+    - thats great!!
     - amazing
     - feeling like a king
     - wonderful
