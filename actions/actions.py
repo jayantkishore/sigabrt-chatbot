@@ -15,6 +15,7 @@ from rasa_sdk.executor import CollectingDispatcher
 import numpy as np
 from sentence_transformers import SentenceTransformer
 from rasa_sdk.events import SlotSet, EventType
+from rasa_sdk.forms import FormValidationAction
 from datetime import date, timedelta, time, datetime
 import urllib.request
 from pytz import timezone
@@ -329,41 +330,6 @@ class GetNews(Action):
                 dispatcher.utter_message(text = "Remember , an investment in knowledge pays the best interest!")
         return []
 
-"""class ActionGetRating(Action):
-    def name(self):
-        return "action_getrating"
-    def run(
-        self,
-        dispatcher: CollectingDispatcher,
-        tracker: Tracker,
-        domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        
-        ans = int(tracker.latest_message['entities'][0]["value"])
-        return [SlotSet("overall_rating", ans)]
-
-class ActionGetRecom(Action):
-    def name(self):
-        return "action_getrecommendation"
-    def run(
-        self,
-        dispatcher: CollectingDispatcher,
-        tracker: Tracker,
-        domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        
-        ans = int(tracker.latest_message['entities'][0]["value"])
-        return [SlotSet("recommendation", ans)]
-
-class ActionGetComment(Action):
-    def name(self):
-        return "action_getcomment"
-    def run(
-        self,
-        dispatcher: CollectingDispatcher,
-        tracker: Tracker,
-        domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        
-        ans = str(tracker.latest_message['text'])
-        return [SlotSet("comment", ans)]"""
 
 
 class ValidateFeedbackForm(Action):
@@ -411,7 +377,58 @@ class ActionPushFeedback(Action):
         updated = existing.append(df)
         gd.set_with_dataframe(ws, updated)
         dispatcher.utter_message("Bye for now. Go off screen, aankhein kharab ho jaayegi!")
-        return []
-        
+        return [SlotSet("rating", None), SlotSet("recommendation", None), SlotSet("comment", None)]
+
+
+class ValidateCCForm(Action):
+    def name(self):
+        return "user_cc_form"
+    
+    def getRequiredSlots(self,  tracker):
+        cards = ['personal' , 'Personal']
+        sm = False 
+        if tracker.slots.get('personalbusiness')== None:
+            return ['personalbusiness' , 'travelshopping']
+        for a in cards:
+            if a in tracker.slots.get('personalbusiness'):
+                sm = True
+        if sm: 
+            return ['personalbusiness' , 'travelshopping']
+        else:
+            return ['personalbusiness']
+
+    def run(self, dispatcher, tracker, domain):
+        required_slots = self.getRequiredSlots(tracker)
+        if len(required_slots) == 1:
+            dispatcher.utter_message(response = 'utter_business')
+            return [SlotSet("requested_slot", None)]
+        else:
+            for slot_name in required_slots:
+                if tracker.get_slot(slot_name) is None:
+                    return [SlotSet("requested_slot", slot_name)]
+            
+            return [SlotSet("requested_slot", None)]
+
+
+class CCformclear(Action):
+    def name(self):
+        return "action_def_reset"
+    
+    def run(
+        self,
+        dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        if 'business' in tracker.get_slot("personalbusiness"):
+            dispatcher.utter_message(response = 'utter_business')
+
+        elif 'travel' in tracker.get_slot("travelshopping"):
+            dispatcher.utter_message(response = 'utter_travel')
+        else:
+            dispatcher.utter_message(response = 'utter_shopping')
+
+        return [SlotSet("personalbusiness", None), SlotSet("travelshopping", None)]
+ 
 encode_standard_question(pretrained_model)
  

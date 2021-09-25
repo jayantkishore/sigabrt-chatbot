@@ -87,4 +87,24 @@ rules:
   # The actions we want to run when the form is submitted.
   - action: action_pushfeedback
 
+- rule: Activate ccform
+  steps:
+  - intent: wantcc
+  - action: utter_new_cc
+  - action: user_cc_form
+  - active_loop: user_cc_form
+
+- rule: Submit ccform
+  condition:
+  # Condition that form is active.
+  - active_loop: user_cc_form
+  steps:
+  # Form is deactivated
+  - action: user_cc_form
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  # The actions we want to run when the form is submitted.
+  - action: action_def_reset 
+
   
