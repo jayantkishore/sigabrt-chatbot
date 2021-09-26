@@ -440,13 +440,13 @@ class ValidateCCForm(FormValidationAction):
             ans = slots_mapped_in_domain + additional_slots 
         else:
             ans = slots_mapped_in_domain
-        print(ans)
+        
         return ans
 
     async def extract_travelshopping(
         self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict
        ) -> Dict[Text, Any]:
-        print("extract travel shopping is called")
+        
         text_of_last_user_message = tracker.latest_message.get("text")
         value = None
         if "travel" in text_of_last_user_message:
@@ -466,13 +466,15 @@ class CCformclear(Action):
         tracker: Tracker,
         domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
-        if 'business' in tracker.get_slot("personalbusiness"):
+        if tracker.get_slot("personalbusiness") is not None and 'business' in tracker.get_slot("personalbusiness"):
             dispatcher.utter_message(response = 'utter_business')
 
-        elif 'travel' in tracker.get_slot("travelshopping"):
+        elif tracker.get_slot("travelshopping") is not None and 'travel' in tracker.get_slot("travelshopping"):
             dispatcher.utter_message(response = 'utter_travel')
-        else:
+        elif tracker.get_slot("travelshopping") is not None and 'shopping' in tracker.get_slot("travelshopping"):
             dispatcher.utter_message(response = 'utter_shopping')
+        else:
+            dispatcher.utter_message(response = 'utter_out_of_scope')
 
         return [SlotSet("personalbusiness", None), SlotSet("travelshopping", None)]
 
