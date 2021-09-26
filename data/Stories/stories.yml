@@ -1,0 +1,141 @@
+version: "2.0"
+
+stories:
+
+
+- story: say ok when user affirms after utter_help
+  steps:
+  - action: utter_help
+  - intent: affirm
+  - action: utter_ok
+
+- story: not interested
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_help
+
+- story: ABC
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_help
+  - intent: help
+  - action: utter_help
+  - intent: credit_card_faq
+  - action: action_get_answer
+
+- story: ABC
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_help
+  - intent: help
+  - action: utter_help
+  - intent: debit_card_faq
+  - action: action_get_answer
+  - intent: ask_news
+  - action: action_getnews
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: Credit Card FAQ
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_help
+  - intent: credit_card_faq
+  - action: action_get_answer
+
+- story: Debit Card FAQ
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_help
+  - intent: debit_card_faq
+  - action: action_get_answer
+
+- story: Flipkart FAQ
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_help
+  - intent: flipkart_faq
+  - action: action_get_answer
+
+- story: Insurance FAQ 
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_help
+  - intent: insurance_faq
+  - action: action_get_answer
+
+- story: Loan FAQ
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_help
+  - intent: loan_faq
+  - action: action_get_answer
+
+- story: Mobile Wallet FAQ
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_help
+  - intent: mobile_wallet_faq
+  - action: action_get_answer
+
+- story: UPI FAQ
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_help
+  - intent: upi_faq
+  - action: action_get_answer
+
+- story: JK path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_help
+  - intent: askjk
+  - action: action_jk
+  - action: action_jk2
+
+- story: Get CC path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_help
+  - intent: show_credit_cards
+  - action: action_getcc
+
+- story: Get Supercoin path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_help
+  - intent: show_supercoins
+  - action: action_getcoins
+
+- story: Get orders
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_help
+  - intent: show_orders
+  - action: action_getorders
+
+- story: Get News
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_help
+  - intent: ask_news
+  - action: action_getnews
+  
+
+ 
+  
