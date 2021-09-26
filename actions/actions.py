@@ -8,7 +8,7 @@
 # This is a simple example for a custom action which utters "Hello World!"
 import os
 import json
-from typing import Any, Text, Dict, List
+from typing import Any, Text, Dict, List , Optional
 import torch
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
@@ -16,6 +16,7 @@ import numpy as np
 from sentence_transformers import SentenceTransformer
 from rasa_sdk.events import SlotSet, EventType
 from rasa_sdk.forms import FormValidationAction
+from rasa_sdk.types import DomainDict
 from datetime import date, timedelta, time, datetime
 import urllib.request
 from pytz import timezone
@@ -380,35 +381,46 @@ class ActionPushFeedback(Action):
         return [SlotSet("rating", None), SlotSet("recommendation", None), SlotSet("comment", None)]
 
 
-class ValidateCCForm(Action):
+class ValidateCCForm(FormValidationAction):
     def name(self):
-        return "user_cc_form"
+        return "validate_user_cc_form"
     
-    def getRequiredSlots(self,  tracker):
-        cards = ['personal' , 'Personal']
+    async def required_slots(
+        self,
+        slots_mapped_in_domain: List[Text],
+        dispatcher: "CollectingDispatcher",
+        tracker: "Tracker",
+        domain: "DomainDict",
+        ) -> Optional[List[Text]]:
+
+        additional_slots = ['travelshopping']
+        cards = ['personal', 'Personal']
         sm = False 
-        if tracker.slots.get('personalbusiness')== None:
-            return ['personalbusiness' , 'travelshopping']
+        if tracker.slots.get("personalbusiness") is None:
+            return slots_mapped_in_domain
         for a in cards:
-            if a in tracker.slots.get('personalbusiness'):
+            if a in tracker.slots.get("personalbusiness"):
                 sm = True
-        if sm: 
-            return ['personalbusiness' , 'travelshopping']
+        ans = []
+        if sm and tracker.slots.get("travelshopping") is None:
+            ans = slots_mapped_in_domain + additional_slots 
         else:
-            return ['personalbusiness']
+            ans = slots_mapped_in_domain
+        print(ans)
+        return ans
 
-    def run(self, dispatcher, tracker, domain):
-        required_slots = self.getRequiredSlots(tracker)
-        if len(required_slots) == 1:
-            dispatcher.utter_message(response = 'utter_business')
-            return [SlotSet("requested_slot", None)]
-        else:
-            for slot_name in required_slots:
-                if tracker.get_slot(slot_name) is None:
-                    return [SlotSet("requested_slot", slot_name)]
-            
-            return [SlotSet("requested_slot", None)]
-
+    async def extract_travelshopping(
+        self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict
+       ) -> Dict[Text, Any]:
+        print("extract travel shopping is called")
+        text_of_last_user_message = tracker.latest_message.get("text")
+        value = None
+        if "travel" in text_of_last_user_message:
+            value='travel'
+        elif "shopping" in text_of_last_user_message:
+            value = 'shopping'
+        
+        return {"travelshopping": value}
 
 class CCformclear(Action):
     def name(self):

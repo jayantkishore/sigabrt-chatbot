@@ -130,6 +130,7 @@ actions:
 - action_getnews
 - action_pushfeedback
 - action_def_reset
+- validate_user_cc_form
 
 entities:
 - company_name
@@ -166,8 +167,8 @@ forms:
       - type: from_text
   
   user_cc_form:
-    personalbusiness:
+    required_slots:
+      personalbusiness:
       - type: from_text
-    travelshopping:
-      - type: from_text
+   
 
