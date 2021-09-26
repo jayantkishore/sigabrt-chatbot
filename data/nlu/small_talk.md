@@ -18,6 +18,8 @@
 - why are you here
 - tell me about your personality
 - who are you
+- who is SIGA
+- who made SIGA
 
 ## intent:smalltalk_agent_age
 - how old are you?
