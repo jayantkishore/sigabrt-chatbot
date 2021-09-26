@@ -8,13 +8,15 @@
 # This is a simple example for a custom action which utters "Hello World!"
 import os
 import json
-from typing import Any, Text, Dict, List
+from typing import Any, Text, Dict, List , Optional
 import torch
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 import numpy as np
 from sentence_transformers import SentenceTransformer
 from rasa_sdk.events import SlotSet, EventType
+from rasa_sdk.forms import FormValidationAction
+from rasa_sdk.types import DomainDict
 from datetime import date, timedelta, time, datetime
 import urllib.request
 from pytz import timezone
@@ -412,6 +414,67 @@ class ActionPushFeedback(Action):
         gd.set_with_dataframe(ws, updated)
         dispatcher.utter_message("Bye for now. Go off screen, aankhein kharab ho jaayegi!")
         return []
+class ValidateCCForm(FormValidationAction):
+    def name(self):
+        return "validate_user_cc_form"
+    
+    async def required_slots(
+        self,
+        slots_mapped_in_domain: List[Text],
+        dispatcher: "CollectingDispatcher",
+        tracker: "Tracker",
+        domain: "DomainDict",
+        ) -> Optional[List[Text]]:
+
+        additional_slots = ['travelshopping']
+        cards = ['personal', 'Personal']
+        sm = False 
+        if tracker.slots.get("personalbusiness") is None:
+            return slots_mapped_in_domain
+        for a in cards:
+            if a in tracker.slots.get("personalbusiness"):
+                sm = True
+        ans = []
+        if sm and tracker.slots.get("travelshopping") is None:
+            ans = slots_mapped_in_domain + additional_slots 
+        else:
+            ans = slots_mapped_in_domain
+        print(ans)
+        return ans
+
+    async def extract_travelshopping(
+        self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict
+       ) -> Dict[Text, Any]:
+        print("extract travel shopping is called")
+        text_of_last_user_message = tracker.latest_message.get("text")
+        value = None
+        if "travel" in text_of_last_user_message:
+            value='travel'
+        elif "shopping" in text_of_last_user_message:
+            value = 'shopping'
+        
+        return {"travelshopping": value}
+
+class CCformclear(Action):
+    def name(self):
+        return "action_def_reset"
+    
+    def run(
+        self,
+        dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        if 'business' in tracker.get_slot("personalbusiness"):
+            dispatcher.utter_message(response = 'utter_business')
+
+        elif 'travel' in tracker.get_slot("travelshopping"):
+            dispatcher.utter_message(response = 'utter_travel')
+        else:
+            dispatcher.utter_message(response = 'utter_shopping')
+
+        return [SlotSet("personalbusiness", None), SlotSet("travelshopping", None)]
+
         
 encode_standard_question(pretrained_model)
  

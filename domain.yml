@@ -47,6 +47,7 @@ intents:
   - give_answer:
       use_entities:
         - rating
+  - wantcc
   - smalltalk_agent_acquaintance
   - smalltalk_agent_age
   - smalltalk_agent_annoying
@@ -159,7 +160,7 @@ responses:
   - text: "I know you will miss me. Bye"
   - text: "Bye for now. Feel free to ping me, anytime."
   - text: "Well now I have to go. Bye"
-  - text: "Ok, Bye. Sara will always be avilable for you."
+  - text: "Ok, Bye. Siga will always be avilable for you."
   - text: "If you need any more assistance, ping me. Bye."
 
   utter_iamabot:
@@ -639,6 +640,18 @@ responses:
     - text: "I'll be waiting."
     - text: "Okay. You know where to find me."
     - text: "All right. I'll be here."
+  utter_ask_personalbusiness:
+  - text: "For what purpose you are going to use this card? (personal/business)"
+  utter_ask_travelshopping:
+  - text: "Are you going to use it primarily for travel or shopping ?"
+  utter_travel:
+  - text: "I would recommend Titanium Smart Traveler Credit Card"
+  utter_shopping:
+  - text: "I would suggest Flipkart Axis Bank Credit Card for unlimited cashbacks ."
+  utter_business:
+  - text: "I think you should go for Axis Bank My Business Credit Card."
+  utter_new_cc:
+  - text: "I can help you get a new credit card.. Let's get started...."
 
 session_config:
   session_expiration_time: 60
@@ -654,7 +667,8 @@ actions:
 - action_getorders
 - action_getnews
 - action_pushfeedback
-
+- validate_user_cc_form
+- action_def_reset
 entities:
 - company_name
 - one_to_five
@@ -670,7 +684,10 @@ slots:
     type: text 
   comment:
     type: text
-
+  personalbusiness:
+    type: text
+  travelshopping:
+    type: text
 forms:
   user_feedback_form:
     rating:
@@ -680,4 +697,8 @@ forms:
       - type: from_entity
         entity: one_to_five 
     comment:
+      - type: from_text
+  user_cc_form:
+    required_slots:
+      personalbusiness:
       - type: from_text
