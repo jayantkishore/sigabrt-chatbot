@@ -449,9 +449,9 @@ class ValidateCCForm(FormValidationAction):
         
         text_of_last_user_message = tracker.latest_message.get("text")
         value = None
-        if "travel" in text_of_last_user_message:
+        if ("travel" in text_of_last_user_message or "Travel" in text_of_last_user_message):
             value='travel'
-        elif "shopping" in text_of_last_user_message:
+        elif ("shopping" in text_of_last_user_message or "Shopping" in text_of_last_user_message):
             value = 'shopping'
         
         return {"travelshopping": value}
@@ -466,7 +466,7 @@ class CCformclear(Action):
         tracker: Tracker,
         domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
-        if tracker.get_slot("personalbusiness") is not None and 'business' in tracker.get_slot("personalbusiness"):
+        if tracker.get_slot("personalbusiness") is not None and ('business' in tracker.get_slot("personalbusiness") or 'Business' in tracker.get_slot("personalbusiness")):
             dispatcher.utter_message(response = 'utter_business')
 
         elif tracker.get_slot("travelshopping") is not None and 'travel' in tracker.get_slot("travelshopping"):
