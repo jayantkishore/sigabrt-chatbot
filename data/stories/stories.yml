@@ -140,5 +140,102 @@ stories:
   steps:
   - intent: about_developers
   - action: utter_about_developers
+
+- story: flipkart_axis_bank_credit_card
+  steps:
+  - intent: flipkart_axis_bank_credit_card
+  - action: action_get_answer
+
+- story: flipkart_sbi
+  steps:
+  - intent: flipkart_sbi
+  - action: action_get_answer
+
+- story: flipkart_credit_card_no_cost_emi
+  steps:
+  - intent: flipkart_credit_card_no_cost_emi
+  - action: action_get_answer
+
+- story: flipkart_first
+  steps:
+  - intent: flipkart_first
+  - action: action_get_answer
+
+- story: flipkart_login_my_account
+  steps:
+  - intent: flipkart_login_my_account
+  - action: action_get_answer
+
+- story: flipkart_gift_card
+  steps:
+  - intent: flipkart_gift_card
+  - action: action_get_answer
+
+- story: flipkart_bajaj
+  steps:
+  - intent: flipkart_bajaj
+  - action: action_get_answer
+
+- story: flipkart_refurbished
+  steps:
+  - intent: flipkart_refurbished
+  - action: action_get_answer
+
+- story: flipkart_supercoins
+  steps:
+  - intent: flipkart_supercoins
+  - action: action_get_answer
+
+- story: flipkart_warranty
+  steps:
+  - intent: flipkart_warranty
+  - action: action_get_answer
+
+- story: flipkart_shipping
+  steps:
+  - intent: flipkart_shipping
+  - action: action_get_answer
+
+- story: flipkart_privacy_security
+  steps:
+  - intent: flipkart_privacy_security
+  - action: action_get_answer
+
+- story: flipkart_travel
+  steps:
+  - intent: flipkart_travel
+  - action: action_get_answer
+
+- story: flipkart_pickup_stores
+  steps:
+  - intent: flipkart_pickup_stores
+  - action: action_get_answer
+
+- story: flipkart_return_cancellation
+  steps:
+  - intent: flipkart_return_cancellation
+  - action: action_get_answer
+
+- story: flipkart_ac_installation
+  steps:
+  - intent: flipkart_ac_installation
+  - action: action_get_answer
+
+- story: flipkart_product_reviews
+  steps:
+  - intent: flipkart_product_reviews
+  - action: action_get_answer
+
+- story: flipkart_quick
+  steps:
+  - intent: flipkart_quick
+  - action: action_get_answer
+
+- story: flipkart_selling_on_flipkart
+  steps:
+  - intent: flipkart_selling_on_flipkart
+  - action: action_get_answer
+
+
  
   
