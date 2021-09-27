@@ -312,6 +312,6 @@ nlu:
     - who gave you birth
 
 - synonym: you
-examples: |
-  - siga
-  - bot 
+  examples: |
+    - siga
+    - bot 

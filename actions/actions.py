@@ -85,7 +85,6 @@ class ActionGetFAQAnswer(Action):
         ):  # This confidence scores can be adjusted based on your need!!
             response = self.faq_data[most_similar_id]["a"]
             dispatcher.utter_message(response)
-            dispatcher.utter_message("Problem solved?")
         else:
             response = "Sorry, this question is beyond my ability..."
             dispatcher.utter_message(response)
@@ -173,11 +172,11 @@ class ActionJK(Action):
             obj = json.loads(content)
             rsp = obj["results"][0]
             ans = ""
-            ans += "Open : {}  ||  Close : {}  ||  Low : {}  || High : {} ".format(
+            ans += "Open : {}$ ,  Close : {}$  ,  Low : {}$  , High : {}$ ".format(
                 rsp["o"], rsp["c"], rsp["l"], rsp["h"]
             )
             dispatcher.utter_message(
-                text= "SARA at your service! I know about {} stocks price!".format(
+                text= "Siga at your service! I know about {} stocks price!".format(
                     tick) + response_answer
             )
             dispatcher.utter_message(text=ans)
@@ -203,7 +202,7 @@ class ActionJK2(Action):
     ) -> List[Dict[Text, Any]]:
         if tracker.get_slot("status") == False:
             if tracker.get_slot("counter") <= 2:
-                dispatcher.utter_message(text="Be specific!")
+                dispatcher.utter_message(text="Could you be more specific please?")
             else:
                 dispatcher.utter_message(
                     text="Sorry I can not fetch the details for this company!"
@@ -212,8 +211,6 @@ class ActionJK2(Action):
                 dispatcher.utter_message(
                     text="Or maybe, you could try searching for another stock?"
                 )
-        else:
-            dispatcher.utter_message(text="Are you planning to buy this stock?")
         return []
 
 
@@ -268,7 +265,7 @@ class GetSupercoins(Action):
             cns = 'coin'
         output = "You have {} Super{}".format(bal, cns)   
         dispatcher.utter_message(text = output)
-        output1 = "Do you know that you can earn more supercoins by watching Flipkart Videos and playing Flipkart Games?"
+        output1 = "Do you know ! you can earn more supercoins by watching Flipkart Videos and playing Flipkart Games"
         dispatcher.utter_message(text = output1) 
 
         return []

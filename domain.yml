@@ -173,7 +173,8 @@ responses:
   - text: "Sorry, I'm not sure how to respond to that. Type help for assistance."
 
   utter_noworries:
-  - text: "You're welcome :)"
+  - text: "You're welcome"
+  - text: "Siga at your service"
 
   utter_ask_rephrase:
   - text: "I didn't quite understand that. Can you rephrase?"
@@ -200,11 +201,39 @@ responses:
           I can tell you share prices and latest news.\n\
           I can also assist you in buying a new credit card"
   utter_ask_rating:
-  - text: "On the scale of 1-5 how would you rate our overall product?"
+  - text: "On the scale of 1 to 5 how would you rate our overall product?"
+  - text: "On scale of one to five, how would you rate our overall product?"
+  - text: "On a scale of 1 to 5 , what do you think of our overall product?"
+  - text: "On a scale of 1 to 5 , how was your experience with our overall product?"
   utter_ask_recommendation:
-  - text: "On the scale of 1-5 how likely are you to recommend us to a colleague or friend?"
+  - text: "On the scale of 1 to 5 how likely are you to recommend us to a colleague or friend?"
+  - text: "On a scale of one to five, how likely are you to recommend us to a colleague or friend?"
+  - text: "On a scale of one to five, how likely you are going to recommend us to your friends?"
   utter_ask_comment:
   - text: "Any further suggestions that you would like to provide?"
+  - text: "Any further comments?"
+  - text: "Would you like to convey something to my developers?"
+  - text: "Any futher suggestions?"
+  - text: "Something more you would like to say?"
+
+  utter_ask_continue_feedback:
+  - text: "Would you still like to continue giving feedback?"
+  - text: "Can you please resume the feedback?"
+  - text: "Are you still willing to give feedback?"
+  - text: "Shall we get back to feedback, please?"
+
+  utter_sad_deny_feedback:
+  - text: "I would definitely love to hear your feeback soon."
+  - text: "I am sad that you changed your mind."
+  - text: "I will be waiting for your feedback."
+
+  utter_feedback_saved:
+  - text: "Yay! your feedback was saved."
+  - text: "Congrats, we saved your feedback."
+  - text: "Hurray, your feedback was sent to the developers."
+  - text: "Thanks for giving feedback."
+  - text: "Your feedback has been recorded."
+
 
   utter_smalltalk_agent_acquaintance:
     - text: "I'm Siga bot."
@@ -674,11 +703,11 @@ responses:
     - text: "Siga at your service! I can suggest you a credit card that suits your need"
     - text: "Why fear when Siga is here! I will let you pick a card for your needs"
   utter_about_developers:
-    - text: "I have been developed by Sigabrt team of IIT Dhanbad.It consists of Jayant, Sumit and Aryan."
-    - text: "My developers are Jayant, Sumit and Aryan from IIT Dhanbad.Their team goes by the name Sigabrt."
-    - text: "I have been coded by Sigabrt team from IIT Dhanbad.It contains Jayant, Sumit and Aryan."
+    - text: "I have been developed by Sigabrt team of IIT Dhanbad. It consists of Jayant, Sumit and Aryan."
+    - text: "My developers are Jayant, Sumit and Aryan from IIT Dhanbad. Their team goes by the name Sigabrt."
+    - text: "I have been coded by Sigabrt team from IIT Dhanbad. It contains Jayant, Sumit and Aryan."
     - text: "I have been programmed by Jayant, Sumit and Aryan of Sigabrt team from IIT Dhanbad."
-    - text: "My programmers are Jayant, Sumit and Aryan from IIT Dhanbad.Their team goes by the name Sigabrt. "
+    - text: "My programmers are Jayant, Sumit and Aryan from IIT Dhanbad. Their team goes by the name Sigabrt. "
 
 session_config:
   session_expiration_time: 60

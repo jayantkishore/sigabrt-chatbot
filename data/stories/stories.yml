@@ -55,13 +55,6 @@ stories:
   - intent: debit_card_faq
   - action: action_get_answer
 
-- story: Flipkart FAQ
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - action: utter_help
-  - intent: flipkart_faq
-  - action: action_get_answer
 
 - story: Insurance FAQ 
   steps:
@@ -140,6 +133,150 @@ stories:
   steps:
   - intent: about_developers
   - action: utter_about_developers
+
+
+
+- story: Interrupt feedback form by FAQ and then continue
+  steps:
+  - intent: give_feedback
+  - action: user_feedback_form
+  - active_loop: user_feedback_form
+  - or:
+    - intent: credit_card_faq
+    - intent: debit_card_faq
+    - intent: insurance_faq
+    - intent: loan_faq
+    - intent: mobile_wallet_faq
+    - intent: upi_faq
+    - intent: flipkart_axis_bank_credit_card
+    - intent: flipkart_sbi
+    - intent: flipkart_credit_card_no_cost_emi
+    - intent: flipkart_first
+    - intent: flipkart_login_my_account
+    - intent: flipkart_gift_card
+    - intent: flipkart_bajaj
+    - intent: flipkart_refurbished
+    - intent: flipkart_supercoins
+    - intent: flipkart_warranty
+    - intent: flipkart_shipping
+    - intent: flipkart_privacy_security
+    - intent: flipkart_travel
+    - intent: flipkart_pickup_stores
+    - intent: flipkart_return_cancellation
+    - intent: flipkart_ac_installation
+    - intent: flipkart_product_reviews
+    - intent: flipkart_quick
+    - intent: flipkart_selling_on_flipkart
+  - action: action_get_answer
+  - action: utter_ask_continue_feedback
+  - intent: affirm
+  - action: user_feedback_form
+  - active_loop: user_feedback_form
+
+
+- story: Interrupt feedback form by FAQ and then continue
+  steps:
+  - intent: give_feedback
+  - action: user_feedback_form
+  - active_loop: user_feedback_form
+  - or:
+    - intent: credit_card_faq
+    - intent: debit_card_faq
+    - intent: insurance_faq
+    - intent: loan_faq
+    - intent: mobile_wallet_faq
+    - intent: upi_faq
+    - intent: flipkart_axis_bank_credit_card
+    - intent: flipkart_sbi
+    - intent: flipkart_credit_card_no_cost_emi
+    - intent: flipkart_first
+    - intent: flipkart_login_my_account
+    - intent: flipkart_gift_card
+    - intent: flipkart_bajaj
+    - intent: flipkart_refurbished
+    - intent: flipkart_supercoins
+    - intent: flipkart_warranty
+    - intent: flipkart_shipping
+    - intent: flipkart_privacy_security
+    - intent: flipkart_travel
+    - intent: flipkart_pickup_stores
+    - intent: flipkart_return_cancellation
+    - intent: flipkart_ac_installation
+    - intent: flipkart_product_reviews
+    - intent: flipkart_quick
+    - intent: flipkart_selling_on_flipkart
+  - action: action_get_answer
+  - action: utter_ask_continue_feedback
+  - intent: deny
+  - action: action_deactivate_loop
+  - active_loop: null
+  - action: utter_sad_deny_feedback
+
+
+
+- story: Interrupt feedback form by stock prices and then continue
+  steps:
+  - intent: give_feedback
+  - action: user_feedback_form
+  - active_loop: user_feedback_form
+  - intent: askjk
+  - action: action_jk
+  - action: action_jk2 
+  - action: utter_ask_continue_feedback
+  - intent: affirm
+  - action: user_feedback_form
+  - active_loop: user_feedback_form
+
+- story: Interrupt feedback form by stock prices and then deny
+  steps:
+  - intent: give_feedback
+  - action: user_feedback_form
+  - active_loop: user_feedback_form
+  - intent: askjk
+  - action: action_jk
+  - action: action_jk2 
+  - action: utter_ask_continue_feedback
+  - intent: deny
+  - action: action_deactivate_loop
+  - active_loop: null
+  - action: utter_sad_deny_feedback
+
+
+- story: Interrupt feedback form by news and then continue
+  steps:
+  - intent: give_feedback
+  - action: user_feedback_form
+  - active_loop: user_feedback_form
+  - intent: ask_news
+  - action: action_getnews 
+  - action: utter_ask_continue_feedback
+  - intent: affirm
+  - action: user_feedback_form
+  - active_loop: user_feedback_form
+
+- story: Interrupt feedback form by news and then deny
+  steps:
+  - intent: give_feedback
+  - action: user_feedback_form
+  - active_loop: user_feedback_form
+  - intent: ask_news
+  - action: action_getnews 
+  - action: utter_ask_continue_feedback
+  - intent: deny
+  - action: action_deactivate_loop
+  - active_loop: null
+  - action: utter_sad_deny_feedback
+
+
+
+
+
+
+
+
+
+
+
 
 - story: flipkart_axis_bank_credit_card
   steps:
