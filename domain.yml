@@ -132,6 +132,7 @@ intents:
   - smalltalk_user_wants_to_see_agent_again
   - smalltalk_user_wants_to_talk
   - smalltalk_user_will_be_back
+  - about_developers
         
 
 
@@ -164,9 +165,9 @@ responses:
   - text: "If you need any more assistance, ping me. Bye."
 
   utter_iamabot:
-  - text: "I am a bot, designed by Sigabrt and powered by RASA"
+  - text: "I am a bot, designed by Sigabrt team and powered by RASA"
   - text: "I am bot designed by IIT Dhanbad students and fueled by RASA"
-  - text: "I have been developed by MNC boys of IIT Dhanbad on top of RASA"
+  - text: "I am voicebot developed by MNC boys of IIT Dhanbad on top of RASA"
 
   utter_out_of_scope:
   - text: "Sorry, I'm not sure how to respond to that. Type help for assistance."
@@ -207,8 +208,8 @@ responses:
 
   utter_smalltalk_agent_acquaintance:
     - text: "I'm Siga bot."
-    - text: "I'm a virtual being, not a real person."
-    - text: "Well, I'm not a person, I'm a virtual financial agent."
+    - text: "I'm Siga, a virtual being, not a real person."
+    - text: "Well, I'm not a person, I'm Siga"
     - text: "Think of me as a virtual financial agent, Siga."
     - text: "I'm Siga, your finacial assistant."
 
@@ -641,17 +642,43 @@ responses:
     - text: "Okay. You know where to find me."
     - text: "All right. I'll be here."
   utter_ask_personalbusiness:
-  - text: "For what purpose you are going to use this card? (personal/business)"
+    - text: "For what purpose you are going to use this card? (personal/business)"
+    - text: "Is this card for personal or business use ?"
+    - text: "Are you going to use it for personal or business purpose ?"
+    - text: "Do you wish it to use it for personal or business needs ?"
   utter_ask_travelshopping:
-  - text: "Are you going to use it primarily for travel or shopping ?"
+    - text: "Are you going to use it primarily for travel or shopping ?"
+    - text: "For what purpose you are going to use this card? (shopping/travel)"
+    - text: "Is this card primarily for travel or shopping use ?"
+    - text: "Do you wish it to use it for shopping or travel needs?"
   utter_travel:
-  - text: "I would recommend Titanium Smart Traveler Credit Card"
+    - text: "I would recommend 'Titanium Smart Traveler' Credit Card."
+    - text: "I think 'Titanium Smart Traveler' Credit Card will be best for you."
+    - text: "'Titanium Smart Traveler' Credit Card will serve your travelling needs"
+    - text: "You should buy 'Titanium Smart Traveler' Credit Card for best holiday discounts"
   utter_shopping:
-  - text: "I would suggest Flipkart Axis Bank Credit Card for unlimited cashbacks ."
+    - text: "I would suggest 'Flipkart Axis Bank' Credit Card for unlimited cashbacks."
+    - text: "I would recommend 'Flipkart Axis Bank' Credit Card."
+    - text: "'Flipkart Axis Bank' Credit Card will serve your shopping needs"
+    - text: "You should buy 'Flipkart Axis Bank' Credit Card for best shopping discounts"
   utter_business:
-  - text: "I think you should go for Axis Bank My Business Credit Card."
+    - text: "I think you should go for 'Axis Bank My Business' Credit Card."
+    - text: "I would suggest 'Axis Bank My Business' Credit Card for your business"
+    - text: "I would recommend 'Axis Bank My Business' Credit Card."
+    - text: "'Axis Bank My Business' Credit Card will serve your business needs"
+    - text: "You should buy 'Axis Bank My Business' Credit Card for helping expand your business"
   utter_new_cc:
-  - text: "I can help you get a new credit card.. Let's get started...."
+    - text: "I can help you get a new credit card.. Let's get started...."
+    - text: "I can certainly help you choose a new credit card.Let's start"
+    - text: "Siga at your service! I will guide you to choose best credit card"
+    - text: "Siga at your service! I can suggest you a credit card that suits your need"
+    - text: "Why fear when Siga is here! I will let you pick a card for your needs"
+  utter_about_developers:
+    - text: "I have been developed by Sigabrt team of IIT Dhanbad.It consists of Jayant, Sumit and Aryan."
+    - text: "My developers are Jayant, Sumit and Aryan from IIT Dhanbad.Their team goes by the name Sigabrt."
+    - text: "I have been coded by Sigabrt team from IIT Dhanbad.It contains Jayant, Sumit and Aryan."
+    - text: "I have been programmed by Jayant, Sumit and Aryan of Sigabrt team from IIT Dhanbad."
+    - text: "My programmers are Jayant, Sumit and Aryan from IIT Dhanbad.Their team goes by the name Sigabrt. "
 
 session_config:
   session_expiration_time: 60

@@ -136,6 +136,9 @@ stories:
   - intent: ask_news
   - action: action_getnews
   
-
+- story: About developers
+  steps:
+  - intent: about_developers
+  - action: utter_about_developers
  
   

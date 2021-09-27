@@ -285,7 +285,7 @@ nlu:
     - what is price of shares of [Texas Instruments](company_name)?
     - tell me share price of [Walt Disney](company_name) Company?
     - How has share market price of [Honeywell](company_name) International changed?
-
+    - how is [apple](company_name) doing today in stock markets
 
 - intent: wantcc
   examples: |
@@ -296,4 +296,22 @@ nlu:
     - i desire to get a new credit card
     - help me to decide a credit card
     - which credit card to choose
-    
+  
+- intent: about_developers
+  examples: |
+    - who developed you
+    - who developed siga
+    - who made you
+    - who are your parents
+    - who programmed you
+    - what do your developers look like
+    - who wrote program of you
+    - tell me about your coders
+    - tell me about you developers
+    - who are your coders
+    - who gave you birth
+
+- synonym: you
+examples: |
+  - siga
+  - bot 
