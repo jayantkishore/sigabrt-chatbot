@@ -16,22 +16,17 @@
     },
     {
         "q": "What are the standard shipping speeds and delivery charges?",
-        "a": "Standard Shipping Speeds and Delivery charges for F-Assured (Flipkart Assured) and Non F-Assured items vary based on the destination pincode entered. Orders with items that are F-Assured worth Rs. 500 or more will qualify for free delivery, else, a delivery charge of Rs. 40 will be applicable. All grocery (F-Supermart) orders worth Rs. 1200 or more are eligible for free delivery. You can check if an F-Assured item can be delivered to your location by entering a delivery pincode on the product page (this widget is placed next to the section 'Delivery') and hitting enter. Available shipping speeds and delivery charges as per your location will be displayed. For certain items, you can choose the delivery speed accordingly in 'Order Summary' page while placing the order. For Grocery orders, you can choose from the following delivery slots\n1. 7:00 AM to 9:30 AM\n2. 9:30 AM to 12:00 PM\n3. 5:00 PM to 7:30 PM\n4. 7:30 PM to 1:00 PM) .\nStandard shipping speeds and delivery charges for non F-Assured items. Delivery charges and shipping timelines may vary based on seller. Delivery timeline is displayed on the product page. You can choose a delivery pincode on the product page and it will display the list of sellers who cater to that location and the applicable shipping charges.",
+        "a": "Standard Shipping Speeds and Delivery charges for F-Assured (Flipkart Assured) and Non F-Assured items vary based on the destination pincode entered. Orders with items that are F-Assured worth Rs. 500 or more will qualify for free delivery, else, a delivery charge of Rs. 40 will be applicable. All grocery (F-Supermart) orders worth Rs. 1200 or more are eligible for free delivery. You can choose a delivery pincode on the product page and it will display the list of sellers who cater to that location and the applicable shipping charges.",
         "index": "flipkart_shipping_4"
     },
     {
         "q": "Why didn't my order qualify for free delivery?",
-        "a": "Your order qualifies for free delivery if you order F-Assured products worth Rs. 500 and above. If your order value for F-Assured products is less than Rs. 500, a delivery fee of Rs. 40 will be charged.\n\nFor products that are non-F-Assured, delivery charges if any will be decided by the sellers and will vary. Please click on 'View sellers' under the seller rating on the product page for information about sellers selling any particular product and their respective delivery charges.\n\n",
+        "a": "Your order qualifies for free delivery if you order F-Assured products worth Rs. 500 and above. If your order value for F-Assured products is less than Rs. 500, a delivery fee of Rs. 40 will be charged. For products that are non-F-Assured, delivery charges if any will be decided by the sellers and will vary. Please click on 'View sellers' under the seller rating on the product page for information about sellers selling any particular product and their respective delivery charges.",
         "index": "flipkart_shipping_5"
     },
     {
         "q": "Why am I unable to order products like television, air-conditioner, refrigerator, washing machine, furniture, microwave, treadmill, etc. at my location?",
         "a": "The delivery of large category products at a particular location depends on the following factors:\n\n1. Dimensions and weight.\n2. Location of the seller\n3. Serviceability of the seller's partnered service provider\n\nAlways ensure to update your preferred delivery location/address to verify if the seller is offering the product or deal at your location.",
         "index": "flipkart_shipping_6"
-    },
-    {
-        "q": "How do I contact seller's partnered courier service providers?",
-        "a": "Here are the contact details of some of the leading courier service providers:\n1. E-Kart - www.ekartlogistics.com\n2. Gati - www.Gati.com\n3. Delhivery - www.delhivery.com\n4. Blue Dart - www.bluedarttrackings.in\n5. Ecom - www.ecomexpress.in\n6. DotZot - www.dotzot.in\n7. Speed Post - India Post - www.indiapost.gov.in",
-        "index": "flipkart_shipping_7"
     }
 ]

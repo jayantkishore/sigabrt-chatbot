@@ -10,98 +10,83 @@
         "index": "flipkart_axis_bank_credit_card_2"
     },
     {
-        "q": "What are the documents required to complete this application?",
+        "q": "What are the documents required to get Axis Bank Buzz Credit Card?",
         "a": "Currently, there are no documents needed during the application process. However, you may be required to submit a set of officially valid documents in case the bank requests for it.",
         "index": "flipkart_axis_bank_credit_card_3"
     },
     {
-        "q": "Can I resume an incomplete application?",
-        "a": "Yes, you can resume filling an incomplete application within 4 hours of initiation by clicking on the 'Resume Application' button available on the banner on our homepage. If you are trying to resume the application after four hours, then you will have to restart the application process from the beginning.",
+        "q": "How can I track my application status of Flipkart Axis Bank Buzz Credit Card?",
+        "a": "The application status will be immediately communicated to you once the application process is completed. You can also view the details by visiting the 'My Account' section of your Flipkart account and clicking on 'Flipkart Axis Bank Credit Card' section. 1) The application status is immediately communicated to you on the app after the application process is completed. You'll also get an SMS / email from AXIS Bank as soon as the application is processed.",
         "index": "flipkart_axis_bank_credit_card_4"
     },
     {
-        "q": "How can I track my application status from my Flipkart Account?",
-        "a": "The application status will be immediately communicated to you once the application process is completed. You can also view the details by visiting the 'My Account' section of your Flipkart account and clicking on 'Flipkart Axis Bank Credit Card' section. 1) The application status is immediately communicated to you on the app after the application process is completed. You'll also get an SMS / email from AXIS Bank as soon as the application is processed.",
-        "index": "flipkart_axis_bank_credit_card_5"
-    },
-    {
-        "q": "Is there any annual fee?",
+        "q": "Is there any annual fee of Axis Bank Buzz Credit Card?",
         "a": "Yes, there's an annual fee of Rs. 500 applicable on the card. The annual fee will be waived off if you spend Rs. 2 lakh with the card within a year.",
-        "index": "flipkart_axis_bank_credit_card_6"
+        "index": "flipkart_axis_bank_credit_card_5"
     },
     {
         "q": "What can I purchase using Flipkart Axis Bank Credit Card?",
         "a": "You can use this credit card for all your purchases, both on and off Flipkart.",
-        "index": "flipkart_axis_bank_credit_card_7"
+        "index": "flipkart_axis_bank_credit_card_6"
     },
     {
         "q": "Will I earn cashback if I have used someone else's Flipkart Axis Bank Credit Card?",
         "a": "Please note that the cashback will be credited to the account of the card used.",
-        "index": "flipkart_axis_bank_credit_card_8"
+        "index": "flipkart_axis_bank_credit_card_7"
     },
     {
         "q": "How can I check the amount earned for every purchase made using Flipkart Axis Bank Credit Card?",
         "a": "Please get in touch with Axis bank's customer care on 1860 419 5555. Alternatively, you can also visit the ' Order Summary' page and scroll down to 'Reward Summary' section to track the cashback earned for that order.",
-        "index": "flipkart_axis_bank_credit_card_9"
+        "index": "flipkart_axis_bank_credit_card_8"
     },
     {
-        "q": "How can I use the earnings?",
+        "q": "How can I use the earnings Flipkart Axis Bank Credit Card?",
         "a": "All cashback is credited as cash to your credit card account which can be used for your future purchases three days before the statement for the next month is generated,",
-        "index": "flipkart_axis_bank_credit_card_10"
+        "index": "flipkart_axis_bank_credit_card_9"
     },
     {
         "q": "Can I transfer ownership of my Flipkart Axis Bank Credit Card?",
         "a": "No, ownership of the credit card cannot be transferred.",
-        "index": "flipkart_axis_bank_credit_card_11"
+        "index": "flipkart_axis_bank_credit_card_10"
     },
     {
         "q": "What will happen to the cashback if I return a product?",
         "a": "If you return a product within the same credit card billing cycle in which the purchase was made, applicable cashback will be debited in the same cycle. Otherwise, it will be adjusted in the next billing cycle.",
+        "index": "flipkart_axis_bank_credit_card_11"
+    },
+    {
+        "q": "I did not get the correct  Axis Bank Credit Card cashback as per my transactions on Flipkart. What should I do?",
+        "a": "To know more about cashback, please reach out to Axis Bank customer support at 1860 419 5555.",
         "index": "flipkart_axis_bank_credit_card_12"
     },
     {
-        "q": "How will I get the PIN for the card?",
-        "a": "You can get the PIN for the card by visiting this link: https://www.axisbank.com/retail/cards/credit-card/useful-links/credit-card-authentication",
+        "q": "I want to know the CVV number on the card?",
+        "a": "The virtual card and CVV are available in the Flipkart Axis Bank Credit Card section under 'My Accounts' section of the app. Once the physical card is delivered to you, the CVV number is available behind your card. ",
         "index": "flipkart_axis_bank_credit_card_13"
     },
     {
-        "q": "I did not get the correct cashback as per my transactions on Flipkart. What should I do?",
-        "a": "To know more about cashback, please reach out to Axis Bank customer support at 1860 419 5555.",
-        "index": "flipkart_axis_bank_credit_card_14"
-    },
-    {
-        "q": "I want to know the CVV number on the card?",
-        "a": "The virtual card and CVV are available in the Flipkart Axis Bank Credit Card section under 'My Accounts' section of the app. Once the physical card is delivered to you, the CVV number is available behind your card. Disclaimer: Please do not disclose your PIN or CVV to anyone. In case your card is misused, Bank or Flipkart won't be responsible for any unauthorised transactions that may have happened due to the disclosure.",
-        "index": "flipkart_axis_bank_credit_card_15"
-    },
-    {
-        "q": "How can I pay the outstanding bill?",
+        "q": "How can I pay the outstanding bill of Flipkart Axis Bank Credit Card?",
         "a": "To know about payment options, please reach out to Axis Bank customer support at 1860 419 5555.",
-        "index": "flipkart_axis_bank_credit_card_16"
+        "index": "flipkart_axis_bank_credit_card_14"
     },
     {
         "q": "Will the card number and CVV remain the same for both the physical and the virtual card?",
         "a": "Yes, it will remain the same.",
-        "index": "flipkart_axis_bank_credit_card_17"
-    },
-    {
-        "q": "When will I get the physical card?",
-        "a": "The physical credit card will be delivered to your registered address with Axis Bank within 7 to 10 business days of application approval.",
-        "index": "flipkart_axis_bank_credit_card_18"
+        "index": "flipkart_axis_bank_credit_card_15"
     },
     {
         "q": "What are the key benefits of Flipkart Axis Bank Credit Card?",
         "a": "Some of the benefits of Flipkart Axis Bank Credit Card are: - 5% cashback for spends on Flipkart, Myntra, 2Gud - 4% cashback for spends on preferred partners (MakeMyTrip/GoIbibo, Uber, PVR, Curefit, UrbanClap) - 1.5% cashback for spends on all other merchants - No Cost EMI applicable for purchases on Flipkart for all tenures - Four complimentary domestic lounge access visits - 1% Fuel surcharge waiver upto Rs. 500 per month Welcome benefits: - Flipkart Gift Card of Rs. 500 as an activation benefit for transacting with the card anywhere, for any amount - 15% cashback upto Rs. 500 on Myntra - Rs. 500 off on domestic hotels via Makemytrip - Rs. 500 off on domestic hotels on Goibibo - Benefits of upto Rs. 900. Unlimited access to 6 months of Gaana Plus membership. 50% off for the next 6 months - 20% off upto Rs. 400 on UrbanClap",
-        "index": "flipkart_axis_bank_credit_card_19"
+        "index": "flipkart_axis_bank_credit_card_16"
     },
     {
-        "q": "How can I apply for Flipkart Axis Bank Credit Card? Am I eligible for the card?",
+        "q": "How can I apply for Flipkart Axis Bank Credit Card?",
         "a": "You can apply for the Flipkart Axis Bank Credit Card by visiting the Flipkart Home Page and clicking on 'Apply Now' on the banner or by going to the Flipkart Axis Bank Credit Card section under 'My Account'. Alternatively, you can apply for the card through Axis Bank's channels such as by visiting any of their branches, tablet sourcing, Axis Bank mobile banking app, etc.",
-        "index": "flipkart_axis_bank_credit_card_20"
+        "index": "flipkart_axis_bank_credit_card_17"
     },
     {
         "q": "What is Flipkart Axis Bank Credit Card?",
         "a": "Flipkart Axis Bank Credit Card is a credit card issued by Axis Bank in association with Flipkart Internet Pvt Ltd. (Flipkart) and Mastercard. Every purchase that you make on Flipkart.com and outside Flipkart.com will earn you unlimited cashback that will be credited to your credit card account. You can use these cashback for your future purchases. Please note that a joining/annual fee of Rs. 500 is applicable unless it is acquired under the First Year Free offer.",
-        "index": "flipkart_axis_bank_credit_card_21"
+        "index": "flipkart_axis_bank_credit_card_18"
     }
 ]

@@ -86,7 +86,6 @@ intents:
   - smalltalk_appraisal_welcome
   - smalltalk_appraisal_well_done
   - smalltalk_confirmation_cancel
-  - smalltalk_confirmation_no
   - smalltalk_dialog_hold_on
   - smalltalk_dialog_hug
   - smalltalk_dialog_i_do_not_care
@@ -226,6 +225,7 @@ responses:
   - text: "I would definitely love to hear your feeback soon."
   - text: "I am sad that you changed your mind."
   - text: "I will be waiting for your feedback."
+  - text: "You can always continue filling feedback."
 
   utter_feedback_saved:
   - text: "Yay! your feedback was saved."
@@ -419,13 +419,6 @@ responses:
     - text: "That's forgotten. What next?"
     - text: "Okay, cancelled. What next?"
     - text: "Cancelled! What would you like to do next?"
-
-  utter_smalltalk_confirmation_no:
-    - text: "Understood."
-    - text: "Okay."
-    - text: "I see."
-    - text: "I understand."
-    - text: "Okay then."
 
   utter_smalltalk_dialog_hold_on:
     - text: "I can wait."

@@ -86,6 +86,7 @@ rules:
     - requested_slot: null
   # The actions we want to run when the form is submitted.
   - action: action_pushfeedback
+  - action: utter_feedback_saved
 
 - rule: Activate ccform
   steps:

@@ -40,7 +40,7 @@
         "index": "flipkart_supercoins_8"
     },
     {
-        "q": "How do I avail/participate in SuperCoins Exchange program?",
+        "q": "How do I avail SuperCoins Exchange program?",
         "a": "Here's how you can convert or exchange your SuperCoins:\n- Log in to the Flipkart app (Android and iOS) and verify your account with your registered phone number\n- Visit the 'SuperCoin Zone' and click on 'SuperCoins Exchange'\n- Eligible Exchange Partners will be displayed\n- Choose the Exchange Partner\n- Options for conversion will appear\n- Enter the number of SuperCoins/Exchange Partner reward points that you wish to convert/exchange\n- An OTP will be sent to your registered phone number to complete the conversion",
         "index": "flipkart_supercoins_9"
     },
@@ -125,138 +125,128 @@
         "index": "flipkart_supercoins_25"
     },
     {
-        "q": "Is it necessary to register on Twid (INNOTARGET FASHALOT RETAIL PRIVATE LIMITED) or at the third-party partner store to use SuperCoin Pay feature?",
-        "a": "No, it is not necessary to register on Twid (INNOTARGET FASHALOT RETAIL PRIVATE LIMITED) or at the third-party partner store to use SuperCoin Pay feature.",
-        "index": "flipkart_supercoins_26"
-    },
-    {
         "q": "Is it necessary for me to be registered with the same contact number at the third-party partner store for me to use SuperCoin Pay feature?",
         "a": "No, it is not necessary for you to be registered with the same contact number at the third-party partner store to be able to use the SuperCoin Pay feature.",
-        "index": "flipkart_supercoins_27"
+        "index": "flipkart_supercoins_26"
     },
     {
         "q": "How can I know if the store I am at has the option of using SuperCoin Pay feature?",
         "a": "Please ask the cashier at the store if the option to pay through SuperCoin Pay feature is available with them or you can look for a QR code scanner with Flipkart logo and SuperCoin Pay option.",
-        "index": "flipkart_supercoins_28"
+        "index": "flipkart_supercoins_27"
     },
     {
         "q": "What does it mean if a store displays a SuperCoin Pay QR code?",
         "a": "SuperCoin Pay feature allows you to make payment for the product purchased at a third-party partner store and to redeem SuperCoins in the SuperCoin Zone of your Flipkart account. To use this feature, open the QR code scanner available in the SuperCoin Zone on the app and scan the QR code to be directed to the payment page.",
-        "index": "flipkart_supercoins_29"
+        "index": "flipkart_supercoins_28"
     },
     {
         "q": "Why is my preferred store not showing up for SuperCoin Pay on the Flipkart app?",
         "a": "SuperCoin Pay feature is currently available only with select third-party partner stores. If you're unable to find a specific store or brand for SuperCoin Pay on the Flipkart app, it means that it is not listed as a partner store with us at the moment. You can visit the SuperCoin Zone and click on 'Stores Nearby' to find the list of the partner stores. Rest assured, we are working on expanding our partner stores so you can avail this feature.",
-        "index": "flipkart_supercoins_30"
+        "index": "flipkart_supercoins_29"
     },
     {
         "q": "How do I know if a third-party partner store accepts SuperCoin Pay if there is no QR code scanner available?",
         "a": "To check if a third-party store has partnered with us for the SuperCoin Pay feature, please check with the cashier at the store or you can visit the SuperCoin Zone and check the list of the partner stores using 'Stores Nearby' option.",
-        "index": "flipkart_supercoins_31"
+        "index": "flipkart_supercoins_30"
     },
     {
         "q": "What are in-app offers for SuperCoin Pay?",
         "a": "In-app offers are offers provided by brands and banks as part of SuperCoin Pay with terms and conditions applicable. These offers help you save extra on your spendings at third-party partner stores. To avail an offer, please scan the QR code, enter the bill amount and select 'Apply Brand Voucher' by choosing the relevant discount available.",
-        "index": "flipkart_supercoins_32"
+        "index": "flipkart_supercoins_31"
     },
     {
         "q": "What is the purpose of the scratch card in SuperCoin Pay?",
         "a": "On every successful transaction using SuperCoin Pay feature you will get a scratch card by Twid (INNOTARGET FASHALOT RETAIL PRIVATE LIMITED) with terms and conditions applicable. Once you scratch it you will either find SuperCoins or an offer inside. Any SuperCoins obtained as part of the offer will be credited to the 'Coin Balance' section of the SuperCoin Zone within 48 hours and it will also reflect in the 'Coin Activity' section.",
-        "index": "flipkart_supercoins_33"
+        "index": "flipkart_supercoins_32"
     },
     {
         "q": "Where will I find a scratch card after using SuperCoin Pay feature for an order?",
-        "a": "If an order is eligible for scratch card by Twid (INNOTARGET FASHALOT RETAIL PRIVATE LIMITED), it will be added soon after transaction is successful. Please go to 'My Orders' page of your Flipkart account, tap on the SuperCoin Pay logo at the top of the page and choose SuperCoin Pay from the menu. There will a tab at the top of the page with scratch cards and you will be able to find your scratch card on that particular tab. Please note that offers are subject to terms and conditions.",
-        "index": "flipkart_supercoins_34"
+        "a": "If an order is eligible for scratch card by Twid , it will be added soon after transaction is successful. Please go to 'My Orders' page of your Flipkart account, tap on the SuperCoin Pay logo at the top of the page and choose SuperCoin Pay from the menu. There will a tab at the top of the page with scratch cards and you will be able to find your scratch card on that particular tab. Please note that offers are subject to terms and conditions.",
+        "index": "flipkart_supercoins_33"
     },
     {
         "q": "What are the cities/states that have third-party partner stores to redeem the SuperCoin Pay feature?",
         "a": "SuperCoin Pay feature is available all over the country. You can make payments at any third-party store listed on SuperCoin Zone section of your Flipkart account. To see the list of stores near you where you can pay using SuperCoin Pay, the app will need access to your device's/phone's location. In case you would like to go ahead with this feature, please provide necessary permissions to the Flipkart app. Remember stores that are not listed for your area or not showing up on the app will not accept the payment through SuperCoin Pay.",
-        "index": "flipkart_supercoins_35"
+        "index": "flipkart_supercoins_34"
     },
     {
         "q": "Can I scan any QR code in the store to initiate the payment for an order using SuperCoin Pay feature?",
-        "a": "No, only Twid (INNOTARGET FASHALOT RETAIL PRIVATE LIMITED) or QR codes associated with SuperCoin Pay feature can be scanned to complete payment for an order using SuperCoin Pay feature.",
-        "index": "flipkart_supercoins_36"
+        "a": "No, only Twid  or QR codes associated with SuperCoin Pay feature can be scanned to complete payment for an order using SuperCoin Pay feature.",
+        "index": "flipkart_supercoins_35"
     },
     {
         "q": "For how long is a payment code as a part of SuperCoin Pay valid once it is generated?",
         "a": "A payment code generated will be valid for 24 hours hours.",
-        "index": "flipkart_supercoins_37"
+        "index": "flipkart_supercoins_36"
     },
     {
         "q": "What all brands are part of the SuperCoin Pay program?",
         "a": "You can check details of partnered brands on the SuperCoin Zone of Flipkart app. However, please continue checking the app as we will keep adding other brands to the existing list.",
-        "index": "flipkart_supercoins_38"
+        "index": "flipkart_supercoins_37"
     },
     {
         "q": "How secure is the payment through SuperCoin Pay?",
-        "a": "Twid (INNOTARGET FASHALOT RETAIL PRIVATE LIMITED) platform is designed to ensure your data is safe and secure. This is a PCI DSS certified platform that makes your transaction completely safe. Your data is 256 bits encrypted and with your full opt-in consent and transparency.",
-        "index": "flipkart_supercoins_39"
+        "a": "Twid  platform is designed to ensure your data is safe and secure. This is a PCI DSS certified platform that makes your transaction completely safe. Your data is 256 bits encrypted and with your full opt-in consent and transparency.",
+        "index": "flipkart_supercoins_38"
     },
     {
         "q": "Do I have to manually unlock a scratch card as part of SuperCoin Pay?",
-        "a": "Yes. You would need to tap on a scratch card by Twid (INNOTARGET FASHALOT RETAIL PRIVATE LIMITED) to unlock your surprise reward. Please note that offers are subject to terms and conditions.",
-        "index": "flipkart_supercoins_40"
+        "a": "Yes. You would need to tap on a scratch card by Twid  to unlock your surprise reward. Please note that offers are subject to terms and conditions.",
+        "index": "flipkart_supercoins_39"
     },
     {
         "q": "What is SuperCoin Pay feature?",
         "a": "SuperCoin Pay enables you to redeem SuperCoins to avail discounts in combination with a prepaid payment mode for purchases on Flipkart platform and at third-party partner stores.\nPlease note, you can redeem SuperCoins for discounts on a product on Flipkart platform based on the value you see on the product page and as per the terms and conditions of the participating banks or the payment mode. However, at a third-party partner store, you may be able to redeem all your SuperCoins based on the final bill value.",
-        "index": "flipkart_supercoins_41"
-    },
-    {
-        "q": "How can I redeem SuperCoins through SuperCoin Pay feature during my purchase at a third-party partner store or on Flipkart platform?",
-        "a": "To avail discounts by redeeming SuperCoins through SuperCoin Pay at a third party store is easy. Here's how you can use the feature:\n- Open the Flipkart app\n- Visit the SuperCoin Zone\n- Click on 'Stores Nearby'\n- Search for the store you are at and select it\n- Enter the final bill amount once the cashier confirms it\n- Select any applicable offer and SuperCoins points to be redeemed\n- Enter the OTP sent to your registered phone number to verify the number of SuperCoins being redeemed\n- In case of only SuperCoins redemption: Once the verification is done, you will be redirected to the confirmation page which will display a payment code\n- Show this code to the cashier and the transaction will be completed\n- In case of prepaid mode of payment: Proceed to pay the balance amount using your preferred payment method from credit/debit card or netbanking option\n- Once the amount is added, you will be redirected to the confirmation page which will display a payment code\n- Show this code to the cashier and the transaction will be completed\nAlternatively, you can scan QR code powered by Twid (INNOTARGET FASHALOT RETAIL PRIVATE LIMITED) at partner stores for quick access and payment. To scan, please visit the SuperCoin Zone on the Flipkart app and click on the QR code scanner at the top right corner.\nHere's how you can use the feature to redeem SuperCoins on Flipkart:\n- Open the Flipkart app\n- Add the product to the cart\n- Choose the 'Supercoin Pay' from the available payment option to redeem SuperCoins for dicounts along with any other prepaid payment mode of participating banks to complete your purchase.",
-        "index": "flipkart_supercoins_42"
+        "index": "flipkart_supercoins_40"
     },
     {
         "q": "Can I redeem all of my available SuperCoins while using the SuperCoin Pay feature?",
         "a": "You may be able to redeem all your available SuperCoins to avail discounts on the basis of the platform. In case the transaction is being completed on Flipkart platform, the redemption of SuperCoins to avail a discount will depend on the value on the product page and the terms and conditions of the participating bank or the payment mode. However, while transacting at a thrid- party partner store, it will depend on the final bill value.",
-        "index": "flipkart_supercoins_43"
+        "index": "flipkart_supercoins_41"
     },
     {
         "q": "Can I make the payment through cash or UPI payment mode to avail benefits as part of SuperCoin Pay at a third-party partner store?",
         "a": "The option to pay by cash is not available at the moment to avail SuperCoin Pay related benefits. However, you can make the payment using credit/debit card, netbanking and UPI payment modes. If you want you can also redeem only SuperCoins to avail discounts using SuperCoin Pay feature.",
-        "index": "flipkart_supercoins_44"
+        "index": "flipkart_supercoins_42"
     },
     {
         "q": "How do I apply an offer while making the payment using SuperCoin Pay feature?",
-        "a": "To apply an offer while redeeming SuperCoins at a third party store, please follow the below mentioned steps:\n- Open Flipkart app\n- Go to SuperCoin Zone\n- Scan the QR code or select the outlet you're at\n- Enter the final bill amount after cashier's confirmation\n- You will be able to view the offers available\n- Select the applicable offer\nTo apply an offer while redeeming SuperCoins on Flipkart platform, please follow the below steps:\n- Open the Flipkart app\n- Click on 'Supercoin Pay' from the payment options\n- Instant discount will be already applied\n- View the offer details to know the SuperCoin redemption value and discount details\nKindly note that on Flipkart platform, offers are subjected to the terms and conditions of the participating banks or the payment mode.",
-        "index": "flipkart_supercoins_45"
+        "a": "To apply an offer while redeeming SuperCoins at a third party store, please follow the below mentioned steps:\n- Open Flipkart app\n- Go to SuperCoin Zone\n- Scan the QR code or select the outlet you're at\n- Enter the final bill amount after cashier's confirmation\n- You will be able to view the offers available\n- Select the applicable offer\nTo apply an offer while redeeming SuperCoins on Flipkart platform, please follow the below steps:\n- Open the Flipkart app\n- Click on 'Supercoin Pay' from the payment options\n- Instant discount will be already applied\n- View the offer details to know the SuperCoin redemption value and discount details\n",
+        "index": "flipkart_supercoins_43"
     },
     {
         "q": "Can I cancel the order that I paced by redeeming SuperCoin through the SuperCoin Pay feature?",
         "a": "Yes, orders placed by redeeming SuperCoins through SuperCoin Pay feature can be cancelled as per the cancellation policy of the third-party partner store at which the transaction was made. Kindly contact the partner store for more details. For purchases on Flipkart platform, please refer to the cancellation policy of the product.",
-        "index": "flipkart_supercoins_46"
+        "index": "flipkart_supercoins_44"
     },
     {
         "q": "Can I return a product and ask for a refund if I have purchased it by redeeming my SuperCoins to avail discount through SuperCoin Pay feature?",
         "a": "To return a product purchased at a third party partner store, please contact the store as the policy may differ based on store partners. To return a product bought at Flipkart platform, please refer to the seller's returns policy available on the platform.",
-        "index": "flipkart_supercoins_47"
+        "index": "flipkart_supercoins_45"
     },
     {
         "q": "How does Supercoin Pay feature work on Flipkart platform?",
         "a": "SuperCoin Pay on Flipkart platform enables all customers who have more than 9 SuperCoins in their Flipkart account to redeem their SuperCoins to avail discounts while buying a product. As part of SuperCoin Pay, customers can avail discounts by redeeming SuperCoins and pay using a prepaid payment mode provided by participating banks. However, the redemption of SuperCoins will depend on the value of the product and terms and conditions of the paticipating bank or the payment mode.",
-        "index": "flipkart_supercoins_48"
+        "index": "flipkart_supercoins_46"
     },
     {
         "q": "Will I get the available bank offers on Flipkart platform if I choose to redeem SuperCoins through SuperCoin Pay?",
         "a": "Yes, you can surely avail bank offers in case you choose to redeem SuperCoins through the SuperCoin Pay feature while placing an order. However, please note that the offer value will be calculated based on the amount being paid via the prepaid mode of payment option provided by participating banks.",
-        "index": "flipkart_supercoins_49"
+        "index": "flipkart_supercoins_47"
     },
     {
         "q": "What is the difference between the Supercoins Price option available on the product page and SuperCoin Pay on Flipkart platform?",
         "a": "'SuperCoins Price' is determined by the seller and as part of this price, discounts on a product can be availed by redeeming only the exact number of SuperCoins mentioned on the product page. Customers can also choose to buy the product by paying the regular price mentioned on the product page. On the other hand, SuperCoin Pay feature on Flipkart platform enables a customer with more than 9 SuperCoins in their account, to redeem SuperCoins to avail discounts in combination with prepaid payment mode of participating banks.",
-        "index": "flipkart_supercoins_50"
+        "index": "flipkart_supercoins_48"
     },
     {
         "q": "While transacting on Flipkart platform, as part of SuperCoin Pay, can I redeem SuperCoins along with a prepaid payment mode provided by any bank?",
         "a": "Currently as part of SuperCoin Pay, SuperCoins can be redeemed to avail discounts along with prepaid payment mode provided only through participating banks.",
-        "index": "flipkart_supercoins_51"
+        "index": "flipkart_supercoins_49"
     },
     {
         "q": "Can I redeem SuperCoins through Supercoin Pay feature for products from all the categories on the Flipkart platform?",
         "a": "Yes, you can use SuperCoin Pay feature to redeem SuperCoins to avail discounts in combination with prepaid payment mode of participating banks to complete purchase of products from all categories on Flipkart platform. However, please note, SuperCoin Pay feature on Flipkart platform cannot be used for refurbished products, travel bookings, Grocery, Flipkart Gift Cards and third party rewards.",
-        "index": "flipkart_supercoins_52"
+        "index": "flipkart_supercoins_50"
     }
 ]

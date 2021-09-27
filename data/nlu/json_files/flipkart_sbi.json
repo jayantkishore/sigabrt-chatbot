@@ -1,7 +1,7 @@
 [
     {
-        "q": "What are the EMI plans available if I choose the 'Pre-approved EMI' payment option?",
-        "a": "You can choose from the following EMI plans with zero processing fees:\n->6 months \n->9 months\n ->12 months \nNote: Interest rate is 14% irrespective of the EMI plan chosen and is subject to change based on SBI's T&Cs.",
+        "q": "What are the EMI plans available if I choose the Pre-approved EMI payment option?",
+        "a": "You can choose from the following EMI plans with zero processing fees:6 month, 9 months\n , 2 months.However, interest rate is 14% irrespective of the EMI plan chosen and is subject to change based on SBI's T&Cs.",
         "index": "flipkart_sbi_1"
     },
     {

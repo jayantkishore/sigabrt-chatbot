@@ -2,26 +2,26 @@
     {
         "q": "What is a mobile wallet?",
         "a": "A mobile wallet is, as the name might imply, a digital version of a regular wallet that is stored on a mobile phone. Mobile wallets, also called digital wallets, are applications that run on smartphones and that store virtual equivalents of credit cards. These virtual cards are called soft cards.",
-        "index": 93
+        "index": "mobile_wallet_faq_1"
     },
     {
         "q": "How does a mobile wallet work?",
         "a": "A mobile wallet uses near-field communication to wirelessly transmit payment information to a nearby terminal. Mobile wallets operate according to EMV standards, which allows them to use common EMV terminals for contactless transactions.To pay for a purchase, a mobile wallet user opens the mobile wallet application, selects a soft card with which to pay, passes a cardholder verification procedure, and then waves the smartphone over the terminal or taps it against the terminal.",
-        "index": 94
+        "index": "mobile_wallet_faq_2"
     },
     {
         "q": "Can a mobile wallet do anything besides make payments?",
         "a": "Some of them can. Many retail brands or retail groups are looking to integrate, or have already integrated, loyalty features, mobile shopping capabilities, and business information into their mobile wallet apps",
-        "index": 95
+        "index": "mobile_wallet_faq_3"
     },
     {
         "q": "Where can I use a mobile wallet?",
-        "a": "Mobile wallets are accepted at some EMV-compliant merchant locations. Not all EMV-compliant merchants have enabled contactless payments, however.",
-        "index": 96
+        "a": "Mobile wallets are accepted at some EMV-compliant merchant locations. Not all EMV compliant merchants have enabled contactless payments, however.",
+        "index": "mobile_wallet_faq_4"
     },
     {
         "q": "Are mobile wallets safe?",
         "a": " Many people are hesitant to try digital payment systems without reassurance that they are safe to use and will protect their data. Most digital wallets are reasonably safe. The onus is on the payment companies to educate consumers about security features and prove that mobile payments are valuable.",
-        "index": 97
+        "index": "mobile_wallet_faq_5"
     }
 ]

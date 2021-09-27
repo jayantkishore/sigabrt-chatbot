@@ -409,7 +409,7 @@ class ActionPushFeedback(Action):
         existing = pd.DataFrame(ws.get_all_records())
         updated = existing.append(df)
         gd.set_with_dataframe(ws, updated)
-        dispatcher.utter_message("Bye for now. Go off screen, aankhein kharab ho jaayegi!")
+        # dispatcher.utter_message("Bye for now. Go off screen, aankhein kharab ho jaayegi!")
         return [SlotSet("rating", None), SlotSet("recommendation", None), SlotSet("comment", None)]
         
 class ValidateCCForm(FormValidationAction):

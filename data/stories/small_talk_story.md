@@ -150,10 +150,6 @@
 * smalltalk_confirmation_cancel
   - utter_smalltalk_confirmation_cancel
 
-## path_smalltalk_confirmation_no
-* smalltalk_confirmation_no
-  - utter_smalltalk_confirmation_no
-
 ## path_smalltalk_dialog_hold_on
 * smalltalk_dialog_hold_on
   - utter_smalltalk_dialog_hold_on

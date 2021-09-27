@@ -1,0 +1,117 @@
+[
+    {
+        "q": "What is a Home Loan?",
+        "a": "A home loan is a loan disbursed by a bank or financial institution (lender) to an individual specifically for buying a residential property. Here, the lender holds the title of the property until the loan is paid back in full along with interest.",
+        "index": "home_loan_1"
+    },
+    {
+        "q": "What is the tenure of a home loan?",
+        "a": "They have a minimum tenure of 5 years and a maximum tenure of 30 years..",
+        "index": "home_loan_2"
+    },
+    {
+        "q": "What is the Eligibility Criteria for a Home Loan?",
+        "a": "One must be at least 21 years old when the loan period begins and should not exceed an age of 65 years when the loan ends or at the time of superannuation. Other criteria may differ from one lender to another.",
+        "index": "home_loan_3"
+    },
+    {
+        "q": "Can I apply for a joint loan with my friend?",
+        "a": "No. A lender would only allow you to apply for a joint home loan if the application is co-signed by one or more members of your immediate family. Thus, your friend does not qualify.",
+        "index": "home_loan_4"
+    },
+    {
+        "q": "Who can be joint borrowers in case of a home loan?",
+        "a": "Immediate family members such as your parents, spouse and children are allowed to be joint borrowers in case of a home loan.",
+        "index": "home_loan_5"
+    },
+    {
+        "q": "What is the maximum number of joint borrowers for a home loan?",
+        "a": "The maximum number of joint borrowers in case of a home loan is fixed at 6. Additionally, having a co-borrower who has a robust credit history and good credit score is preferable as compared to one with a low credit score.",
+        "index": "home_loan_6"
+    },
+    {
+        "q": "What is a floating rate home loan?",
+        "a": "If the interest rate on the loan varies periodically over the loan tenure, then it is called a floating rate home loan. The base rates of banks are revised from time to time based on RBI directives as well as other factors, which leads to an increase or decrease in the EMI amount payable.",
+        "index": "home_loan_7"
+    },
+    {
+        "q": "What is a fixed rate home loan?",
+        "a": "Fixed-rate home loans are offered at a predetermined interest rate during the loan period and these remain unchanged during the loan period irrespective of market conditions. This can be a huge benefit when market volatility starts affecting interest rates.",
+        "index": "home_loan_8"
+    },
+    {
+        "q": "Can I switch from a floating rate home loan to a fixed rate?",
+        "a": "Yes. A few lenders do offer you the option of switching from a floating rate to a fixed rate home loan and the other way around. However, this is not applicable to all home loans and there are a few charges involved in implementing this conversion.",
+        "index": "home_loan_9"
+    },
+    {
+        "q": "How do I repay my home loan?",
+        "a": "There are different ways to pay off your loan such as issuing post-dated cheques for the tenure of the home loan, getting the amount deducted automatically from your salary or by issuing standard instructions to the lender for ECS (Electronic Clearing System) wherein the EMI is automatically deducted from your bank every month.",
+        "index": "home_loan_10"
+    },
+    {
+        "q": "Should I apply for a home loan with a public or private bank?",
+        "a": "Before zeroing in on a home loan, it is best to compare the various interest rates that would be applicable to you. Also, take into account, the fact that banks charge various processing and other related fees when you apply for a home loan and you should also consider these when applying for a home loan.",
+        "index": "home_loan_11"
+    },
+    {
+        "q": "Is prepayment of home loan allowed?",
+        "a": "Yes, one can repay the loan amount before completion of the scheduled loan tenure by making a lump sum payment towards paying off the loan. In such cases, the bank may decide to apply some penalties in the range of 2-3% of the principal amount outstanding.",
+        "index": "home_loan_12"
+    },
+    {
+        "q": "Can I have a co-applicant when I sign up for a home loan?",
+        "a": "Yes. You can have a family member like your spouse or your parents co-sign with you when you apply for a home loan. A co-signor is especially recommended if the primary applicant has a low credit score or has had problems when applying/paying off a loan in the past.",
+        "index": "home_loan_13"
+    },
+    {
+        "q": "Is having a good credit record important in case of a home loan?",
+        "a": "By having a good credit record/history you would be classified as a low-risk borrower and you may be able to get preferred (low) interest rates and waivers on various bank fees on the basis of your credit history.",
+        "index": "home_loan_14"
+    },
+    {
+        "q": "I have low credit score. Can I still apply for a home loan?",
+        "a": "In case you have a poor credit score, you will find it difficult to get a home loan. However, you can improve your chances by getting a co-borrower. The co-borrower needs to be a family member like your spouse or parents. Ideally, you should choose a co-borrower who has a regular source of income and good credit history to bolter your chances of a successful application.",
+        "index": "home_loan_15"
+    },
+    {
+        "q": "What is the margin on a home loan?",
+        "a": "The margin on a home loan refers to the percentage of the cost of the home that is not covered by the lender providing you with the home loan. On average, lenders implement a 20% margin on home loans i.e. the home loan amount sanctioned to you will be 80% of the actual cost of the property. The remaining 20% of the home loan cost will have to be borne by you.",
+        "index": "home_loan_16"
+    },
+    {
+        "q": "What costs are not covered by a home loan?",
+        "a": "Apart from the margin, some other costs will have to be borne by you. Some of the key expenses in this regard include the initial down payment, stamp duty costs, registration costs and transfer charges among others.",
+        "index": "home_loan_17"
+    },
+    {
+        "q": "What is an amortization schedule?",
+        "a": "Amortization is a table with details of interest payment and periodic principal of a loan along with the amount outstanding after each payment and the decrease of loan balance till zero.",
+        "index": "home_loan_18"
+    },
+    {
+        "q": "What are the different types of home loan",
+        "a": "There are various types of home loans depending upon your specific requirement. Some of the key ones are as follows:\nLand purchase loans, Home purchase loans, Home construction loan, Home Expansion/Extension Loan, Home Improvement Loan, Home conversion loans, NRI Home Loans etc\n",
+        "index": "home_loan_19"
+    },
+    {
+        "q": "If I have a current home loan and want to move to a new house, what option do I have?",
+        "a": "Your best option is to apply for a home conversion loan. Using this type of loan, you can add to your existing home loan and purchase the new one without having to opt for a second home loan.",
+        "index": "home_loan_20"
+    },
+    {
+        "q": "What is Home loan pre-approval?",
+        "a": "Home loan pre-approval is a facility provided by banks and NBFCs to their customers, which allow those interested in purchasing a house with the particulars regarding their eligibility even before they have decided on a property to purchase.",
+        "index": "home_loan_21"
+    },
+    {
+        "q": "How long is the home loan pre-approval valid?",
+        "a": "The pre-approved home loan offer is valid for only a limited period, which varies from one bank to another as per the lender\u2019s internal rules and regulations. However, these pre-approvals are usually valid for no more than 6 months.",
+        "index": "home_loan_22"
+    },
+    {
+        "q": "What are the top home loan providers in India?",
+        "a": "Some of the leading banks that provide home loans to individuals include HDFC Bank, Axis Bank, ICICI Bank, State Bank of India and associates, Bank of Baroda, RBL Bank and many others. Leading NBFCs in India that provide home loans include India Bulls, Bajaj Finance, Financiers, LIC Housing Finance and many others.",
+        "index": "home_loan_23"
+    }
+]

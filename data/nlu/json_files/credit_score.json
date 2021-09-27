@@ -1,0 +1,47 @@
+[
+    {
+        "q": "What is a CIBIL Score? ",
+        "a": "A CIBIL Score is a consumer's credit score. Simply put, this is a three-digit numeric summary of a consumer's credit history and a reflection of the person's credit profile. This is based on past credit behavior, such as borrowing and repayment habits as shared by banks and lenders with CIBIL on a regular basis",
+        "index": "credit_score_1"
+    },
+    {
+        "q": "How long does CIBIL keep an individual\u2019s credit history records?",
+        "a": "CIBIL maintains a record of your credit history for at least 7-10 years",
+        "index": "credit_score_2"
+    },
+    {
+        "q": "Is CIBIL score only applicable in India?",
+        "a": "Yes, CIBIL score is only applicable in India as it is generated on the basis of data provided by Indian lenders only.",
+        "index": "credit_score_3"
+    },
+    {
+        "q": "What does credit score of NA or NH mean?",
+        "a": "CIBIL Score of NA/NH stands for not applicable/no history. It simply means one of the following: Your credit history is too short or does not exist at all Or You have not been associated with any credit activity in the last 2 years Or You have add-on credit cards only and thus lack credit exposure. Please note credit score of \u2018NA/NH\u2019 does not indicate a poor credit history. However, it may decrease the chances of getting a loan sanctioned by some lenders as the risk of lending to you cannot be estimated by prospective lenders.",
+        "index": "credit_score_4"
+    },
+    {
+        "q": "How often is CIBIL Score updated? ",
+        "a": "Lenders send out credit data of their customers to CIBIL every month, hence CIBIL score may get updated once every month. So, it is highly recommended to check your credit score regularly.",
+        "index": "credit_score_5"
+    },
+    {
+        "q": "How can I improve my Credit Score?",
+        "a": "While you\u2019ll not see a sudden improvement in your Credit Score, it will gradually increase if you stick to paying your dues on time and stay away from borrowing too often. Do not forget that just applying for a loan or Credit Card is taken as a hard enquiry and reflects on your score. So, apply for a credit product only when it is necessary and steer clear from multiple applications in a short span of time.",
+        "index": "credit_score_6"
+    },
+    {
+        "q": "How often should I check from credit report?",
+        "a": "Checking your Credit Score or pulling your credit report does not impact your score. So, you are free to do it as many times as you want. However, as a practice, we\u2019d suggest that you check your score at least twice a year without fail. Also, it is always good to check your score before you apply for a credit product, so you can be sure of your chances of approval.",
+        "index": "credit_score_7"
+    },
+    {
+        "q": "What will be my Credit Score be if I have never borrowed credit till date?",
+        "a": "If you do not own a Credit Card or have never taken a loan till date, then you will not have any credit history to show. And, of course, your Credit Score will be low. Lenders are usually quite apprehensive about lending to credit newbies as there is no way for them to gauge their credit behavior. While we are not encouraging you to borrow unnecessarily, it wouldn\u2019t hurt to get yourself a Credit Card. Having a credit history is extremely helpful for your future.",
+        "index": "credit_score_8"
+    },
+    {
+        "q": "Will I get a loan quicker and at a low interest rate if I have a good Credit Score?",
+        "a": "Although lenders look at your Credit Score before considering your loan or Credit Card application, they also look at a number of other factors too, such as your income, employment history and so on. But you can be rest assured that if your Credit Score is good, the chances of loan refusal is low and you\u2019ll get better rates than someone with just an average score.",
+        "index": "credit_score_9"
+    }
+]

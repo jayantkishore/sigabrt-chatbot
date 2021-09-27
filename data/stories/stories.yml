@@ -368,10 +368,6 @@ stories:
   - intent: flipkart_quick
   - action: action_get_answer
 
-- story: flipkart_selling_on_flipkart
-  steps:
-  - intent: flipkart_selling_on_flipkart
-  - action: action_get_answer
 
 
  

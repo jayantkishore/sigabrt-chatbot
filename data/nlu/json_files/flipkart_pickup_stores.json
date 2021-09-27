@@ -1,16 +1,16 @@
 [
     {
-        "q": "Will my shipment be safe at the pickup store?",
+        "q": "Will my shipment be safe at the Flipkart pickup store?",
         "a": "Rest assured, your shipment is safe with our trusted partners at all pickup stores.",
         "index": "flipkart_pickup_stores_1"
     },
     {
-        "q": "How will I know that my shipment has reached the pick-up store?",
+        "q": "How will I know that my shipment has reached the Flipkart pick-up store?",
         "a": "Once your shipment has reached the pick-up store, you will be notified via email & SMS. A One Time Password (OTP) and a route map to the location of the pick-up store will also be shared with you.",
         "index": "flipkart_pickup_stores_2"
     },
     {
-        "q": "How can I collect my shipment from the pick-up store?",
+        "q": "How can I collect my shipment from the Flipkart pick-up store?",
         "a": "To collect your shipment from a pick-up store, follow these simple steps:1. Walk into the pick-up store2. Enter your OTP where you are asked to do so by the Store Manager and show a valid photo ID.As soon as the verification is complete, the shipment will be handed over to you.Note: The photo IDs can be PAN card, Driving license, Aadhar card, College ID card, Employee ID card, Voters' ID card, Government approved cards, photo printed credit/debit card, and Bank passbook.",
         "index": "flipkart_pickup_stores_3"
     },
@@ -20,22 +20,22 @@
         "index": "flipkart_pickup_stores_4"
     },
     {
-        "q": "How long do I have to pick up my shipment from the pick-up store?",
+        "q": "How long do I have to pick up my shipment from the Flipkart pick-up store?",
         "a": "You can pick up your shipment within 5 days of the order arriving at the pick-up store. If you are on vacation, or can't pick it up within 5 days, you can contact our Customer Support to schedule the pickup at a later date.In case the shipment is not picked up within this time, the store will return the item to the seller and the order will be cancelled.",
         "index": "flipkart_pickup_stores_5"
     },
     {
-        "q": "What should I do if my shipment is not at the pick-up store?",
+        "q": "What should I do if my shipment is not at the Flipkart pick-up store?",
         "a": "If you have received a confirmation message that your shipment has reached the pick-up store and it is not there, please contact Customer Support.",
         "index": "flipkart_pickup_stores_6"
     },
     {
-        "q": "What happens if I'm not able to pick up my shipment within 5 days from the pickup store for some reason?",
+        "q": "What happens if I'm not able to pick up my shipment within 5 days from the Flipkart pickup store for some reason?",
         "a": "In case your shipment isn't collected from the pick-up store within 5 days, it will be returned to the seller. The order will be cancelled and a full refund initiated for pre-paid orders.",
         "index": "flipkart_pickup_stores_7"
     },
     {
-        "q": "What is a pick-up store?",
+        "q": "What is a Flipkart pick-up store?",
         "a": "A pick-up store is a location near you where you can now walk into a select partner store and collect your order at your own convenience. The option to choose this as a delivery option is available on our mobile app.",
         "index": "flipkart_pickup_stores_8"
     },
@@ -45,27 +45,27 @@
         "index": "flipkart_pickup_stores_9"
     },
     {
-        "q": "Can I drop off an item I want to return at the pick-up store?",
+        "q": "Can I drop off an item I want to return at the Flipkart pick-up store?",
         "a": "Pick-up stores are not authorised to accept items for returns yet. To return items, please raise a request from the 'My Orders' section of your Flipkart account and wait for more details via email and SMS.",
         "index": "flipkart_pickup_stores_10"
     },
     {
-        "q": "Can someone else collect an order on my behalf from a pick-up store?",
+        "q": "Can someone else collect an order on my behalf from a Flipkart pick-up store?",
         "a": "Yes, someone else can collect the order for you. To do this, the person will have to share the OTP sent to you by SMS and a vaild photo ID at the pick-up store.",
         "index": "flipkart_pickup_stores_11"
     },
     {
-        "q": "Is my shipment safe at the pick-up store?",
+        "q": "Is my shipment safe at the Flipkart pick-up store?",
         "a": "Yes, your shipment is safe at our well-equipped and trusted pick-up stores.",
         "index": "flipkart_pickup_stores_12"
     },
     {
-        "q": "What are the benefits of choosing the pick-up store option for delivery?",
+        "q": "What are the benefits of choosing the Flipkart pick-up store option for delivery?",
         "a": "Pick-up stores are an option is for those who want to collect their orders at leisure. It works great for those who can't receive shipments at home or offices at the specific moment the courier executive calls.",
         "index": "flipkart_pickup_stores_13"
     },
     {
-        "q": "My shipment is damaged at the self pickup store, what do I do?",
+        "q": "My shipment is damaged at the self Flipkart pickup store, what do I do?",
         "a": "Please do not accept your shipment at the pickup store if it's damaged. Let us know about it by contacting our Customer Support & we'll look into this for you. ",
         "index": "flipkart_pickup_stores_14"
     },
@@ -75,12 +75,12 @@
         "index": "flipkart_pickup_stores_15"
     },
     {
-        "q": "How to know if my area has self pick-up service?",
+        "q": "How to know if my area has self Flipkart pick-up service?",
         "a": "When you're placing an order with your address, choose the self-pickup option to see a list of possible stores where you can walk in & collect your shipments. In case your address doesn't have any pickup stores, you'll get a message which says, 'Self pickup not available in your location'. This option is currently available only on Android app at the moment.",
         "index": "flipkart_pickup_stores_16"
     },
     {
-        "q": "Is there a charge for pickup of products from a 'Pickup Store'?",
+        "q": "Is there a charge for pickup of products from a Flipkart Pickup Store?",
         "a": "There are no charges for pickup of products from a 'Pickup Store'. Standard delivery charges still apply.",
         "index": "flipkart_pickup_stores_17"
     }
