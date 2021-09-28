@@ -26,18 +26,13 @@ from oauth2client.service_account import ServiceAccountCredentials
 import gspread_dataframe as gd
 
 pretrained_model = "bert-base-nli-mean-tokens"  # Refer: https://github.com/UKPLab/sentence-transformers/blob/master/docs/pretrained-models/nli-models.md
-score_threshold = 0.80  # This confidence scores can be adjusted based on your need!!
+score_threshold = 0.70  # This confidence scores can be adjusted based on your need!!
 
 # Custom Action
 class ActionGetFAQAnswer(Action):
     def __init__(self):
         super(ActionGetFAQAnswer, self).__init__()
-        # self.faq_data = json.load(open("./data/nlu/faq.json", "rt", encoding="utf-8"))
         self.sentence_embedding_choose(pretrained_model)
-        # self.standard_questions_encoder = np.load("./data/standard_questions.npy")
-        # self.standard_questions_encoder_len = np.load("./data/standard_questions_len.npy")
-        # print(self.standard_questions_encoder.shape)
-
     def sentence_embedding_choose(self, pretrained_model="bert-base-nli-mean-tokens"):
 
         self.bc = SentenceTransformer(pretrained_model)
@@ -65,33 +60,32 @@ class ActionGetFAQAnswer(Action):
     ) -> List[Dict[Text, Any]]:
         query = tracker.latest_message["text"]
         intent = str(tracker.latest_message["intent"]["name"])
-        faq_path = "./data/nlu/json_files/{}.json".format(intent)
-        self.faq_data = json.load(open(faq_path, "rt", encoding="utf-8"))
-        # print(query)
-        ques_path = "./data/bert_encoding/stan_ques_{}.npy".format(intent)
-        ques_len_path = "./data/bert_encoding/stan_ques_len_{}.npy".format(intent)
+        try:
+            
+            faq_path = "./data/nlu/json_files/{}.json".format(intent)
+            self.faq_data = json.load(open(faq_path, "rt", encoding="utf-8"))
+            # print(query)
+            ques_path = "./data/bert_encoding/stan_ques_{}.npy".format(intent)
+            ques_len_path = "./data/bert_encoding/stan_ques_len_{}.npy".format(intent)
 
-        self.standard_questions_encoder = np.load(ques_path)
-        self.standard_questions_encoder_len = np.load(ques_len_path)
+            self.standard_questions_encoder = np.load(ques_path)
+            self.standard_questions_encoder_len = np.load(ques_len_path)
 
-        most_similar_id, score = self.get_most_similar_standard_question_id(query)
-        print(
-            "The question is matched with id:{} with score: {}".format(
-                most_similar_id, score
-            )
-        )
-        if (
-            float(score) > score_threshold
-        ):  # This confidence scores can be adjusted based on your need!!
-            response = self.faq_data[most_similar_id]["a"]
-            dispatcher.utter_message(response)
-        else:
-            response = "Sorry, this question is beyond my ability..."
-            dispatcher.utter_message(response)
-            # dispatcher.utter_message(
-            #     "You can dial the manual service..."
-            # )
-        return []
+            most_similar_id, score = self.get_most_similar_standard_question_id(query)
+            print("The question is matched with id:{} with score: {}".format(
+                    most_similar_id, score))
+            if (float(score) > score_threshold):  
+                response = self.faq_data[most_similar_id]["a"]
+                dispatcher.utter_message(response)
+            else:
+                response = "Sorry, this question is beyond my ability..."
+                dispatcher.utter_message(response)
+               
+            return []
+        except:
+            dispatcher.utter_message(text = "I am afraid, I won't be able to help you with that!")
+            return []
+        
 
 
 def encode_standard_question(pretrained_model="bert-base-nli-mean-tokens"):
