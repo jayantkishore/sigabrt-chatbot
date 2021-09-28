@@ -71,7 +71,6 @@ intents:
   - smalltalk_agent_real
   - smalltalk_agent_residence
   - smalltalk_agent_right
-  - smalltalk_confirmation_yes
   - smalltalk_agent_sure
   - smalltalk_agent_talk_to_me
   - smalltalk_agent_there
@@ -182,7 +181,10 @@ responses:
   - text: "Would you like to continue?"
 
   utter_default:
-  - text: "I didn't quite understand that. Could you rephrase?"
+  - text: "I didn't quite understand that. Could you please try again?"
+  - text: "I was unable to get your feelings, please try in a different way"
+  - text: "I am still a bot, I couldn't understand. Please help me again"
+  - text: "I am not able to understand, go ahead try again, please"
 
   utter_ask_whatelse:
   - text: What else can I help you with?
@@ -229,7 +231,13 @@ responses:
   - text: "Congrats, we saved your feedback."
   - text: "Hurray, your feedback was sent to the developers."
   - text: "Thanks for giving feedback."
-  - text: "Your feedback has been recorded."
+  - text: "I can't thank you enough, you helped me grow more."
+
+  utter_ask_for_feedback:
+  - text: "It has been nice talking to you, would you mind giving feedback?"
+  - text: "I tried my best, let my developers know how i can improve, by giving feedback"
+  - text: "It's been a while, could you spare few minutes for my feedback?"
+  - text: "Liked my recommendation, let my creaters know by giving feedback."
 
 
   utter_smalltalk_agent_acquaintance:
@@ -364,11 +372,6 @@ responses:
   utter_smalltalk_agent_right:
     - text: "That's my job."
     - text: "Of course I am."
-
-  utter_smalltalk_confirmation_yes:
-    - text: "Great!"
-    - text: "All right!"
-    - text: "Good!"
 
   utter_smalltalk_agent_sure:
     - text: "Yes."

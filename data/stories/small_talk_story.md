@@ -106,9 +106,6 @@
 * smalltalk_agent_right
   - utter_smalltalk_agent_right
 
-## path_smalltalk_confirmation_yes
-* smalltalk_confirmation_yes
-  - utter_smalltalk_confirmation_yes
 
 ## path_smalltalk_agent_sure
 * smalltalk_agent_sure
