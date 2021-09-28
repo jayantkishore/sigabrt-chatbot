@@ -1,8 +1,8 @@
-## intent:flipkart_return_cancellation
+## intent: flipkart_return_cancellation
  - If I request for a replacement, when will I get it?
  - Can items be returned after the time period mentioned in the seller's Returns Policy?
  - Do I have to return the freebie when I return a product?
- - How do returns work?
+ - How do returns work on flipkart?
  - I see the 'Cancel' button but I can't click on it. Why?
  - What is the Buyer Protection policy?
  - What should I do if I have an issue with my product after the return period?

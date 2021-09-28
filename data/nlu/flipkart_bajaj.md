@@ -1,4 +1,4 @@
-## intent:flipkart_bajaj
+## intent: flipkart_bajaj
  - Can I cancel my EMI after I've placed the order using the Bajaj Finserv payment option?
  - Can I foreclose my EMI with Bajaj Finserv?
  - Can I get the refund for the item to any other mode if I have paid using the Bajaj Finserv payment option?

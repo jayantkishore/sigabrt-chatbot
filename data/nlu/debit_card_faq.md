@@ -1,25 +1,28 @@
-## intent:debit_card_faq
-- What is a debit card?
-- How is a debit card different from a credit card?
-- How can I get a debit card?
-- What is a Personal Identification Number (PIN)?
-- What to do if you forgot your PIN or if it is not working?
-- Is there any transaction limit on the amount that can be withdrawn using a debit card?
-- Is there any limit on the number of transactions I can make on my debit card?
-- Are any charges levied for using a debit card for cash withdrawal?
-- Are any charges levied on using a debit card for transaction at another bank’s ATM?
-- Are there any charges on using the debit card on POS or online shopping?
-- Is there any renewal fees for debit card?
-- What to do in case of loss of debit card?
-- If the lost debit card is found later can it be used?
-- What is RuPay?
-- Should I get a debit card?
-- Can debit cards be used as credit cards?
-- What is the difference between a credit card and a debit card?
-- What is an ATM card?
-- ATM card or credit card?
-- Can multiple accounts be linked to a debit card?
-- Do banks block debit cards if customers enter the wrong PIN during cash withdrawals?
-- Is the overdraft facility available with debit cards?
-- What are the different costs associated with a debit card?
-- In India, what are the two types of debit cards generally issued to users?
+## intent: debit_card_faq
+ - What is a debit card?
+ - How is a debit card different from a credit card?
+ - debit card vs credit card?
+ - Which is better, using a credit card or using a debit card?
+ - How can I get a debit card?
+ - What is a Personal Identification Number (PIN)?
+ - What to do if you forgot your PIN or if it is not working?
+ - Is there any transaction limit on the amount that can be withdrawn using a debit card?
+ - Is there any limit on the number of transactions I can make on my debit card?
+ - Are any charges levied for using a debit card for cash withdrawal?
+ - Are any charges levied on using a debit card for transaction at another bank's ATM?
+ - Are there any charges on using the debit card on POS or online shopping?
+ - Is there any renewal fees for debit card?
+ - What to do in case of loss of debit card?
+ - If the lost debit card is found later can it be used?
+ - What is RuPay?
+ - Should I get a debit card?
+ - Can debit cards be used as credit cards?
+ - What is the difference between a credit card and a debit card?
+ - What is an ATM card?
+ - ATM card or credit card?
+ - Can multiple accounts be linked to a debit card?
+ - Do banks block debit cards if customers enter the wrong PIN during cash withdrawals?
+ - Is the overdraft facility available with debit cards?
+ - What are the different costs associated with a debit card?
+ - In India, what are the two types of debit cards generally issued to users?
+ - Which type of indian debit card is best?

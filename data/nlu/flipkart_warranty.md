@@ -1,4 +1,4 @@
-## intent:flipkart_warranty
+## intent: flipkart_warranty
  - I see that the warranty terms for my product have changed on Flipkart from when I bought the product. Will this affect my warranty?
  - I lost my warranty card. How can I get warranty?
  - How can I claim warranty for my product?

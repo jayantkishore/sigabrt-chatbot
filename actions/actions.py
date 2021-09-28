@@ -88,9 +88,9 @@ class ActionGetFAQAnswer(Action):
         else:
             response = "Sorry, this question is beyond my ability..."
             dispatcher.utter_message(response)
-            dispatcher.utter_message(
-                "Sorry, I can't answer your question. You can dial the manual service..."
-            )
+            # dispatcher.utter_message(
+            #     "You can dial the manual service..."
+            # )
         return []
 
 
@@ -243,7 +243,7 @@ class GetCC(Action):
             dispatcher.utter_message(text = output)
             if i!=n-1:
                 dispatcher.utter_message(text = "And then..")
-        dispatcher.utter_message(text = "Beware of little expenses,a small leak will sink a great ship")
+        dispatcher.utter_message(text = "Beware of little expenses, a small leak will sink a great ship")
         return []
 
 class GetSupercoins(Action):

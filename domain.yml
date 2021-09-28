@@ -13,31 +13,27 @@ intents:
   - help
   - out_of_scope
   - nlu_fallback
-  - credit_card_faq
   - debit_card_faq
-  - insurance_faq
-  - loan_faq
-  - mobile_wallet_faq
-  - upi_faq
-  - flipkart_axis_bank_credit_card
-  - flipkart_sbi
-  - flipkart_credit_card_no_cost_emi
-  - flipkart_first
-  - flipkart_login_my_account
-  - flipkart_gift_card
-  - flipkart_bajaj
-  - flipkart_refurbished
-  - flipkart_supercoins
-  - flipkart_warranty
-  - flipkart_shipping
-  - flipkart_privacy_security
-  - flipkart_travel
-  - flipkart_pickup_stores
-  - flipkart_return_cancellation
-  - flipkart_ac_installation
-  - flipkart_product_reviews
+  - credit_card_faq
   - flipkart_quick
-  - flipkart_selling_on_flipkart
+  - loan_faq
+  - upi_faq
+  - flipkart_pickup_stores
+  - home_loan_faq
+  - mobile_wallet_faq
+  - flipkart_warranty
+  - flipkart_return_cancellation
+  - flipkart_shipping
+  - flipkart_supercoins
+  - flipkart_login_my_account
+  - flipkart_refurbished
+  - credit_score
+  - flipkart_bajaj
+  - flipkart_gift_card
+  - insurance_faq
+  - flipkart_credit_card_no_cost_emi
+  - flipkart_sbi
+  - flipkart_axis_bank_credit_card
   - askjk
   - show_credit_cards
   - show_supercoins
@@ -170,6 +166,7 @@ responses:
 
   utter_out_of_scope:
   - text: "Sorry, I'm not sure how to respond to that. Type help for assistance."
+  - text: "I am not able to understand."
 
   utter_noworries:
   - text: "You're welcome"
@@ -179,8 +176,8 @@ responses:
   - text: "I didn't quite understand that. Can you rephrase?"
 
   utter_ok:
-  - text: "👍"
-
+  - text: "OK"
+  - text: "Ok then"
   utter_ask_continue:
   - text: "Would you like to continue?"
 

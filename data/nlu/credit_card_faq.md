@@ -1,39 +1,55 @@
-## intent:credit_card_faq
-- What is a Credit Card
-- How does a credit card differ from a debit card
-- What is the difference between VISA card and MasterCard
-- What is a Co-Branded Credit Card
-- How do the new EMV chip and PIN system for credit cards work
-- What is the CVV number
-- How long does it take to apply for and receive a Credit Card
-- What are the benefits of having a Credit Card
-- What is a supplementary/add-on card
-- How many supplementary cards can I have and what are the charges involved
-- What should I do if I lose my card or if my card is stolen
-- What are reward points and how can I use them
-- What type of dining benefits can my credit card provide
-- What type of travel privileges can my credit card provide
-- How does a credit card generate fuel cost savings
-- What is an Annual Fee
-- How does the card issuer decide my credit limit
-- What happens if my card expenditure exceeds my assigned credit limit
-- Can I increase my credit limit later on
-- How do I find the credit card due amount
-- What is a Finance Charge and how is it computed
-- What do the terms billing date/cycle mean and are they subject to change
-- What is Minimum Payment Due
-- What happens if I make minimum due payments for my card
-- What is foreign currency transaction markup
-- What is a credit card balance transfer
-- Is there a limit on the total balance I can transfer via credit card balance transfer
-- How does the “cash-on-EMI” facility work
-- What is EMI conversion of credit card debt
-- What happens if I want to prepay my EMIs
-- What does “zero lost card liability” mean
-- How can I avail a loan on my credit card
-- What is cash advance
-- How much of my credit limit can I use for Cash Advance transactions
-- What is Revolving Credit
-- What is Charge Back
-- Should I get a second credit card
-- What is the minimum credit score to get a personal loan
+## intent: credit_card_faq
+ - What is a Credit Card
+ - How does a credit card differ from a debit card
+ - What is the difference between VISA card and MasterCard
+ - What is a Co-Branded Credit Card
+ - How do the new EMV chip and PIN system for credit cards work
+ - What is the CVV number
+ - How long does it take to apply for and receive a Credit Card
+ - What are the benefits of having a Credit Card
+ - What is a supplementary/add-on card
+ - How many supplementary cards can I have and what are the charges involved
+ - What should I do if I lose my card or if my card is stolen
+ - What are reward points and how can I use them
+ - What type of dining benefits can my credit card provide
+ - What type of travel privileges can my credit card provide
+ - How does a credit card generate fuel cost savings
+ - What is an Annual Fee of credit card
+ - How does the card issuer decide my credit limit
+ - What happens if my card expenditure exceeds my assigned credit limit
+ - Can I increase my credit limit later on
+ - How do I find the credit card due amount
+ - What is a Finance Charge and how is it computed
+ - What do the terms billing date/cycle mean and are they subject to change
+ - What is Minimum Payment Due
+ - What happens if I make minimum due payments for my card
+ - What is foreign currency transaction markup
+ - What is a credit card balance transfer
+ - Is there a limit on the total balance I can transfer via credit card balance transfer
+ - How does the cash-on-EMI facility work
+ - What is EMI conversion of credit card debt
+ - What happens if I want to prepay my EMIs
+ - What does zero lost card liability mean
+ - How can I avail a loan on my credit card
+ - What is cash advance
+ - How much of my credit limit can I use for Cash Advance transactions
+ - What is Revolving Credit
+ - What is Charge Back
+ - Should I get a second credit card
+ - When should I pay my credit card bill?
+ - Do I need to pay my credit card in full?
+ - Should I wait for a statement to pay by credit card?
+ - What is the best time to pay a credit card bill?
+ - Which is the fastest method to pay my credit card bill?
+ - How can I pay my credit card bill from another bank?
+ - Which is the fastest method to pay my credit card bill?
+ - What is the processing time of credit card cheque payments?
+ - Does it mean my bill is zero if I do not receive a credit card statement?
+ - What are the consequences of missing credit card payments?
+ - what credit cards should I get?
+ -  How many credit  cards should I have?
+ - What is a secured credit card?
+ - what is a personal credit card
+ - what is a business credit card
+ - difference between personal credit card and business credit card
+ - which credit card is right for me personal or business ?

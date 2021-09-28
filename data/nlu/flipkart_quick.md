@@ -1,4 +1,4 @@
-## intent:flipkart_quick
+## intent: flipkart_quick
  - What is Flipkart Quick?
  - How can I shop on Flipkart Quick?
  - How can I track my Flipkart Quick order?

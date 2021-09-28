@@ -1,4 +1,4 @@
-## intent:flipkart_supercoins
+## intent: flipkart_supercoins
  - My registered number on Flipkart is different than that registered with other Exchange Partner. Can I change the number on Exchange Partner's platform?
  - Who all are eligible for the SuperCoins Exchange program?
  - How can I check SuperCoins Exchange transactions?
@@ -7,7 +7,7 @@
  - What is SuperCoins Exchange program?
  - How often do conversion rates for SuperCoins Exchange change?
  - How can I access Exchange Partner reward programs as part of SuperCoins Exchange?
- - How do I avail/participate in SuperCoins Exchange program?
+ - How do I avail SuperCoins Exchange program?
  - What are SuperCoin Milestones?
  - When benefits are unlocked as part of SuperCoin Milestones, will there be deduction of SuperCoins?
  - How long will the benefit be unlocked as part of my SuperCoin Milestones?
@@ -24,7 +24,6 @@
  - Can I cancel or return a reward as part of the Cash and Coins for Rewards for program?
  - Which are the third-party partner stores where I can use SuperCoin Pay feature?
  - Can SuperCoin Pay feature be used to shop online?
- - Is it necessary to register on Twid (INNOTARGET FASHALOT RETAIL PRIVATE LIMITED) or at the third-party partner store to use SuperCoin Pay feature?
  - Is it necessary for me to be registered with the same contact number at the third-party partner store for me to use SuperCoin Pay feature?
  - How can I know if the store I am at has the option of using SuperCoin Pay feature?
  - What does it mean if a store displays a SuperCoin Pay QR code?
@@ -40,7 +39,6 @@
  - How secure is the payment through SuperCoin Pay?
  - Do I have to manually unlock a scratch card as part of SuperCoin Pay?
  - What is SuperCoin Pay feature?
- - How can I redeem SuperCoins through SuperCoin Pay feature during my purchase at a third-party partner store or on Flipkart platform?
  - Can I redeem all of my available SuperCoins while using the SuperCoin Pay feature?
  - Can I make the payment through cash or UPI payment mode to avail benefits as part of SuperCoin Pay at a third-party partner store?
  - How do I apply an offer while making the payment using SuperCoin Pay feature?

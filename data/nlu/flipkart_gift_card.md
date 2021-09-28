@@ -1,4 +1,4 @@
-## intent:flipkart_gift_card
+## intent: flipkart_gift_card
  - I didn't get the Gift Card I ordered for. What should I do?
  - My Gift Card has expired. Can you extend its validity?
  - What does 'Transfer' Gift Card in my Wallet do?

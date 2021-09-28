@@ -1,6 +1,6 @@
-## intent:flipkart_refurbished
- - What is a refurbished product and how do I identify it on Flipkart?
- - What types of products will be available under Flipkart 'Refurbished Zone'?
+## intent: flipkart_refurbished
+ - What is a refurbished product  on Flipkart?
+ - What types of products will be available under Flipkart Refurbished Zone?
  - How are prices of refurbished products decided?
  - How can I understand the grade of a refurbished product?
  - How will I claim warranty for refurbished products?

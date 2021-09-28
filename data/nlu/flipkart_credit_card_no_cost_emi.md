@@ -1,4 +1,4 @@
-## intent:flipkart_credit_card_no_cost_emi
+## intent: flipkart_credit_card_no_cost_emi
  - What are the benefits of the 'Credit Card No Cost EMI' payment mode?
  - Is 'Credit Card No Cost EMI' payment mode available on Flipkart's website and mobile app?
  - I did not get an OTP while paying through the 'Credit Card No Cost EMI' payment mode. What should I do?

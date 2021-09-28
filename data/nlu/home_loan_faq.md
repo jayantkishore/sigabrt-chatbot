@@ -1,0 +1,24 @@
+## intent: home_loan_faq
+ - What is a Home Loan?
+ - What is the tenure of a home loan?
+ - What is the Eligibility Criteria for a Home Loan?
+ - Can I apply for a joint loan with my friend?
+ - Who can be joint borrowers in case of a home loan?
+ - What is the maximum number of joint borrowers for a home loan?
+ - What is a floating rate home loan?
+ - What is a fixed rate home loan?
+ - Can I switch from a floating rate home loan to a fixed rate?
+ - How do I repay my home loan?
+ - Should I apply for a home loan with a public or private bank?
+ - Is prepayment of home loan allowed?
+ - Can I have a co-applicant when I sign up for a home loan?
+ - Is having a good credit record important in case of a home loan?
+ - I have low credit score. Can I still apply for a home loan?
+ - What is the margin on a home loan?
+ - What costs are not covered by a home loan?
+ - What is an amortization schedule?
+ - What are the different types of home loan
+ - If I have a current home loan and want to move to a new house, what option do I have?
+ - What is Home loan pre-approval?
+ - How long is the home loan pre-approval valid?
+ - What are the top home loan providers in India?

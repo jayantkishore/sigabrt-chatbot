@@ -39,54 +39,35 @@ stories:
   - intent: goodbye
   - action: utter_goodbye
 
-- story: Credit Card FAQ
+- story: All FAQ
   steps:
   - intent: greet
   - action: utter_greet
   - action: utter_help
-  - intent: credit_card_faq
+  - or:
+    - intent: debit_card_faq
+    - intent: credit_card_faq
+    - intent: flipkart_quick
+    - intent: loan_faq
+    - intent: upi_faq
+    - intent: flipkart_pickup_stores
+    - intent: home_loan_faq
+    - intent: mobile_wallet_faq
+    - intent: flipkart_warranty
+    - intent: flipkart_return_cancellation
+    - intent: flipkart_shipping
+    - intent: flipkart_supercoins
+    - intent: flipkart_login_my_account
+    - intent: flipkart_refurbished
+    - intent: credit_score
+    - intent: flipkart_bajaj
+    - intent: flipkart_gift_card
+    - intent: insurance_faq
+    - intent: flipkart_credit_card_no_cost_emi
+    - intent: flipkart_sbi
+    - intent: flipkart_axis_bank_credit_card
   - action: action_get_answer
 
-- story: Debit Card FAQ
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - action: utter_help
-  - intent: debit_card_faq
-  - action: action_get_answer
-
-
-- story: Insurance FAQ 
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - action: utter_help
-  - intent: insurance_faq
-  - action: action_get_answer
-
-- story: Loan FAQ
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - action: utter_help
-  - intent: loan_faq
-  - action: action_get_answer
-
-- story: Mobile Wallet FAQ
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - action: utter_help
-  - intent: mobile_wallet_faq
-  - action: action_get_answer
-
-- story: UPI FAQ
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - action: utter_help
-  - intent: upi_faq
-  - action: action_get_answer
 
 - story: JK path
   steps:
@@ -142,31 +123,27 @@ stories:
   - action: user_feedback_form
   - active_loop: user_feedback_form
   - or:
-    - intent: credit_card_faq
     - intent: debit_card_faq
-    - intent: insurance_faq
-    - intent: loan_faq
-    - intent: mobile_wallet_faq
-    - intent: upi_faq
-    - intent: flipkart_axis_bank_credit_card
-    - intent: flipkart_sbi
-    - intent: flipkart_credit_card_no_cost_emi
-    - intent: flipkart_first
-    - intent: flipkart_login_my_account
-    - intent: flipkart_gift_card
-    - intent: flipkart_bajaj
-    - intent: flipkart_refurbished
-    - intent: flipkart_supercoins
-    - intent: flipkart_warranty
-    - intent: flipkart_shipping
-    - intent: flipkart_privacy_security
-    - intent: flipkart_travel
-    - intent: flipkart_pickup_stores
-    - intent: flipkart_return_cancellation
-    - intent: flipkart_ac_installation
-    - intent: flipkart_product_reviews
+    - intent: credit_card_faq
     - intent: flipkart_quick
-    - intent: flipkart_selling_on_flipkart
+    - intent: loan_faq
+    - intent: upi_faq
+    - intent: flipkart_pickup_stores
+    - intent: home_loan_faq
+    - intent: mobile_wallet_faq
+    - intent: flipkart_warranty
+    - intent: flipkart_return_cancellation
+    - intent: flipkart_shipping
+    - intent: flipkart_supercoins
+    - intent: flipkart_login_my_account
+    - intent: flipkart_refurbished
+    - intent: credit_score
+    - intent: flipkart_bajaj
+    - intent: flipkart_gift_card
+    - intent: insurance_faq
+    - intent: flipkart_credit_card_no_cost_emi
+    - intent: flipkart_sbi
+    - intent: flipkart_axis_bank_credit_card
   - action: action_get_answer
   - action: utter_ask_continue_feedback
   - intent: affirm
@@ -180,31 +157,27 @@ stories:
   - action: user_feedback_form
   - active_loop: user_feedback_form
   - or:
-    - intent: credit_card_faq
     - intent: debit_card_faq
-    - intent: insurance_faq
-    - intent: loan_faq
-    - intent: mobile_wallet_faq
-    - intent: upi_faq
-    - intent: flipkart_axis_bank_credit_card
-    - intent: flipkart_sbi
-    - intent: flipkart_credit_card_no_cost_emi
-    - intent: flipkart_first
-    - intent: flipkart_login_my_account
-    - intent: flipkart_gift_card
-    - intent: flipkart_bajaj
-    - intent: flipkart_refurbished
-    - intent: flipkart_supercoins
-    - intent: flipkart_warranty
-    - intent: flipkart_shipping
-    - intent: flipkart_privacy_security
-    - intent: flipkart_travel
-    - intent: flipkart_pickup_stores
-    - intent: flipkart_return_cancellation
-    - intent: flipkart_ac_installation
-    - intent: flipkart_product_reviews
+    - intent: credit_card_faq
     - intent: flipkart_quick
-    - intent: flipkart_selling_on_flipkart
+    - intent: loan_faq
+    - intent: upi_faq
+    - intent: flipkart_pickup_stores
+    - intent: home_loan_faq
+    - intent: mobile_wallet_faq
+    - intent: flipkart_warranty
+    - intent: flipkart_return_cancellation
+    - intent: flipkart_shipping
+    - intent: flipkart_supercoins
+    - intent: flipkart_login_my_account
+    - intent: flipkart_refurbished
+    - intent: credit_score
+    - intent: flipkart_bajaj
+    - intent: flipkart_gift_card
+    - intent: insurance_faq
+    - intent: flipkart_credit_card_no_cost_emi
+    - intent: flipkart_sbi
+    - intent: flipkart_axis_bank_credit_card
   - action: action_get_answer
   - action: utter_ask_continue_feedback
   - intent: deny
@@ -269,106 +242,3 @@ stories:
 
 
 
-
-
-
-
-
-
-
-
-
-- story: flipkart_axis_bank_credit_card
-  steps:
-  - intent: flipkart_axis_bank_credit_card
-  - action: action_get_answer
-
-- story: flipkart_sbi
-  steps:
-  - intent: flipkart_sbi
-  - action: action_get_answer
-
-- story: flipkart_credit_card_no_cost_emi
-  steps:
-  - intent: flipkart_credit_card_no_cost_emi
-  - action: action_get_answer
-
-- story: flipkart_first
-  steps:
-  - intent: flipkart_first
-  - action: action_get_answer
-
-- story: flipkart_login_my_account
-  steps:
-  - intent: flipkart_login_my_account
-  - action: action_get_answer
-
-- story: flipkart_gift_card
-  steps:
-  - intent: flipkart_gift_card
-  - action: action_get_answer
-
-- story: flipkart_bajaj
-  steps:
-  - intent: flipkart_bajaj
-  - action: action_get_answer
-
-- story: flipkart_refurbished
-  steps:
-  - intent: flipkart_refurbished
-  - action: action_get_answer
-
-- story: flipkart_supercoins
-  steps:
-  - intent: flipkart_supercoins
-  - action: action_get_answer
-
-- story: flipkart_warranty
-  steps:
-  - intent: flipkart_warranty
-  - action: action_get_answer
-
-- story: flipkart_shipping
-  steps:
-  - intent: flipkart_shipping
-  - action: action_get_answer
-
-- story: flipkart_privacy_security
-  steps:
-  - intent: flipkart_privacy_security
-  - action: action_get_answer
-
-- story: flipkart_travel
-  steps:
-  - intent: flipkart_travel
-  - action: action_get_answer
-
-- story: flipkart_pickup_stores
-  steps:
-  - intent: flipkart_pickup_stores
-  - action: action_get_answer
-
-- story: flipkart_return_cancellation
-  steps:
-  - intent: flipkart_return_cancellation
-  - action: action_get_answer
-
-- story: flipkart_ac_installation
-  steps:
-  - intent: flipkart_ac_installation
-  - action: action_get_answer
-
-- story: flipkart_product_reviews
-  steps:
-  - intent: flipkart_product_reviews
-  - action: action_get_answer
-
-- story: flipkart_quick
-  steps:
-  - intent: flipkart_quick
-  - action: action_get_answer
-
-
-
- 
-  

@@ -1,17 +1,18 @@
-## intent:upi_faq
-- What happens if a wrong UPI PIN is entered?
-- In UPI I  cannot find my bank account once I select the bank name. What should I do?
-- How do I pay for an online merchant through UPI?
-- Are UPI transactions possible only during the bank business hours?
-- Money has been debited from my account but I have not received any confirmation message. What should I do?
-- Should I add beneficiary before making a fund transfer via UPI?
-- Is there a way to view my transaction history in UPI?
-- Must the recipient have a bank account to make a UPI transfer? Does it work with a wallet app?
-- If my mobile is lost, can others access my bank account and make transactions by UPI?
-- Is it possible to put a stop payment request for a transfer made through UPI?
-- Is there an upper limit on the UPI transfer amount?
-- What is UPI?
-- What is an UPI-PIN?
-- How is UPI different from IMPS?
-- What are the different channels for transferring funds using UPI?
-- How do I set my UPI-PIN with the bank directly?
+## intent: upi_faq
+ - What happens if a wrong UPI Pin is entered?
+ - In UPI I  cannot find my bank account once I select the bank name. What should I do?
+ - How do I pay for an online merchant through UPI?
+ - Are UPI transactions possible only during the bank business hours?
+ - Money has been debited from my account but I have not received any confirmation message. What should I do?
+ - Should I add beneficiary before making a fund transfer via UPI?
+ - Is there a way to view my transaction history in UPI?
+ - Must the recipient have a bank account to make a UPI transfer? Does it work with a wallet app?
+ - If my mobile is lost, can others access my bank account and make transactions by UPI?
+ - Is it possible to put a stop payment request for a transfer made through UPI?
+ - Is there an upper limit on the UPI transfer amount?
+ - What is UPI?
+ - What is an UPI PIN?
+ - How is UPI different from IMPS?
+ - What are the different channels for transferring funds using UPI?
+ - How do I set my UPI PIN with the bank directly?
+ - I don’t remember my UPI pin . What do I do?

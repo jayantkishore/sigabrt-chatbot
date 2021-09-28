@@ -1,22 +1,19 @@
-## intent:flipkart_axis_bank_credit_card
+## intent: flipkart_axis_bank_credit_card
  - I have an Axis Bank Buzz Credit Card, can I still apply for the Flipkart Axis Bank Credit Card?
  - What will happen to my Axis Bank Buzz Credit Card if I apply for the Flipkart Axis Bank Credit Card?
- - What are the documents required to complete this application?
- - Can I resume an incomplete application?
- - How can I track my application status from my Flipkart Account?
- - Is there any annual fee?
+ - What are the documents required to get Axis Bank Buzz Credit Card?
+ - How can I track my application status of Flipkart Axis Bank Buzz Credit Card?
+ - Is there any annual fee of Axis Bank Buzz Credit Card?
  - What can I purchase using Flipkart Axis Bank Credit Card?
  - Will I earn cashback if I have used someone else's Flipkart Axis Bank Credit Card?
  - How can I check the amount earned for every purchase made using Flipkart Axis Bank Credit Card?
- - How can I use the earnings?
+ - How can I use the earnings Flipkart Axis Bank Credit Card?
  - Can I transfer ownership of my Flipkart Axis Bank Credit Card?
  - What will happen to the cashback if I return a product?
- - How will I get the PIN for the card?
- - I did not get the correct cashback as per my transactions on Flipkart. What should I do?
+ - I did not get the correct  Axis Bank Credit Card cashback as per my transactions on Flipkart. What should I do?
  - I want to know the CVV number on the card?
- - How can I pay the outstanding bill?
+ - How can I pay the outstanding bill of Flipkart Axis Bank Credit Card?
  - Will the card number and CVV remain the same for both the physical and the virtual card?
- - When will I get the physical card?
  - What are the key benefits of Flipkart Axis Bank Credit Card?
- - How can I apply for Flipkart Axis Bank Credit Card? Am I eligible for the card?
+ - How can I apply for Flipkart Axis Bank Credit Card?
  - What is Flipkart Axis Bank Credit Card?
