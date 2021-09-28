@@ -328,42 +328,6 @@ class GetNews(Action):
                 dispatcher.utter_message(text = "Remember , an investment in knowledge pays the best interest!")
         return []
 
-"""class ActionGetRating(Action):
-    def name(self):
-        return "action_getrating"
-    def run(
-        self,
-        dispatcher: CollectingDispatcher,
-        tracker: Tracker,
-        domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        
-        ans = int(tracker.latest_message['entities'][0]["value"])
-        return [SlotSet("overall_rating", ans)]
-
-class ActionGetRecom(Action):
-    def name(self):
-        return "action_getrecommendation"
-    def run(
-        self,
-        dispatcher: CollectingDispatcher,
-        tracker: Tracker,
-        domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        
-        ans = int(tracker.latest_message['entities'][0]["value"])
-        return [SlotSet("recommendation", ans)]
-
-class ActionGetComment(Action):
-    def name(self):
-        return "action_getcomment"
-    def run(
-        self,
-        dispatcher: CollectingDispatcher,
-        tracker: Tracker,
-        domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        
-        ans = str(tracker.latest_message['text'])
-        return [SlotSet("comment", ans)]"""
-
 
 class ValidateFeedbackForm(Action):
     def name(self) -> Text:
@@ -395,12 +359,25 @@ class ActionPushFeedback(Action):
                  'https://www.googleapis.com/auth/spreadsheets',
                  "https://www.googleapis.com/auth/drive.file",
                  "https://www.googleapis.com/auth/drive"]
-
+        
+        ans1 , ans2 = 0, 0 
+        if isinstance(tracker.get_slot("rating"), list):
+            ans1 = tracker.get_slot("rating")[0]
+        else:
+            ans1 = tracker.get_slot("rating")
+ 
+        if isinstance(tracker.get_slot("recommendation"), list):
+            ans2 = tracker.get_slot("recommendation")[0]
+        else:
+            ans2 = tracker.get_slot("recommendation")
+        user_id = (tracker.current_state())["sender_id"]
         dt = {
-                "overall_rating" : [tracker.get_slot("rating")] ,
-                "recommendation" : [tracker.get_slot("recommendation")],
-                 "comment"        : [tracker.get_slot("comment")]
+                "sender_id"      : [user_id],
+                "overall_rating" : [ans1] ,
+                "recommendation" : [ans2],
+                 "comment"       : [tracker.get_slot("comment")]
               }
+
         df = pd.DataFrame(data = dt)
 
         credentials = ServiceAccountCredentials.from_json_keyfile_name('./creds.json', scope)
