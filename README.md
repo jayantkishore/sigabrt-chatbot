@@ -9,7 +9,7 @@ Voicebot architecture is divided into three main components
 2. **Backend Server** powered by [Django Rest Framework](https://www.django-rest-framework.org/) 
 >[Installation and usage](www.google.com)
 3. **Chatbot Server** fueled by [Rasa](https://rasa.com/) 
->[Installation and usage](www.google.com)
+>[Installation and usage](/Chatbot.md)
 
 ## Deployment
 All the components are deployed on [Azure](https://azure.microsoft.com/en-in/) cloud platforms and VM.
@@ -17,7 +17,7 @@ You can access SIGA voice bot by clicking [here](https://nice-island-04efa0100.a
 
 ## Working of the Bot
 ### What is Rasa?
->[Rasa](https://rasa.com/) is an open-source machine learning framework for automated text and voice-based conversations. Understand messages, hold conversations, and connect to messaging channels and APIs. Rasa documentation [here](https://rasa.com/).
+>[Rasa](https://github.com/RasaHQ) is an open-source machine learning framework for automated text and voice-based conversations. Understand messages, hold conversations, and connect to messaging channels and APIs. Rasa documentation [here](https://rasa.com/).
 
 
 
@@ -30,13 +30,15 @@ Rasa comes up with 2 components —
 
 ### Overview of the files
 
-`data/nlu/nlu.yml` - contains NLU training data
+`data/nlu/` - contains NLU training data
 
 `data/nlu/rules.yml` - contains rules training data
 
-`data/stories/stories.yml` - contains stories training data
+`data/stories/` - contains stories training data
 
-`actions.py` - contains custom action/api code
+`data/bert_encoding/` - contains sentence embeddings created using BERT
+
+`actions/` - contains custom action/api code
 
 `domain.yml` - the domain file, including bot response templates
 
