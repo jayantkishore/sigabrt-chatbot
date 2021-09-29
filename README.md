@@ -7,7 +7,7 @@ Voicebot architecture is divided into three main components
 1. **UI/UX Layer** powered by [React](https://reactjs.org/) 
 >[Installation and usage](www.google.com)
 2. **Backend Server** powered by [Django Rest Framework](https://www.django-rest-framework.org/) 
->[Installation and usage](www.google.com)
+>[Installation and usage](https://github.com/kumar-kshitij/django-azure-demo/blob/main/README.md)
 3. **Chatbot Server** fueled by [Rasa](https://rasa.com/) 
 >[Installation and usage](/Chatbot.md)
 
