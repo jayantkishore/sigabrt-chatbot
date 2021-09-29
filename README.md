@@ -90,10 +90,11 @@ We used the following configuration with fine tuning of parameters:
 
 > Some third-party APIs have been leveraged to provide a better user experience.
 
-* News Api: [CNBC News API](https://rapidapi.com/apidojo/api/cnbc)
-* Stock Market API: [Polygon.io - Stock Market Data APIs](https://polygon.io/)
+* [Google Sheets API](https://developers.google.com/sheets/api): Used to propagate the collected feedback from the users to Spreadsheet in real-time.
+* [CNBC News API](https://rapidapi.com/apidojo/api/cnbc) for fetching latest news in Finance domain.
+* [Polygon.io - Stock Market Data APIs](https://polygon.io/) for retrieval of stock prices of top 100 companies listed on NYSE.
+* [Ticker Search API](https://github.com/yashwanth2804/TickerSymbol) for getting stock tickers by company name.
 * Dummy APIs (self-created) for Credit Card, and Flipkart Orders 
-
 
 
 
