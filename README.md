@@ -4,7 +4,7 @@ An interactive voice bot for user engagement powered by [Rasa](https://rasa.com/
 
 ## Installation and Usage
 Voicebot architecture is divided into three main components
-1. **UI/UX Layer** powered by [React](https://reactjs.org/) 
+1. **SIGA UI** powered by [React](https://reactjs.org/) 
 >[Installation and usage](https://github.com/kumar-kshitij/chat-bot-ui/blob/main/README.md)
 2. **Backend Server** powered by [Django Rest Framework](https://www.django-rest-framework.org/) 
 >[Installation and usage](https://github.com/kumar-kshitij/django-azure-demo/blob/main/README.md)
