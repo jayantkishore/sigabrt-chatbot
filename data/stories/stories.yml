@@ -241,7 +241,7 @@ stories:
   - action: utter_sad_deny_feedback
 
 
-- story: ask for feedback after cc form
+- story: ask for feedback after cc form, yes
   steps:
   - intent: greet
   - action: utter_greet
@@ -250,13 +250,19 @@ stories:
   - action: utter_new_cc
   - action: user_cc_form
   - active_loop: user_cc_form
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  # The actions we want to run when the form is submitted.
+  - action: action_def_reset
+  - action: utter_ask_for_feedback 
   - or:
     - intent: give_feedback
     - intent: affirm
   - action: user_feedback_form
   - active_loop: user_feedback_form
 
-- story: ask for feedback after cc form
+- story: ask for feedback after cc form, and user deny
   steps:
   - intent: greet
   - action: utter_greet
@@ -265,5 +271,11 @@ stories:
   - action: utter_new_cc
   - action: user_cc_form
   - active_loop: user_cc_form
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  # The actions we want to run when the form is submitted.
+  - action: action_def_reset
+  - action: utter_ask_for_feedback 
   - intent: deny
   - action: utter_sad_deny_feedback
