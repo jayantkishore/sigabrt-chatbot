@@ -24,6 +24,7 @@ import pandas as pd
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 import gspread_dataframe as gd
+from dotenv import load_dotenv
 
 pretrained_model = "bert-base-nli-mean-tokens"  # Refer: https://github.com/UKPLab/sentence-transformers/blob/master/docs/pretrained-models/nli-models.md
 score_threshold = 0.70  # This confidence scores can be adjusted based on your need!!
@@ -137,6 +138,7 @@ class ActionJK(Action):
         tracker: Tracker,
         domain: Dict[Text, Any],
     ) -> List[Dict[Text, Any]]:
+        load_dotenv()
         aux = Aux()
         tick = aux.getinfo(tracker.latest_message["entities"])
         if tick != -1:
@@ -157,8 +159,8 @@ class ActionJK(Action):
             yesterday = today - timedelta(days=1)
             tod = today.strftime("%Y-%m-%d")
             yest = yesterday.strftime("%Y-%m-%d")
-            prefix = "https://api.polygon.io/v2/aggs/ticker/{}/range/1/day/{}/{}?apiKey=Gsgns_Tv2e5X9WmjIEzqzK1dvgX1FTpU".format(
-                tick, yest, tod
+            prefix = "https://api.polygon.io/v2/aggs/ticker/{}/range/1/day/{}/{}?apiKey={}".format(
+                tick, yest, tod, os.environ.get('POLYGON_API_KEY')
             )
             url = prefix
             u = urllib.request.urlopen(url)
@@ -303,9 +305,10 @@ class GetNews(Action):
         tracker: Tracker,
         domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
+        load_dotenv()
         url = "https://cnbc.p.rapidapi.com/news/v2/list-trending?tag=Finance&count=5"
         req = urllib.request.Request(url)
-        api_key = "062e8a2c1amsh27ff6c2af219aa3p169f7bjsnfac09f2af24a"
+        api_key = os.environ.get('CNBC_API_KEY')
         req.add_header('x-rapidapi-key', api_key)
         req.add_header('x-rapidapi-host', "cnbc.p.rapidapi.com")
 

@@ -8,3 +8,4 @@ en-core-web-md @ https://github.com/explosion/spacy-models/releases/download/en_
 pandas
 gspread
 gspread-dataframe==3.2.1
+python-dotenv
