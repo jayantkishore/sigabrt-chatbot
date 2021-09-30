@@ -13,6 +13,8 @@ pip install -r requirements.txt
 ## Usage
 >The pre-trained models are stored in /models directory
 ```python
+#train the assistant
+rasa train
 # Run the action server 
 rasa run actions 
 
