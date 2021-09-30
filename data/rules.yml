@@ -106,6 +106,7 @@ rules:
   - slot_was_set:
     - requested_slot: null
   # The actions we want to run when the form is submitted.
-  - action: action_def_reset 
+  - action: action_def_reset
+  - action: utter_ask_for_feedback 
 
   

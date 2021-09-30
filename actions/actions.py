@@ -324,6 +324,8 @@ class GetNews(Action):
 
 
 class ValidateFeedbackForm(Action):
+    def __init__(self):
+        self.i = 0
     def name(self) -> Text:
         return "user_feedback_form"
 
@@ -331,7 +333,11 @@ class ValidateFeedbackForm(Action):
         self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict
     ) -> List[EventType]:
         required_slots = ["rating", "recommendation", "comment"]
+        
+        if self.i > 3:
+            return [SlotSet("requested_slot", None)]
 
+        self.i = self.i + 1
         for slot_name in required_slots:
             if tracker.slots.get(slot_name) is None:
                 # The slot is not filled yet. Request the user to fill this slot next.
